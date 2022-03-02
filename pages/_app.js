@@ -48,7 +48,7 @@ function MyApp({ Component, pageProps }) {
           <link rel="manifest" href="/site.webmanifest" />
           <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
           <meta name="theme-color" content="#ffffff" />
-          <title>Delta Template | Brandpetrám</title>
+          <title>Bioclimex | Climatización y ventilación industrial</title>
         </Head>
         <Component {...pageProps} />
       </Layout>

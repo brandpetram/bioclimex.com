@@ -5,13 +5,13 @@ const Typeform = () => {
   return (
     <div className="">
        <Head>
-          <title>Contacto | Innovat</title>
+          <title>Contacto | bioclimex</title>
           <meta
             name="description"
             content="Simplifica la administración de tu escuela en México. Más de 25 años como proveedores de software para escuelas y colegios Mexicanos."
           />
         </Head>
-      <Widget id="w32VUuxH" className="h-screen" />
+      <Widget id="Z4uJvQhT" className="h-screen" />
     </div>
   );
 };

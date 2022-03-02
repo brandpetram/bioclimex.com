@@ -53,7 +53,7 @@ const MosaicOne = () => {
         </div>
         <div className={"lg:w-1/2 grid grid-cols-2"}>
           <div className={"relative"}>
-            <Link href={"/modulos/cobros"}>
+            <div>
               <div
                 className={
                   "absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 cursor-pointer"
@@ -81,7 +81,7 @@ const MosaicOne = () => {
                   </svg>
                 </div>
               </div>
-            </Link>
+            </div>
           </div>
           <div className={"bg-blue-600"}>
             <div className={"flex"}>
@@ -219,7 +219,7 @@ const MosaicOne = () => {
             </Picture>
           </div>
           <div className={"relative "}>
-            <Link href={"/modulos/cobros"}>
+            <div>
               <div
                 className={
                   "absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 cursor-pointer w-full"
@@ -248,10 +248,10 @@ const MosaicOne = () => {
                   </svg>
                 </div>
               </div>
-            </Link>
+            </div>
           </div>
           <div className={"relative "}>
-          <Link href={"/modulos/cobros"}>
+          <a href={"/contacto"}>
               <div
                 className={
                   "absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 cursor-pointer w-full"
@@ -280,7 +280,7 @@ const MosaicOne = () => {
                   </svg>
                 </div>
               </div>
-            </Link>
+            </a>
           </div>
           <div>
             <Picture>

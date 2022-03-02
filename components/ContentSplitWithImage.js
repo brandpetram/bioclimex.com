@@ -19,7 +19,7 @@ import { useState } from "react";
 
 export default function ContentSplitWithImage() {
   return (
-    <div className="relative bg-white">
+    <div className="relative bg-white" id="nosotros">
       <div className="lg:absolute lg:inset-0">
         <div className="lg:absolute lg:inset-y-0 lg:left-0 lg:w-1/2">
           <Picture>
@@ -100,15 +100,15 @@ export default function ContentSplitWithImage() {
                 industrias en el mundo.
               </p>
               <div className="space-x-5">
-                <a className={"/contacto"}>
+                <a href={"/contacto"}>
                   <button className="bg-blue-600 py-2 px-4 text-white">
                     Comienza aquí
                   </button>
                 </a>
 
-                <a className={"/industrial"}>
+                <a href={"/climatizacion-industrial"}>
                   <button className="bg-gray-900 py-2 px-4 text-white">
-                    Comienza aquí
+                    Conoce más
                   </button>
                 </a>
               </div>

@@ -109,7 +109,7 @@ const BeforeFooter = () => {
                   la mejor tecnología climatizadora en el mercado.
                 </p>{" "}
                 <div className="inline-flex mt-0">
-                  <a href="/contacto" className="border px-12 py-4 ">
+                  <a href="/climatizacion-industrial" className="border px-12 py-4 ">
                     Conocer más
                   </a>
                 </div>

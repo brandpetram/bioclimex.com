@@ -1,6 +1,10 @@
 const WhyUs = () => {
   return (
-    <div id="ventajas" className="lg:mt-10 xl:mt-16">
+    <div
+      id="ventajas"
+      className="lg:mt-10 xl:mt-16 w-11/12 mx-auto"
+      id="ventajas"
+    >
       <div className="bg-white">
         <div className="px-10 lg:px-0 lg:max-w-screen-lg  xl:max-w-screen-xl 3xl:max-w-screen-2xl 4xl:max-w-screen-3xl mx-auto py-16 px-4 sm:px-6 lg:py-24 lg:px-8 lg:grid lg:grid-cols-3 lg:gap-x-8">
           <div>
@@ -19,7 +23,7 @@ const WhyUs = () => {
               competencia.
             </p>
             <div className="inline-flex mt-10">
-              <a to="/contacto">
+              <a href="/contacto">
                 <button className="bg-bioclimex-blue hover:bg-indigo-600 text-white font-bold py-2 px-4">
                   Comenzar
                 </button>
@@ -34,9 +38,12 @@ const WhyUs = () => {
                 offset: -100
               }"
               >
-                <button className="bg-gray-900 hover:bg-gray-700 text-white font-bold ml-5 py-2 px-4">
-                  Conocer más
-                </button>
+                {" "}
+                <a href="/climatizacion-industrial">
+                  <button className="bg-gray-900 hover:bg-gray-700 text-white font-bold ml-5 py-2 px-4">
+                    Conocer más
+                  </button>
+                </a>
               </a>
             </div>
           </div>

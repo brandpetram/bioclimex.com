@@ -12,7 +12,7 @@ const InBetweenTitle = () => {
           }
         >
          Contamos con más de 15 años climatizando la industria y comercios mexicanos de manera <span class="text-blue-600">eficiente, efectiva y con bajo consumo eléctrico. </span>
-          <Link href={"/nosotros"}>
+          <Link href={"/#nosotros"}>
             <svg
               className="inline ml-4 mb-1 w-7 text-gray-900 cursor-pointer"
               viewBox="0 0 40 30"

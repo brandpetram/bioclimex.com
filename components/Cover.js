@@ -8,7 +8,7 @@ const Cover = () => {
     SetContactoSlide(!ContactoSlideStatus);
   };
   return (
-    <div className={"overflow-hidden"}>
+    <div className={"overflow-hidden"} id="inicio">
       <div className={"relative"}>
         <svg
           className=" hidden lg:block lg:overflow-hidden absolute left-full transform -translate-x-1/2 -translate-y-7"

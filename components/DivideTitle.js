@@ -65,14 +65,7 @@ const DivideTitle = () => {
             generación, acero inoxidable y cojinetes protegidos por agua
             personifica confiabilidad.
             <a
-              href="#tubos"
-              v-scroll-to="{
-              el: '#manufactura',
-              duration: 500,
-              lazy: false,
-              easing: 'linear',
-              offset: 100
-            }"
+              href="#nosotros"
             >
               <svg
                 className="relative inline ml-4 mb-1"

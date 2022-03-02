@@ -113,7 +113,7 @@ const EmblaCarousel = () => {
                   className={
                     "w-72 lg:w-96 xl:w-56 2xl:w-96 3xl:w-110 4xl:w-120 5xl:w-148"
                   }
-                  href={slide.href}
+                  href={"#"+slide.title}
                 >
                   <figure className="relative">
                     <Imgix

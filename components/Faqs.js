@@ -1,6 +1,6 @@
 const Faqs = () => {
   return (
-    <div className="bg-white">
+    <div className="bg-white" id="preguntas">
       <div className="max-w-screen-xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
         <h2 className="text-3xl leading-9 font-extrabold text-gray-900 text-center">
           Preguntas frecuentes

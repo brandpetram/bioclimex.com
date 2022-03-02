@@ -25,7 +25,7 @@ const Home = () => {
             content="Simplifica la administración de tu escuela en México. Más de 25 años como proveedores de software para escuelas y colegios Mexicanos."
           />
         </Head>
-        <div className={"mt-20 md:mt-0"}>
+        <div className={"mt-20 md:mt-0"} >
           <Cover />
         </div>
         <InBetweenTitle />
