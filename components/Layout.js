@@ -5,7 +5,7 @@ import FooterSocialLinksOnly from "./FooterSocialLinksOnly";
 const Layout = ({ children }) => {
   return (
     <div>
-      <HeaderSimpleBranded/>
+     
       {children}
         <FooterSocialLinksOnly/>
     </div>

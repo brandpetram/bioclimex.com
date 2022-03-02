@@ -11,6 +11,8 @@ module.exports = {
       blue: colors.blue,
       orange: colors.orange,
       indigo: colors.indigo,
+      "bioclimex-blue": "#2172EC",
+      "bioclimex-black": "#333333"
     },
     extend: {
       spacing: {

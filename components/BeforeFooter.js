@@ -1,0 +1,122 @@
+import Imgix, { Picture, Source } from "react-imgix";
+
+const BeforeFooter = () => {
+  return (
+    <>
+      <div className="mt-0 md:mt-10 3xl:mt-48 ">
+        <div className="2xl:max-w-screen-2xl 3xl:max-w-screen-3xl mx-auto ">
+          <Picture>
+            <Source
+                src="https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-04.jpg"
+                width={4000}
+              height={4000}
+              htmlAttributes={{ media: "(min-width: 2550px)" }}
+              imgixParams={{
+                ar: "15:9",
+                fit: "crop",
+                auto: "compress",
+              }}
+            />
+            <Source
+                src="https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-04.jpg"
+                width={2000}
+              htmlAttributes={{ media: "(min-width: 1920px)" }}
+              imgixParams={{
+                ar: "15:9",
+                fit: "crop",
+                h: "900",
+                auto: "compress",
+              }}
+            />
+            <Source
+                src="https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-04.jpg"
+                width={1735}
+              htmlAttributes={{ media: "(min-width: 1280px)" }}
+              imgixParams={{
+                ar: "15:9",
+                fit: "crop",
+                h: "700",
+                auto: "compress",
+              }}
+            />
+            <Source
+                src="https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-04.jpg"
+                width={1735}
+              htmlAttributes={{ media: "(min-width: 1024px)" }}
+              imgixParams={{
+                ar: "1:1.05",
+                fit: "crop",
+                h: "700",
+                auto: "compress",
+              }}
+            />
+            <Source
+                src="https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-04.jpg"
+                width={760}
+              htmlAttributes={{ media: "(min-width: 768px)" }}
+              imgixParams={{
+                ar: "1:0.9",
+                fit: "crop",
+                h: "500",
+                auto: "compress",
+              }}
+            />
+            <Source
+                src="https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-04.jpg"
+                width={800}
+              htmlAttributes={{ media: "(min-width: 320px)" }}
+              imgixParams={{
+                ar: "1:1",
+                h: "800",
+                fit: "crop",
+                crop: "focalpoint",
+                "fp-z": "1",
+                "fp-x": ".7",
+                auto: "compress",
+              }}
+            />
+            <Imgix
+                src="https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-04.jpg"
+                width={4000}
+              className="ml-8 md:ml-20 w-7/12 h-64 md:h-96 lg:h-120 lg:w-3/5 inline text-center relative"
+              height={4000}
+              imgixParams={{
+                ar: "2:7",
+                h: "480",
+                fit: "crop",
+                w: 100,
+                auto: "compress",
+              }}
+            />
+          </Picture>
+        </div>
+        <div className="experiencias -mt-48 md:-mt-64 text-gray-100 bg-blue-700">
+          <div className="n-bg-text-wrapper py-16 mt-20">
+            <div className="2xl:max-w-screen-2xl 3xl:max-w-screen-3xl mx-auto">
+              <div className="ml-8 lg:ml-20">
+                <h1
+                  id="necesitas"
+                  className=" lg:mt-48 text-white font-bold text-xl md:text-4xl lg:text-7xl mt-20 md:mt-40 lg:w-10/12 xl:w-2/3 3xl:w-1/2 lg:leading-none"
+                >
+                  Los expertos con más de 27 años de experiencia en proveeduría
+                  de equipo médico en Monterrey y todo México.
+                </h1>{" "}
+                <p className="text-md text-gray-100 md:text-xl my-10 w-3/4 md:w-3/4 lg:w-3/5 font-normal">
+                  Tiendas físicas en Monterrey, Nuevo León con más de 27 años de
+                  experiencia enviando pedidos a todo México
+                </p>{" "}
+                <div className="inline-flex mt-0">
+                  <a href="/contacto" className="border px-12 py-4 ">
+                    Conocer más
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default BeforeFooter;

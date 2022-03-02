@@ -1,0 +1,590 @@
+[
+  {
+    "id": "admisiones",
+    "name": "Admisiones",
+    "description": "Seguimiento completo en el proceso de admisiones.",
+    "href": "/modulos/admisiones",
+    "logo": "https://innovat-com-mx.vercel.app/admisiones.svg",
+    "icon": "https://innovat-com-mx.vercel.app/admisiones-icono.svg",
+    "longDescription": "Proveemos un método para que los padres de familia interesados se registren en tu base de datos y se le facilite a tu staff el seguimiento de inscripción",
+    "src": "https://brandpetram.imgix.net/innovat.com.mx/admisiones/software-para-escuelas-admisiones-2.jpeg",
+    "fpx": ".5",
+    "fpy": "1",
+    "fpz": "1",
+    "texts": [
+      {
+        "title":"Haz un seguimiento del progreso de los prospectos que se acercan a solicitar informes en tu escuela ",
+        "text": "Dentro del proceso de admisión de todos los colegios, los padres de familia interesados van realizando una serie de actividades. Cuando son docenas de padres de familia al mismo tiempo, se vuelve complejo darle un seguimiento correcto. El software para escuelas de Innovat te ayuda a supervisar la etapa del proceso de admisión en que se encuentra cada familia. Esto normalmente ayuda a las escuelas a tener mayor control y algunos colegios incluso utilizan la información para poder conocer la tasa de conversión media y de ahi poder calcular cuántos padres de familia interesados necesitas tener para alcanzar tus objetivos comerciales. Los informes en tiempo real de Innovat te muestran si la escuela va por buen camino, lo que te da tiempo de continuar con el proceso o realizar algún ajuste. ",
+        "second": "En este módulo son siempre los padres de familia los que comienzan el proceso. Podrás ver todo el historial de cambios para recordar el seguimiento con esa familia. Por ejemplo puedes conocer quienes ya tuvieron cita de recorrido, a quiénes se les entregaron trípticos. Y puedes entender en que medida se están completando las actividades de admisión.. ",
+        "image": "https://brandpetram.imgix.net/innovat.com.mx/completado.png",
+        "alt": "hola"
+      }
+    ]
+  },
+  {
+    "id": "escolar",
+    "name": "Escolar",
+    "description": "Información puntual de todos los alumnos y el personal.",
+    "longDescription": "El módulo escolar te permite agrupar toda información que necesitas por categorías o diferentes tipos de listas para poder tener un mejor control de la administración escolar de alumnos y familias.",
+    "href": "/modulos/escolar",
+    "icon": "https://innovat-com-mx.vercel.app/escolar-icono.svg",
+    "src": "https://brandpetram.imgix.net/innovat.com.mx/escolar/sofware-para-escuelas-mexico-escolar-2.jpeg",
+    "fpx": ".5",
+    "fpy": "1",
+    "fpz": "1",
+    "texts": [
+      {
+        "title":"Toda la información sobre alumnos, familias y staff de tu escuela en un sólo lugar",
+        "text": "Este módulo es excelente para conocer datos relevantes sobre la población escolar en general o de un alumno en particular. Por ejemplo con este módulo puedes conocer desde si un alumno tiene beca, alergias hasta los datos de facturación de sus padres. Además te permite agrupar listados o categorías de alumnos para poder tener un mejor control de la administración escolar. Desde este módulo -que requiere el módulo de Mural Web- se pueden programar avisos para ser enviados a toda la comunidad, algún grupo en específico o incluso a un alumno en particular. También es posible programar avisos por grados escolares, por ejemplo solo mandar avisos a primaria o solo a secundaria. Los avisos son publicados en un mural al que tienen acceso los padres de familia. Desde este módulo también es posible enviar notificaciones en la app o por correo electrónico. Como escuela puedes darte cuenta si el papá lo abrió y si se dio por enterado.",
+        "second": "En escolar también se pueden generar impresión de documentos personalizados. Ya no tienes que llenar los documentos uno por uno. Por ejemplo para las credenciales, constancias, cartas, etc ",
+        "image": "",
+        "alt": ""
+      }
+    ],
+    "features":[
+      {
+        "name": "Registro completo del alumno",
+        "one": "Datos generales como nombre, fecha de nacimiento, CURP, sexo, etc.",
+        "two": "Fotografía y dirección",
+        "three": "Datos de los padres",
+        "four": "Datos para facturación",
+        "five": "Datos configurables para cualquier información requerida.",
+        "six": "Datos de ingreso y baja",
+        "seven": "y más"
+      },
+      {
+        "name": "Alumnos y familias",
+        "one": "Alumnos organizados por familia.",
+        "two": "Control de hermano mayor, menor o hijo único y el orden que ocupa dentro de la familia."
+      },
+      {
+        "name": "Alumnos organizados por nivel, grado y grupo y/o en clases",
+        "one": "Todos los alumnos son organizados por nivel, grado y grupo.",
+        "two": "También pueden ser organizados por clase"
+      },
+      {
+        "name": "Procedimiento de bajas",
+        "one": "Proceso que guía la baja del alumno.",
+        "two": "Describe el motivo de la baja.",
+        "three": "Desasigna conceptos de cobranza vencidos y los que ya no se van a pagar."
+      },
+      {
+        "name": "Fácil cambio de grupo",
+        "one": "Es posible balancear los grupos de forma sencilla. Cambiar alumnos de forma automática con un solo click."
+      },
+      {
+        "name": "Impresión de etiquetas y credenciales",
+        "one": "Impresión de credenciales con fotografía, diseños variables para cualquier tipo de impresora.",
+        "two": "Impresión de etiquetas en cualquier formato Avery.",
+        "three": "Etiquetas para alumnos, familias o personal docente.",
+        "four": "Credenciales para alumnos y personal docente."
+      },
+      {
+        "name": "Impresión de documentos personalizados para alumnos, familias y personal",
+        "one": "Cartas de buena conducta.",
+        "two": "Constancia de no adeudo.",
+        "three": "Certificado de estudio.",
+        "four": "Reconocimientos.",
+        "five": "Cualquier documento de Word que se pueda guardar en formato RTF es posible personalizarlo.\n"
+      },
+      {
+        "name": "Impresión de listas de alumnos",
+        "one": "Listas de alumnos por grupos con recuadros",
+        "two": "Listados con toda la información del alumno."
+      },
+      {
+        "name": "Impresión de información personalizada de alumnos y familias",
+        "one": "Cualquier dato es posible filtrarlo, imprimirlo o exportarlo a Excel.",
+        "two": "Todos los datos de la familia o alumno."
+      },
+      {
+        "name": "Información de población escolar",
+        "one": "Población escolar por nivel / nivel y grado / nivel, grado y grupo.",
+        "two": "Población escolar por edades y sexo (para el llenado de la forma 9.11 de INEGI).",
+        "three": "Edades para cambio de grado escolar.\n."
+      },
+      {
+        "name": "Estadísticas de nuevos ingresos, reinscripciones y bajas",
+        "one": "Cuantas inscripciones en un rango de fechas determinado.",
+        "two": "Cuantas bajas en un rango de fechas determinado.",
+        "three": "De qué nivel y grado son Comparativas con años anteriores."
+      },
+      {
+        "name": "Registro e impresión completo de personal",
+        "one": "Cualquier dato es posible filtrarlo e imprimirlo o exportarlo a Excel",
+        "two": "Todos los datos del personal.",
+        "three": "Listas de teléfonos.",
+        "four": "Listados de CURP.",
+        "five": "Muy sencillo de obtener."
+      },
+      {
+        "name": "Reportes exportables a Excel",
+        "one": "Los reportes pueden ser exportados a Excel con solo dar clic en un botón."
+      },
+      {
+        "name": "Permisos individualizados y detallados",
+        "one": "Cada persona con un usuario.",
+        "two": "Cada usuario con detalle de consulta, alta, edición o cancelación de la información."
+      }
+    ]
+  },
+  {
+    "id": "cobros",
+    "name": "Cobros",
+    "description": "Simplifica la cobranza y las finanzas de tu escuela",
+    "longDescription": "El módulo de cobranza de Innovat te da el poder, flexibilidad y control que necesitas para simplificar la gestión de la cobranza en tu escuela. Es el preferido de muchos clientes. ",
+    "href": "/modulos/cobros",
+    "icon": "https://innovat-com-mx.vercel.app/cobros-icono.svg",
+    "src": "https://brandpetram.imgix.net/innovat.com.mx/cobranza/modulo-cobranza-software-para-colegios-0.jpeg",
+    "fpx": ".5",
+    "fpy": "1",
+    "fpz": "1",
+    "texts": [
+      {
+        "title":"Una gran herramienta para resolver el problema de la administración de la cobranza",
+        "text": "Con el módulo de cobros puedes resolver la complejidad que se genera a la hora de cobrar una gran cantidad de conceptos a docenas o cientos de padres de familia: desde las inscripciones, colegiaturas, recargos, uniformes, libros, estancias, clases extra-curriculares, todo. Hay escuelas que manejan todo en un sistema o lo manejan en dos cuentas o dos razones sociales, porque muchas veces la parte de las inscripciones si lo facturan pero otras cosas son con otros proveedores. Aquí lo padre de esto es que tu lo puedes manejar junto o separado. ",
+        "second": ""
+      }
+    ],
+    "features":[
+  {
+    "name": "Cobranza al instante",
+    "one": "Generación de recibos por alumno.",
+    "two": "Cobranza en la escuela y/o en el banco.",
+    "three": "Información de ingresos al momento.",
+    "four": "Información de saldos vencidos en cualquier instante."
+  },
+
+  {
+    "name": "Cuentas para cada alumno",
+    "one": "Asignación de cada concepto de cobro por alumno.",
+    "two": "Asignación masiva (por nivel o plan de pagos) de cada concepto de cobro."
+  },
+  {
+    "name": "Cobro por alumno o familia",
+    "one": "Cobranza, estados de cuenta y saldos vencidos por alumno o familia"
+  },
+  {
+    "name": "Interconexión con sistemas contables",
+    "one": "Alta de cuentas contables por concepto de cobro y nivel.",
+    "two": "Generación de póliza diaria.",
+    "three": "Creación de archivo para alta en sistema contable."
+  },
+  {
+    "name": "Cobra cualquier concepto",
+    "one": "Inscripciones",
+    "two": "Colegiaturas",
+    "three": "Clases extracurriculares",
+    "five": "Recargos automáticos e ilimitados.",
+    "six": "Manejo de prontos pagos",
+    "seven": "Control de becas o descuentos."
+  },
+  {
+    "name": "Generación automática de recargos",
+    "one": "Acorde a fecha específica, si no ha pagado el alumno",
+    "two": "Recargos por porcentaje diario, mensual o fijos",
+    "three": "Sobre saldos totales o insolutos",
+    "four": "Sin límite de recargos sobre un concepto de cobro."
+  },
+      {
+        "name": "Información y cobranza de diferentes ciclos escolares en un mismo lugar",
+        "one": "Manejo de series de facturación.",
+        "two": "Dos o más ciclos escolares bajo una misma serie.",
+        "three": "Cobranza de cualquier concepto en una misma pantalla.",
+        "four": "Saldos completos del alumno contando sus colegiaturas y sus clases extracurriculares."
+      },
+      {
+        "name": "Avisos personalizados de saldos vencidos",
+        "one": "Contiene información detallada de adeudos.",
+        "three": "Con impresión de logos o cualquier imagen.",
+        "four": "Puede ser enviada por correo electrónico.",
+        "five": "Los estados de cuenta pueden ser vistos en internet en línea (Requiere de INNOVAT Mural Web)."
+
+      },
+      {
+        "name": "Asignación de becas",
+        "one": "Durante la inscripción o posterior a ella.",
+        "two": "Por porcentaje o por una cantidad definida."
+      },
+      {
+        "name": "Manejo de planes de pago por alumno",
+        "one": "A cada alumno se le asigna un plan de pagos.",
+        "two": "De acuerdo a ese plan de pagos es lo que al alumno se le cobra (a 10 meses a 12 meses).."
+      },
+      {
+        "name": "Información detallada de cobranza",
+        "one": "Reportes de ingresos por periodo de cualquier ciclo escolar.",
+        "two": "Reportes de saldos.",
+        "three": "Reportes consolidados de eficiencia de cobranza.",
+        "four": "Resúmenes de cobranza.",
+        "five": "y mucho más"
+
+      },
+      {
+        "name": "Información de cobranza por cada unidad (campus) o consolidada",
+        "one": "Reportes de ingresos y saldos por unidad (o campus).",
+        "two": "Reportes de ingresos y saldos consolidados.",
+        "three": "Y mucho más."
+      },
+      {
+        "name": "Cobranza en el banco o por internet (Requiere de INNOVAT Interfase Bancaria)",
+        "one": "Cobranza en el banco además de en la escuela.",
+        "two": "Impresión de fichas de depósito.",
+        "three": "Registro automático de información recibida en el banco."
+      },
+      {
+        "name": "Reportes exportables",
+        "one": "Generación y descarga automática de reportes en Excel"
+      },
+      {
+        "name": "Permisos personalizados",
+        "one": "Permisos en base a los perfiles de cada usuario",
+        "two": "Tu decides y estas en control de quien ve que cosas."
+      }
+    ]
+  },
+  {
+    "id": "interfase-bancaria",
+    "name": "Interfase Bancaria",
+    "description": "Facilita a padres de familia el pago de colegiaturas con los bancos.",
+    "longDescription": "Este módulo extiende la cobranza para integrarla con los bancos. Sirve para poder generar los pagos referenciados o pagos en linea.  Se pueden configurar tanto fichas de deposito como pagos en linea.",
+    "href": "/modulos/interfase-bancaria",
+    "icon": "https://innovat-com-mx.vercel.app/interfase-bancaria-icono.svg",
+    "src": "https://brandpetram.imgix.net/innovat.com.mx/interfaz-bancaria/interfase-bancaria-sofwtare-para-colegios-1.jpeg",
+    "fpx": ".5",
+    "fpy": "1",
+    "fpz": "1",
+    "texts": [
+      {
+        "title":"Provee un método para que los padres de familia puedan generar sus propias referencias y paguen en el banco ",
+        "text": "Este modulo requiere el modulo de cobros. Es la interface de la cobranza pero con el banco. Te facilita poder generar los pagos referenciados o pagos en linea (los pagos en linea requieren adicionalmente el módulo mural web). Con este módulo podrás configurar las fichas de deposito y pagos en linea para tu escuela o colegio. Lo que son las referencias para que los papas puedan ir directamente al banco y paguen. Manejamos prácticamente todos los bancos.  ",
+        "second": "La ficha se puede entregar tanto físicamente como en el mural web. Tu escuela podrá generar la ficha, la interfase bancaria identifica el pago y actualiza la información. Este módulo se basa en la típica práctica que han generado los colegios. Nuestro sistema te ayuda a generar las formas de pagos y automatizar más el proceso. \n",
+        "image": "",
+        "alt": ""
+      }
+    ],
+    "features":[
+      {
+        "name": "Generación de fichas de depósito para todos los bancos",
+        "one": "Es posible personalizarlas con un diseño propio y/ o el logo.",
+        "two": "Por alumno.",
+        "three": "Con generación de línea de captura automática.",
+        "four": "Cualquier banco.",
+        "five": "Para impresión o para su publicación en internet (éste último requiere de INNOVAT Mural Web).",
+        "six": "Facilidad de manejar una referencia para dos bancos diferentes."
+      },
+      {
+        "name": "Captura automática de información generada por la cobranza en el banco",
+        "one": "Permite poner en registros del sistema toda la cobranza hecha por el banco en tan solo unos minutos.\n",
+        "two": "Es posible controlar al mismo tiempo inscripciones y colegiaturas del ciclo escolar corriente e inscripciones del siguiente ciclo escolar.\n",
+        "four": "La captura es posible realizarla por concepto pagado en el banco o por el adeudo más antiguo."
+      },
+      {
+        "name": "Opción de captura por concepto de cobro o al adeudo más antiguo\n",
+        "one": "Configuración de cobranza por concepto de cobro, es decir, lo que paga el alumno es lo que se refleja en el sistema.\n",
+        "two": "Configuración de cobranza por al adeudo más antiguo, es decir, lo que paga el alumno se refleja en el sistema en el adeudo cobrado en el banco con mayor antigüedad.\n"
+      },
+      {
+        "name": "Control automático de recargos\n",
+        "one": "Recargos en el banco, es decir, el banco será quien cobre los recargos y el sistema los reflejará.\n",
+        "two": "Recargos por sistema, es decir, la ficha de depósito reflejará los recargos que se deben cobrar en el banco.\n"
+      },
+      {
+        "name": "Fichas de depósito para impresión por las familias a través de internet",
+        "one": "Es posible generar archivos de PDF para su impresión individualizada en internet (Requiere de INNOVAT Mural Web).",
+        "two": "Es posible generar archivos de PDF para su envío por correo electrónico."
+      },
+      {
+        "name": "Envío de base de datos (en archivo) para cobranza en banco",
+        "one": "El sistema permite el envío al banco en su formato de los datos requeridos para cobrar en él lectura automática de archivo generado por banco por cobranza."
+      },
+      {
+        "name": "Información de captura",
+        "one": "El sistema mantiene toda la información de captura automática para su consulta.",
+        "two": "Presenta indicadores de errores de captura o de información no capturada para su análisis y corrección."
+      },
+      {
+        "name": "Reportes exportables a Word o Excel",
+        "one": "Generación de datos en un excel con solo presionar un botón."
+      },
+      {
+        "name": "Permisos individualizados y detallados\n",
+        "one": "Cada persona con un usuario.\n",
+        "two": "Permisos personalizados basados en perfiles de usuario"
+      },
+      {
+        "name": "Domiciliación\n",
+        "one": "Generación automática de archivo para su domiciliación.\n",
+        "two": "Lectura automática de archivo generado por banco de domiciliación exitosa.\n"
+      }
+    ]
+  },
+  {
+    "id": "calificaciones",
+    "name": "Calificaciones",
+    "description": "Permite a tus maestros calificar de manera sencilla.",
+    "longDescription": "Este módulo se adapta a las manera particular de cada colegio de calificar. Tendrás 2 usuarios: Maestros y los coordinadores. Los maestros solo ven las materias que tienen asignadas. Los coordinadores ver información de todas las materias.",
+    "href": "/modulos/calificaciones",
+    "icon": "https://innovat-com-mx.vercel.app/calificaciones-icono.svg",
+    "src": "https://brandpetram.imgix.net/innovat.com.mx/calificaciones/software-para-colegios-calificaciones-3.jpeg",
+    "fpx": ".6",
+    "fpy": "1",
+    "fpz": "1",
+    "texts": [
+      {
+        "title":"Escoge el método de calificación que se adapta tu colegio. Diferencía entre coordinadores académicos y maestros",
+        "text": "Con este módulo los maestros solo ven las materias que tienen asignadas. Los coordinadores ver información de todas las materias. Sin embargo los coordinadores solo ven la parte que les atañe, por ejemplo los coordinadores de primaria solo ven las calificaciones de primaria. La directora de la escuela puede ver todos los grupos. Nuestro módulo para calificar le permite a los maestros para capturar sus calificaciones adaptándose a diferentes métodos como por ejemplo el de captura directa.",
+        "second": "Nuestro software es muy versatil. Sabemos que hay escuelas que capturan por materia, mientras otros colegios capturan varias materias al mismo tiempo. Antes las escuelas manejaban las “sabanas” o en excel, con Innovat puedes crear plantillas con \"n\" cantidad de datos. Tu decides. Desde este módulo también se pueden publicar tareas. Una columna de calificación para se relaciona automáticamente con la tarea asignada."
+      }
+    ],
+    "features":[
+      {
+        "name": "Impresión de boletas de calificaciones con tu estilo (personalizadas).\n",
+        "one": "Impresión de tus boletas como lo requieras utilizando números, letras o dibujos.\n",
+        "two": "Boletas con gráfica, fotografía, diseño específico, comentarios, etc.\n",
+        "three": "Boletas con color (o formato) diferente en reprobadas.\n",
+        "four": "Configuración de promedios, promedios ponderados, sumas, y más fórmulas.\n"
+      },
+      {
+        "name": "Obtención de calificaciones de SEP a partir de boletas internas.\n",
+        "one": "Con la captura para tus calificaciones internas INNOVAT calcula los promedios para la SE.\n",
+        "two": "Información de apoyo para reportes de SE.\n"
+      },
+      {
+        "name": "Fácil captura de calificaciones.\n",
+        "one": "Por grupo, clase o por alumno.\n",
+        "two": "Uno o más periodos al mismo tiempo.\n",
+        "three": "Directo en sistema, con archivos de Excel o por Internet.\n"
+      },
+      {
+        "name": "Restricción de captura.",
+        "one": "El maestro solo puede capturar y ver sus grupos y/o sus clases.\n",
+        "two": "El maestro titular puede capturar y ver sus grupos y/o sus clases; además puede ver todas las materias de su grupo.\n",
+        "three": "El coordinador o director de área puede ver todas las materias de su área.\n",
+        "four": "La captura es validada, se puede abrir o cerrar por periodo y se puede abrir en un rango de fechas.\n"
+      },
+      {
+        "name": "Información para facilitar la administración.\n",
+        "one": "Lugares de aprovechamiento.\n",
+        "two": "El mejor alumno en algún área específica (ejemplo: matemáticas).\n",
+        "three": "Información de reprobados, aprobados y para reconocimientos diversos.\n"
+      },
+      {
+        "name": "Concentrados de calificaciones.\n",
+        "one": "Concentrados por periodo con opción a elegir cualquier materia o periodo.\n",
+        "two": "Concentrados para ver el desempeño académico de cada alumno con respecto al grupo.\n"
+      },
+      {
+        "name": "Indicadores de auxilio académico.\n",
+        "one": "Es posible configurar el sistema para buscar alumnos con problemas académicos, de conducta, de tareas, etc.\n"
+      },
+      {
+        "name": "Calificaciones también para Universidades.\n",
+        "two": "Captura de calificaciones por clase.\n",
+        "four": "Impresión de boletas por alumno de acuerdo a sus materias.\n"
+      },
+      {
+        "name": "Reportes exportables.\n",
+        "one": "Los reportes pueden ser exportados a Excel con un botón que genera el excel en automático.\n"
+      },
+      {
+        "name": "Permisos individualizados y detallados.\n",
+        "one": "Cada persona con un usuario.\n",
+        "two": "Cada usuario con detalle de consulta, alta, edición o cancelación de la información."
+      }
+    ]
+  },
+  {
+    "id": "mural-web",
+    "name": "Mural Web",
+    "description": "El principal canal de comunicación de tu colegio.",
+    "longDescription": "En el módulo de mural web, tendrás principalmente dos tipos de usuario, los alumnos y los papás. Tendrás control absoluto sobre lo que quieres que vean tanto padres de familia como alumnos.",
+    "href": "/modulos/mural-web",
+    "icon": "https://innovat-com-mx.vercel.app/mural-web-icono.svg",
+    "src": "https://brandpetram.imgix.net/innovat.com.mx/mural-web/software-para-colegios-mural-web-3.jpeg",
+    "fpx": ".7",
+    "fpy": "1",
+    "fpz": "1",
+    "texts": [
+      {
+        "title":"Publica las actividades programadas de tu escuela o colegio en forma simple y sencilla ",
+        "text": "Con mural-web la comunicación entre colegio y comunidad se vuelve más sencilla. Los papás pueden ver en su mural las tareas, calificaciones, estados de cuenta, facturación, entre otros. También pueden estar al tanto de lo que sus hijos preguntan a la maestra.  Los alumnos pueden acceder a sus exámenes cronometrados por tiempo.  Dichos exámenes pueden calificarse en forma automática. Tanto papas como alumnos pueden ver sus calificaciones, con letras o números, así como un desglose de estas para conocer como se compone la calificación final. ",
+        "second": "El papá puede conocer todo lo que debe en su estado de cuenta desglosado por hijos y el mismo generar sus fichas de depósito. Puede ver estados de cuenta de todos los hijos o solo de un hijo en particular. Si por ejemplo tiene un saldo vencido se muestra en rojo.  ",
+        "image": "",
+        "alt": ""
+      }
+    ],
+    "features":[
+      {
+        "name": "Acceso restringido de alumnos y padres de familia a información personal\n",
+        "one": "Usuarios y Contraseñas personales por alumno y familia creados automáticamente.\n",
+        "two": "Herramientas para la fácil distribución de usuarios y contraseñas.\n",
+        "three": "El alumno o familia solo tendrá aaceso a su información.\n",
+        "four": "El alumno se le puede o no permitir ver su estado de cuenta.\n"
+      },
+      {
+        "name": "Personalización de página de entrada\n",
+        "one": "Banner personal.\n",
+        "two": "Crea tu contenido de forma sencilla\n",
+        "three": "Avisos inmediatos urgentes.\n"
+      },
+      {
+        "name": "Publicación de boletas de calificaciones\n",
+        "one": "Con restricciones basadas en pago a tiempo.\n",
+        "two": "Solo los periodos que están listos.\n",
+        "three": "No hay que subir nada, todo es en línea.\n"
+      },
+      {
+        "name": "Publicación de estados de cuenta\n",
+        "one": "Estados de cuenta del alumno con cargos y abonos con opción a verse por fecha o por concepto.\n",
+        "two": "Opción de impresión de fichas de depósito (Requiere INNOVAT Interfase Bancaria).\n",
+        "three": "Opción a pago con tarjeta de crédito (Requiere de contratación con un banco).\n"
+      },
+      {
+        "name": "Publicación de fichas de depósito para su impresión\n",
+        "one": "(Requiere INNOVAT Interfase Bancaria).\n",
+        "two": "Fichas de depósito personalizadas con todos los requisitos.\n",
+        "three": "Ya no será necesario reimprimir las fichas de depósito, el alumno o padre de familia siempre las tendrá a la mano.\n"
+      },
+      {
+        "name": "Cobro en internet por tarjeta de crédito\n",
+        "one": "El cobro es posible hacerlo del un concepto o por el adeudo total.\n",
+        "two": "Es un módulo seguro que se cobra a través del banco.\n",
+        "three": "Requiere de contratación con un banco.\n"
+      },
+      {
+        "name": "Avisos y Noticias\n",
+        "one": "Publicación de aviso o noticia de forma sencilla\n",
+        "two": "Con límite de publicación (un rango de fechas).\n",
+        "three": "Permite adjuntar archivos.\n",
+        "four": "Es posible dirigirlo a toda la escuela o por nivel, grado, grupo o incluso por alumno.\n",
+        "five": "Los avisos más recientes aparecen en la página de inicio para darle relevancia.\n"
+      },
+      {
+        "name": "Tareas\n",
+        "one": "Publicación de aviso o noticia de forma sencilla.\n",
+        "two": "Con límite de publicación (un rango de fechas).\n",
+        "three": "Permite adjuntar archivos.\n",
+        "four": "Es posible dirigirlo a toda la escuela o por nivel, grado, grupo o incluso por alumno.\n"
+      },
+      {
+        "name": "Calendario\n",
+        "one": "Solo elige la fecha y describe el evento.\n",
+        "two": "Publicación con texto de forma sencilla.\n"
+      },
+      {
+        "name": "Permisos individualizados y detallados.\n",
+        "one": "Cada persona con un usuario.\n",
+        "two": "Cada usuario con detalle de consulta, alta, edición o cancelación de la información.\n"
+      },
+      {
+        "name": "Información de acceso\n",
+        "one": "La última entrada del padre de familia queda registrada y se puede revisar a través de un reporte."
+      }
+    ]
+  },  
+  {
+    "id": "notificaciones",
+    "name": "Apps para Maestros / Alumnos",
+    "description": "Una App para alumnos y otra para maestros para mejorar la comunicación",
+    "longDescription": "Tenemos dos aplicaciones, la de maestros permite al personal docente llevar un seguimiento académico de sus alumnos. La aplicación para alumnos facilita acceso a avisos, calendario, tareas, calificaciones y estados de cuenta  ",
+    "href": "/modulos/notificaciones",
+    "icon": "https://innovat-com-mx.vercel.app/emblema.svg",
+    "src": "https://brandpetram.imgix.net/innovat.com.mx/notificaciones/software-para-colegios-notificaciones-1.jpeg",
+    "fpx": "1",
+    "fpy": "1",
+    "fpz": "1",
+    "texts": [
+      {
+        "title":"Haz un seguimiento del progreso de los prospectos que se acercan a solicitar informes en tu escuela ",
+        "text": "Contamos con una App para Android y iOS. Con ella puedes tener acceso a una gran variedad de notificaciones. Además los padres de familia obtienen un recordatorio de las actividades por semana. Personaliza la apariencia de INNOVAT Mural Móvil - App Notificaciones y mantente más en contacto con la comunidad de padres",
+        "second": "Existe un app para los padres de familia y otra para los maestros. Los maestros dan de alta a los alumnos de forma muy sencilla tomándoles una foto. En el app se pueden ver avisos, calendario, tareas, y además se pueden computar calificaciones seleccionando los alumnos. También puede activar el micrófono y dictar las calificaciones. ",
+        "image": "https://brandpetram.imgix.net/innovat.com.mx/innovatt-app-para-escuelas-mexico.png",
+        "alt": "app de innovat para escuelas en México"
+      }
+    ],
+    "features":[],
+    "twocolumns" : [
+      {
+        "name": "App para Maestros",
+        "logo": "https://innovat-com-mx.vercel.app/app-movil-maestros.svg",
+        "href": "",
+        "priceMonthly": "lorem",
+        "description": "Permite al maestro identificar la persona autorizada para recoger al alumno y notificar de su llegada con dicha persona",
+        "features": [
+          "Funciona en IOS y Android",
+          "Acceso a tareas y evaluaciones",
+          "Eventos por día",
+          "Captura de fotografía de alumnos",
+          "Notificación de vialidad"
+        ],
+        "cta": "Comienza ahora"
+      },
+      {
+        "name": "App para Alumnos",
+        "logo": "https://innovat-com-mx.vercel.app/app-movil-alumnos.svg",
+        "href": "#",
+        "priceMonthly": "79",
+        "description": "Dos tipos de usuario, padres de familia y alumnos. Tu decides lo que ven los padres de familia y los alumnos.",
+        "features": [
+          "Funciona en IOS y Android",
+          "Avisos publicados",
+          "Adaptación de videos, imágenes y redes sociales",
+          "Tareas con fecha de entrega",
+          "Calificaciones",
+          "Estado de cuenta",
+          "Facturación electrónica"
+        ],
+        "cta": "Comienza ahora"
+      }
+    ]
+  },
+  {
+    "id": "expedientes",
+    "name": "Expedientes",
+    "description": "Organiza la información en la manera que necesitas",
+    "longDescription": "Genera de forma simple y sencilla un archivo general para tener acceso a toda la información relevante por alumno. Información relevante lista para ser vista cuando lo necesites en el futuro. ",
+    "href": "/modulos/expedientes",
+    "icon": "https://innovat-com-mx.vercel.app/expedientes-icono.svg",
+    "src": "https://brandpetram.imgix.net/innovat.com.mx/expedientes/software-para-escuela-en-mexico-experientes-1.jpeg",
+    "fpx": ".1",
+    "fpy": "1",
+    "fpz": "1",
+    "texts": [
+      {
+        "title":"La información más relevante para toda tu comunidad escolar accesible en un solo lugar ",
+        "text": " El módulo de expedientes te permite clasificar cualquier tipo de información de los alumnos por departamento. Uno de los usos que le dan los colegios es generar un archivo de todos los documentos digitalizados por cada alumno.",
+        "second": "",
+        "image": "",
+        "alt": ""
+      }
+    ],
+    "features":[
+      {
+        "name": "Reporte Directivo\n",
+        "one": "Panorama completo del alumno en una sola pantalla, escolar, académico, administrativo e historico.\n",
+        "two": "Estatus de cobranza del alumno y de la familia.\n",
+        "three": "Evolución del alumno entre ciclos escolares.\n",
+        "four": "Fácil y rápido acceso con un solo click.\n",
+        "five": "Gráficas de comparación de rendimiento académico.\n",
+        "six": "Estatus de reinscripción del alumno.\n"
+      },
+      {
+        "name": "Información\n",
+        "one": "Toda la información que la escuela quisiera registrar del alumno.\n",
+        "two": "Digitalización de documentos.\n",
+        "three": "Historial de alumno.\n",
+        "four": "Organización y clasificación de los datos del alumno.\n"
+      },
+      {
+        "name": "Fichas personalizadas con historial de seguimiento de:\n",
+        "two": "Citas, Enfermería, Psicología, Administrativos, Académicos\n",
+        "three": "Registro de acuerdos con padres de familia, comunicación de padres y maestros.",
+        "four": "Incidentes por departamento.\n",
+        "five": "Logros, premiaciones y reconocimientos fuera y dentro de la escuela.\n",
+        "six": "Permiso y justificantes.\n",
+        "seven": "Reportes de conductas, tareas no entregadas, incumplimientos de reglamento"
+      }
+    ]
+  }
+]
