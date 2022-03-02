@@ -1,3 +1,5 @@
+import Imgix, { Picture, Source } from "react-imgix";
+
 const TitleImage = () => {
   return (
     <div className="px-0 2xl:px-0 mt-20 lg:max-w-screen-lg  xl:max-w-screen-xl 3xl:max-w-screen-2xl 4xl:max-w-screen-3xl mx-auto">
@@ -13,17 +15,33 @@ const TitleImage = () => {
         una demostración. Nuestros equipos son increiblemente silenciosos y
         eficientes.
       </p>
-      <div className="relative">
-        <img
-          className="hidden md:block mt-24 mx-auto"
-          src="https://bioclimex.com/_nuxt/img/restaurante-de-comida-rapida-ventilado-por-breezair-estado-de-mexico-bioclimex.127e5b1.jpg"
-          alt=""
-        />
-        <img
-          className="md:hidden mt-20"
-          src="https://bioclimex.com/_nuxt/img/restaurante-de-comida-rapida-ventilado-por-breezair-estado-de-mexico-bioclimex.127e5b1.jpg"
-          alt=""
-        />
+      <div className="relative mt-24">
+      <Picture>
+          <Source
+            width={2000}
+            src="https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-08.jpg"
+            htmlAttributes={{ media: "(min-width: 1280px)" }}
+            imgixParams={{
+              ar: "1:1",
+              fit: "clamp",
+              crop: "focalpoint",
+            }}
+          />
+          <Source
+            width={400}
+            src="https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-08.jpg"
+            htmlAttributes={{ media: "(min-width: 320px)" }}
+            imgixParams={{
+              ar: "1:1.1",
+              fit: "clamp",
+              crop: "focalpoint",
+            }}
+          />
+          <Imgix
+            src="https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-09.jpg"
+            ix-sizes="auto"
+          />
+        </Picture>
         <h1 className="absolute bottom-0 right-0 mb-20 xl:mb-20 4xl:mr-20  text-white font-semibold text-4xl md:text-2xl xl:text-3xl max-w-sm xl:max-w-lg"></h1>
       </div>
     </div>

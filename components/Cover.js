@@ -123,10 +123,10 @@ const Cover = () => {
             }
           >
             <div className={"p-12 lg:w-10/12"}>
+              <p className={"text-base text-gray-500"}>Bienvenido a Bioclimex S.A. de C.V.</p>
               <h1 className={"text-gray-700"}>
-                El{" "}
-                <span className={"text-blue-700"}>software que simplifica</span>{" "}
-                la vida a las escuelas en México
+                <span className={"text-blue-700"}>Ventilación y Climatización</span>{" "}
+                industrial / comercial en Todo México
               </h1>
             </div>
           </div>

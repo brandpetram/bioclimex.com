@@ -54,62 +54,64 @@ export default function ContentSplitWithImage() {
       <div className="relative pt-12 px-4 sm:pt-16 sm:px-6 lg:px-8 lg:max-w-7xl lg:mx-auto lg:grid lg:grid-cols-2">
         <div className="lg:col-start-2 lg:pl-8">
           <div className="text-base max-w-prose mx-auto lg:max-w-lg lg:ml-auto lg:mr-0">
-            <h2 className="leading-6 text-innovat-blue font-semibold tracking-wide uppercase">
-              Innovat
+            <h2 className="leading-6 text-innovat-blue font-semibold tracking-wide uppercase text-gray-400">
+              LOS EXPERTOS EN VENTILACIÓN / CLIMATIZACIÓN
             </h2>
             <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-700 sm:text-4xl">
-              La información de lo que sucede en tu escuela a un clic de
-              distancia
+              Una marca global llega a México
             </h3>
-            <p className="mt-8  text-gray-500">
-              Somos una empresa mexicana con más de 25 años de experiencia que
-              impulsa el desempeño en los equipos administrativos de escuelas
-              por medio de la aplicación de software especialmente diseñado para
-              este propósito.
+            <p className="mt-8  text-gray-500 text-xl">
+              15 años siendo expertos en desarrollo de ingenierías, proveeduría
+              de refacciones, instalación y mantenimiento de equipos para
+              ventilación y climatización industrial y comercial
             </p>
             <div className="mt-5 prose prose-indigo text-gray-500">
               <p>
-                La eficacia de nuestro software queda patente no solo por los
-                testimonios de miles de usuarios satisfechos en cientos de
-                colegios mexicanos sino por su versátil arquitectura modular
-                para simplificar diferentes actividades según las necesidades
-                particulares de cada colegio.
+                Tenemos la experiencia para optimizar de forma eficiente, la
+                ventilación y climatización de tus espacios, asegurándonos que
+                obtengas aire limpio, saludable a un bajo costo energético.
               </p>
               <p>
-                Tanto empleados, como padres de familia y alumnos en cientos de
-                escuelas y colegios en todo México, utilizan nuestro software
-                desde hace años, reduciendo la complejidad de todas las
-                actividades alrededor del colegio y mejorando notablemente la
-                comunicación. Comenzamos hace más de 25 años atendiendo colegios
-                en Monterrey y hoy somos el software mas utilizado en el valle
-                de México así como en la frontera norte y la península de
-                Yucatán. Además de por su supuesto, Nuevo León, Coahuila y
-                Tamaulipas.
+                Con un centro de distribución en el centro de México y otras
+                ciudades de la república, en Bioclimex llevamos tu proyecto
+                desde la etapa inicial y te acompañamos en todo el proceso hasta
+                su instalación. Estarás obteniendo:
               </p>
-              <p>Nuestro software se caracteriza por:</p>
               <ul>
-                <li>Ser sencillo de utilizar</li>
-                <li>No requerir instalación.</li>
-                <li>Ser mejorado en forma continua.</li>
+                <li>Espacios más saludables, agradables y ventilados.</li>
+                <li>
+                  Ventilación eficiente, óptima y de bajo consumo energético.
+                </li>
+                <li>Servicio integral 360 y la mejor garantía del mercado.</li>
               </ul>
               <p>
-                Además, nuestro equipo ofrecer la mejor atención personalizada
-                en el mercado, atendiendo y resolviendo puntualmente cualquier
-                duda que nuestros clientes tienen de forma paciente, clara y
-                puntual.
+                Si lo necesitas nos encargamos de la ingeniería para planificar
+                así como la ejecución profesional de los proyectos relativos a
+                ventilación y climatización industrial en que participamos.
+                También podemos proveerte con la documentación para que tu
+                equipo lo haga.
               </p>
-              <h3 className={"text-gray-700"}>
-                Comienza hoy a simplificar la administración de tu escuela en
-                cualquier parte de México
-              </h3>
+              <h3 className={"text-gray-700"}>¿Por qué escoger Bioclimex?</h3>
               <p>
-                Si te interesa comenzar a generar importantes ahorros en tiempo
-                y dinero en tu colegio contáctanos para hacer una prueba y
-                resolver las dudas y preguntas que puedas tener
+                Lo que nos diferencía de otros competidores es el importante
+                ahorro energético, el uso de equipos de ultima generación en
+                armonía con la norma ISO 14000, así como el uso de tecnologías
+                patentadas en Australia y de uso comprobado en un gran número de
+                industrias en el mundo.
               </p>
-                <button onClick = {(e) => HanddleContactoSlide()} className="bg-blue-600 py-2 px-4 text-white">
-                  Comienza aquí
-                </button>
+              <div className="space-x-5">
+                <a className={"/contacto"}>
+                  <button className="bg-blue-600 py-2 px-4 text-white">
+                    Comienza aquí
+                  </button>
+                </a>
+
+                <a className={"/industrial"}>
+                  <button className="bg-gray-900 py-2 px-4 text-white">
+                    Comienza aquí
+                  </button>
+                </a>
+              </div>
             </div>
           </div>
         </div>

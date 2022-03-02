@@ -19,7 +19,7 @@ const Home = () => {
     <div>
       <div className={"space-y-24 d:space-y-40 w-11/12 mx-auto"}>
         <Head>
-          <title>Innovat | Software para Escuelas en Todo México</title>
+          <title>Bioclimex | Climatización y ventilación industrial</title>
           <meta
             name="description"
             content="Simplifica la administración de tu escuela en México. Más de 25 años como proveedores de software para escuelas y colegios Mexicanos."
@@ -30,20 +30,27 @@ const Home = () => {
         </div>
         <InBetweenTitle />
       </div>
-      <div className={"mt-72 space-y-24 d:space-y-40"}>
+      <div className={"mt-72 space-y-24 d:space-y-40 pb-44"}>
         <ContentSplitWithImage />
         <EmblaCarousel />
         <Advantages />
         <WhyUs />
-        <DivideTitle/>
+        <DivideTitle />
         <BigWorld />
         <TextImage />
         <MosaicOne />
         <TitleImage />
-        <SixSquares />
-        <Faqs />
-        <BeforeFooter />
       </div>
+      <SixSquares />{" "}
+      <div
+        className={
+          "h-screen bg-cover bg-fixed bg-[url('https://brandpetram.imgix.net/bioclimex.com/images/climatizacion-evaporativa-mexico-bioclimex.jpg')]"
+        }
+      ></div>
+     <div className="mt-24">
+     <Faqs />
+      <BeforeFooter />
+     </div>
     </div>
   );
 };

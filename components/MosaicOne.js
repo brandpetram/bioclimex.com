@@ -7,7 +7,7 @@ const MosaicOne = () => {
   return (
     <div className={"md:my-20 md:w-11/12 mx-auto overflow-hidden"}>
       <div className={"flex flex-col lg:flex-row"}>
-        <div className={"lg:w-1/2 bg-gray-200 p-3 md:p-16"}>
+        <div className={"lg:w-1/2 bg-gray-100 p-3 md:p-16"}>
           <div className={"w-3/5"}>
             <Picture>
               <Source
@@ -59,16 +59,27 @@ const MosaicOne = () => {
                   "absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 cursor-pointer"
                 }
               >
-                <h2 className="text-center mb-3 uppercase text-xs text-gray-700 font-bold">
-                  Módulo de Cobros
-                </h2>
-                <h1 className="text-center mt-0 lg:mt-0 xl:mt-0 text-redbuchef-black-900 uppercase tracking-widest leading-tight font-bold text-xs md:text-lg lg:text-sm 2xl:text-lg ">
-                  Cobranza <br className="hidden md:block" /> Simple
+                <h1 className="text-center mt-0 lg:mt-0 xl:mt-0 uppercase tracking-widest leading-tight font-bold text-xs md:text-lg lg:text-sm 2xl:text-lg ">
+                  Supers y<br className="hidden md:block" /> amacenes
                 </h1>
                 <p className="hidden md:block text-center text-gray-600 mt-5 font-normal md:font-light text-xs md:text-lg lg:text-sm 2xl:text-lg">
-                  Mide y automatiza <br />
-                  la cobranza
+                  Confort y <br />
+                  ventilación
                 </p>
+                <div className=" mt-6 w-5/12  mx-auto">
+                  <svg
+                    className=""
+                    viewBox="0 0 40 30"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M0 13H34V17H0V13Z" fill="black" />
+                    <path
+                      d="M25.1125 30L22 26.8644L33.7792 15L22 3.13557L25.1125 0L40 15.0001L25.1125 30Z"
+                      fill="black"
+                    />
+                  </svg>
+                </div>
               </div>
             </Link>
           </div>
@@ -137,31 +148,18 @@ const MosaicOne = () => {
                     "text-xs lg:text-sm md:text-lg absolute bottom-0 right-0 mb-3 mr-3 leading-none "
                   }
                 >
-                  Simplifica <br className={"md:hidden"} /> las Finanzas
+                  Climatización
                 </h1>
               </div>
             </div>
           </div>
           <div className={"relative bg-blue-600 text-white"}>
-            <Link href={"/modulos/mural-web"}>
-              <div
-                className={
-                  "absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 cursor-pointer"
-                }
-              >
-                <h2 className="text-center mb-3 uppercase text-xs font-bold">
-                  Mural Web
-                </h2>
-                <h1 className="text-center mt-0 lg:mt-0 xl:mt-0 text-redbuchef-black-900 uppercase tracking-widest  leading-tight font-bold text-xs md:text-lg lg:text-sm 2xl:text-lg">
-                  Una mejor
-                  <br className="hidden md:block" />
-                  comunicación
-                </h1>
-                <p className="hidden md:block text-center mt-5 font-normal md:font-light text-xs md:text-lg lg:text-sm 2xl:text-lg">
-                  Mantén mejor informada <br />a la comunidad escolar
-                </p>
-              </div>
-            </Link>
+            <img
+              className={
+                "bg-gray-200 transition duration-300 h-full ease-in-out transform hover:scale-90"
+              }
+              src="../store.svg"
+            />
           </div>
           <div className={"bg-redbuchef-black"}>
             <Picture>
@@ -221,43 +219,66 @@ const MosaicOne = () => {
             </Picture>
           </div>
           <div className={"relative "}>
-            <Link href={"/modulos/calificaciones"}>
+            <Link href={"/modulos/cobros"}>
               <div
                 className={
-                  "absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 cursor-pointer"
+                  "absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 cursor-pointer w-full"
                 }
               >
-                <h2 className="text-center mb-3 uppercase text-xs text-gray-700 font-bold">
-                  Calificaciones
-                </h2>
-                <h1 className="text-center mt-0 lg:mt-0 xl:mt-0 text-redbuchef-black-900 uppercase tracking-widest text-sm md:text-xs leading-tight font-bold text-xs lg:text-sm 2xl:text-lg">
-                  Calificar sin <br className="hidden md:block" />
-                  problemas
+                <h1 className="text-center mt-0 lg:mt-0 xl:mt-0 uppercase tracking-widest leading-tight font-bold text-xs md:text-lg lg:text-sm 2xl:text-lg ">
+                  Tiendas de conveniencia y<br className="hidden md:block" /> Y
+                  farmacias
                 </h1>
-                <p className="hidden md:block text-center text-gray-600 mt-5 font-normal md:font-light text-xs lg:text-sm 2xl:text-lg">
-                  Apoya a tus maestros
-                  <br />y mantén un historial de calificaciones
+                <p className="hidden md:block text-center text-gray-600 mt-5 font-normal md:font-light text-xs md:text-lg lg:text-sm 2xl:text-lg">
+                  Confort y <br />
+                  ventilación
                 </p>
+                <div className=" mt-6 w-1/12  mx-auto">
+                  <svg
+                    className=""
+                    viewBox="0 0 40 30"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M0 13H34V17H0V13Z" fill="black" />
+                    <path
+                      d="M25.1125 30L22 26.8644L33.7792 15L22 3.13557L25.1125 0L40 15.0001L25.1125 30Z"
+                      fill="black"
+                    />
+                  </svg>
+                </div>
               </div>
             </Link>
           </div>
           <div className={"relative "}>
-            <Link href={"/modulos/admisiones"}>
+          <Link href={"/modulos/cobros"}>
               <div
                 className={
-                  "absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 cursor-pointer"
+                  "absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 cursor-pointer w-full"
                 }
               >
-                <h2 className="text-center mb-3 uppercase text-xs text-gray-700 font-bold">
-                  Admisiones
-                </h2>
-                <h1 className="text-center mt-0 lg:mt-0 xl:mt-0 text-redbuchef-black-900 uppercase tracking-widest text-sm md:text-xs leading-tight font-bold text-xs lg:text-sm 2xl:text-lg">
-                  Seguimiento <br className="hidden md:block" />a las admisiones
+                <h1 className="text-center mt-0 lg:mt-0 xl:mt-0 uppercase tracking-widest leading-tight font-bold text-xs md:text-lg lg:text-sm 2xl:text-lg ">
+                  Climatización <br className="hidden md:block" /> Y
+                  Ventilación
                 </h1>
-                <p className="hidden md:block text-center text-gray-600 mt-5 font-normal md:font-light text-xs lg:text-sm 2xl:text-lg">
-                  Aumenta el cierre <br />
-                  de ventas
+                <p className="hidden md:block text-center text-gray-600 mt-5 font-normal md:font-light text-xs md:text-lg lg:text-sm 2xl:text-lg">
+                  Cotiza ahora<br />
+                  dando clic aquí
                 </p>
+                <div className=" mt-6 w-1/12  mx-auto">
+                  <svg
+                    className=""
+                    viewBox="0 0 40 30"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M0 13H34V17H0V13Z" fill="black" />
+                    <path
+                      d="M25.1125 30L22 26.8644L33.7792 15L22 3.13557L25.1125 0L40 15.0001L25.1125 30Z"
+                      fill="black"
+                    />
+                  </svg>
+                </div>
               </div>
             </Link>
           </div>

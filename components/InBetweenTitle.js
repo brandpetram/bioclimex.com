@@ -11,11 +11,10 @@ const InBetweenTitle = () => {
             "subtitulo text-gray-700 md:max-w-xl xl:max-w-3xl 2xl:max-w-3xl 4xl:max-w-4xl 5xl:max-w-5xl text-3xl md:text-8xl lg:text-4xl xl:text-9xl 3xl:text-11xl 4xl:text-13xl 5xl:text-20xl md:ml-20 lg:ml-56 2xl:ml-72 3xl:ml-80 4xl:ml-96 5xl:mx-auto tracking-wider md:leading-normal lg:font-light"
           }
         >
-          Más de 25 años ayudando a colegios y escuelas mexicanas a simplificar
-          administración, cobranza y gestión educativa
+         Contamos con más de 15 años climatizando la industria y comercios mexicanos de manera <span class="text-blue-600">eficiente, efectiva y con bajo consumo eléctrico. </span>
           <Link href={"/nosotros"}>
             <svg
-              className="inline ml-4 mb-1 w-7 text-blue-600 cursor-pointer"
+              className="inline ml-4 mb-1 w-7 text-gray-900 cursor-pointer"
               viewBox="0 0 40 30"
               xmlns="http://www.w3.org/2000/svg"
               fill="currentColor"
