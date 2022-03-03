@@ -116,7 +116,7 @@ const EmblaCarousel = () => {
                 >
                   <figure className="relative">
                     <Imgix
-                      width={1000}
+                      width={500}
                       src={slide.src}
                       alt={slide.desc}
                       htmlAttributes={{ alt: slide.desc }}
@@ -126,7 +126,7 @@ const EmblaCarousel = () => {
                         "fp-x": slide.fpx,
                         "fp-y": slide.fpx,
                         "fp-z": slide.fpx,
-                        q: "10"
+                        q: "30"
                       }}
                     />
                   </figure>
