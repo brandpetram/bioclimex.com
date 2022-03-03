@@ -67,7 +67,7 @@ const AboutOne = () => {
 
               <div className="mt-10 space-y-10">
                 <div className="relative">
-                  <dt>
+                  <div>
                     <div className="absolute flex items-center justify-center h-12 w-12 rounded-md text-white">
                       <svg
                         viewBox="0 0 90 90"
@@ -84,17 +84,17 @@ const AboutOne = () => {
                     <p className="ml-16 text-lg leading-6 font-medium text-gray-900">
                       La mejor garantía del mercado
                     </p>
-                  </dt>
-                  <dd className="mt-2 ml-16 text-base text-gray-500">
+                  </div>
+                  <div className="mt-2 ml-16 text-base text-gray-500">
                     Servicio con la mejor garantía del mercado. Todos nuestros
                     equipos Breezair vienen con una garantía excepcional,
                     incluyendo cobertura sobre corrosión.
-                  </dd>
+                  </div>
                 </div>
               </div>
               <div className="mt-10 space-y-10">
                 <div className="relative">
-                  <dt>
+                  <div>
                     <div className="absolute flex items-center justify-center h-12 w-12 rounded-md text-white">
                       <svg
                         viewBox="0 0 90 90"
@@ -111,7 +111,7 @@ const AboutOne = () => {
                     <p className="ml-16 text-lg leading-6 font-medium text-gray-900">
                       Refacciones originales
                     </p>
-                  </dt>
+                  </div>
                   <dd className="mt-2 ml-16 text-base text-gray-500">
                     Estaremos contigo cuando tus equipos requieran mantenimiento
                     y las refacciones se proveen de manera segura y a tiempo,
@@ -121,7 +121,7 @@ const AboutOne = () => {
               </div>
               <div className="mt-10 space-y-10">
                 <div className="relative">
-                  <dt>
+                  <div>
                     <div className="absolute flex items-center justify-center h-12 w-12 rounded-md text-white">
                       <svg
                         viewBox="0 0 90 90"
@@ -138,13 +138,13 @@ const AboutOne = () => {
                     <p className="ml-16 text-lg leading-6 font-medium text-gray-900">
                       Servicio rápido
                     </p>
-                  </dt>
-                  <dd className="mt-2 ml-16 text-base text-gray-500">
+                  </div>
+                  <div className="mt-2 ml-16 text-base text-gray-500">
                     Nuestra asistencia es rápida porque contamos con toda la
                     infraestructura y personal especializado que tu espacio
                     industrial necesita para ser ventilado. Toda la experiencia
                     que 15 años nos dá, la ponemos a tu servicio.
-                  </dd>
+                  </div>
                 </div>
               </div>
             </div>
@@ -239,7 +239,7 @@ const AboutOne = () => {
                 </p>
                 <div className="mt-10 space-y-10">
                   <div className="relative">
-                    <dt>
+                    <div>
                       <div className="absolute flex items-center justify-center h-12 w-12 rounded-md">
                         <svg
                           viewBox="0 0 90 90"
@@ -256,7 +256,7 @@ const AboutOne = () => {
                       <p className="ml-16 text-lg leading-6 font-medium text-gray-900">
                         Tecnología Australiana de clase mundial
                       </p>
-                    </dt>
+                    </div>
                     <dd className="mt-2 ml-16 text-base text-gray-500">
                       Breezair es respaldado por Seeley International, el
                       fabricante número 1 de aire acondicionado de Australia y
@@ -266,7 +266,7 @@ const AboutOne = () => {
                 </div>
                 <div className="mt-10 space-y-10">
                   <div className="relative">
-                    <dt>
+                    <div>
                       <div className="absolute flex items-center justify-center h-12 w-12 rounded-md text-white">
                         <svg
                           viewBox="0 0 90 90"
@@ -283,7 +283,7 @@ const AboutOne = () => {
                       <p className="ml-16 text-lg leading-6 font-medium text-gray-900">
                         Servicio en todo México
                       </p>
-                    </dt>
+                    </div>
                     <dd className="mt-2 ml-16 text-base text-gray-500">
                       Gracias a nuestra red nacional, damos servicio a cualquier
                       estado de la República Mexicana, comunícate con nosotros y

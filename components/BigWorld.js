@@ -39,10 +39,10 @@ const BigWorld = () => {
               <div className="space-y-10 sm:space-y-0 sm:grid sm:grid-cols-1 sm:gap-y-10">
                 <div className="space-y-4">
                   <div className="space-y-2">
-                    <dt className="text-lg leading-6 font-medium text-gray-700">
+                    <div className="text-lg leading-6 font-medium text-gray-700">
                       Energéticamente eficientes
-                    </dt>
-                    <dd className="flex lg:py-0 lg:pb-4">
+                    </div>
+                    <div className="flex lg:py-0 lg:pb-4">
                       <span className="flex-1 mr-10 text-base leading-6 text-gray-600">
                         Los ventiladores más eficientes, silenciosos y
                         enfríadores del mercado.
@@ -54,13 +54,13 @@ const BigWorld = () => {
                           </button>
                         </a>
                       </div>
-                    </dd>
+                    </div>
                   </div>
                   <div className="space-y-2 border-b border-t py-5">
-                    <dt className="text-lg leading-6 font-medium text-gray-700">
+                    <div className="text-lg leading-6 font-medium text-gray-700">
                       Experiencia que da confianza
-                    </dt>
-                    <dd className="flex lg:py-0 lg:pb-4">
+                    </div>
+                    <div className="flex lg:py-0 lg:pb-4">
                       <span className="flex-1 mr-10 text-base leading-6 text-gray-600">
                         Mánufactura de más de un millón y medio de componentes
                         al año para ensamblar más de 80,000 equipos
@@ -72,13 +72,13 @@ const BigWorld = () => {
                           </button>
                         </a>
                       </div>
-                    </dd>
+                    </div>
                   </div>
                   <div className="space-y-2 pt-3">
-                    <dt className="text-lg leading-6 font-medium text-gray-700">
+                    <div className="text-lg leading-6 font-medium text-gray-700">
                       Calidad e inovación
-                    </dt>
-                    <dd className="flex lg:py-0 lg:pb-4">
+                    </div>
+                    <div className="flex lg:py-0 lg:pb-4">
                       <span className="flex-1 mr-10 text-base leading-6 text-gray-600">
                         Los primeros en todo el mundo en fabricar una docena de
                         equipos relacionados con la climatización industrial y
@@ -91,7 +91,7 @@ const BigWorld = () => {
                           </button>
                         </a>
                       </div>
-                    </dd>
+                    </div>
                   </div>
                 </div>
               </div>

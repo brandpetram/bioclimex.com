@@ -48,7 +48,7 @@ const WhyUs = () => {
             </div>
           </div>
           <div className="mt-12 lg:mt-0 lg:col-span-2">
-            <dl className="space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:grid-rows-3 sm:grid-flow-col sm:gap-x-6 sm:gap-y-10 lg:gap-x-8">
+            <div className="space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:grid-rows-3 sm:grid-flow-col sm:gap-x-6 sm:gap-y-10 lg:gap-x-8">
               <div className="flex space-x-3">
                 <svg
                   className="flex-shrink-0 h-6 w-6 text-green-500"
@@ -95,16 +95,16 @@ const WhyUs = () => {
                   />
                 </svg>
                 <div className="space-y-2">
-                  <dt className=" text-xl xl:text-2xl leading-6 font-medium text-cool-gray-900">
+                  <div className=" text-xl xl:text-2xl leading-6 font-medium text-cool-gray-900">
                     Inyección de aire fresco
-                  </dt>
-                  <dd className="flex space-x-3">
+                  </div>
+                  <div className="flex space-x-3">
                     <span className="lg:text-md  leading-6 3xl:leading-8 text-gray-500">
                       La calidad del aire es cada vez más importante, mantén una
                       ventilación adecuada para tus espacios teniendo un sistema
                       bioclimatizador más eficiente
                     </span>
-                  </dd>
+                  </div>
                 </div>
               </div>
               <div className="flex space-x-3">
@@ -124,17 +124,17 @@ const WhyUs = () => {
                   />
                 </svg>
                 <div className="space-y-2">
-                  <dt className=" text-xl xl:text-2xl leading-6 font-medium text-cool-gray-900">
+                  <div className=" text-xl xl:text-2xl leading-6 font-medium text-cool-gray-900">
                     Presión positiva
-                  </dt>
-                  <dd className="flex space-x-3">
+                  </div>
+                  <div className="flex space-x-3">
                     <span className="lg:text-md  leading-6 3xl:leading-8 text-gray-500">
                       Generación de una presión positiva evita la entrada de
                       polvo a los espacios comerciales e industriales, mejorando
                       la calidad del aire, contribuyendo a tener superficies más
                       limpias.
                     </span>
-                  </dd>
+                  </div>
                 </div>
               </div>
               <div className="flex space-x-3">
@@ -154,16 +154,16 @@ const WhyUs = () => {
                   />
                 </svg>
                 <div className="space-y-2">
-                  <dt className=" text-xl xl:text-2xl leading-6 font-medium text-cool-gray-900">
+                  <div className=" text-xl xl:text-2xl leading-6 font-medium text-cool-gray-900">
                     Confort y eficiencia con microclimas
-                  </dt>
-                  <dd className="flex space-x-3">
+                  </div>
+                  <div className="flex space-x-3">
                     <span className="lg:text-md  leading-6 3xl:leading-8 text-gray-500">
                       La tecnología de Bioclimex tiene la capacidad de generar,
                       microclimas ahí donde la gente está laborando, en lugar de
                       circular aire desde partes lejanas.
                     </span>
-                  </dd>
+                  </div>
                 </div>
               </div>
               <div className="flex space-x-3">
@@ -183,15 +183,15 @@ const WhyUs = () => {
                   />
                 </svg>
                 <div className="space-y-2">
-                  <dt className=" text-xl xl:text-2xl leading-6 font-medium text-cool-gray-900">
+                  <div className=" text-xl xl:text-2xl leading-6 font-medium text-cool-gray-900">
                     Durabilidad
-                  </dt>
-                  <dd className="flex space-x-3">
+                  </div>
+                  <div className="flex space-x-3">
                     <span className="lg:text-md  leading-6 3xl:leading-8 text-gray-500">
                       Componentes de bajo mantenimiento y una manufactura de
                       alta calidad aseguran un ciclo de vida largo.
                     </span>
-                  </dd>
+                  </div>
                 </div>
               </div>
               <div className="flex space-x-3">
@@ -211,19 +211,19 @@ const WhyUs = () => {
                   />
                 </svg>
                 <div className="space-y-2">
-                  <dt className=" text-xl xl:text-2xl leading-6 font-medium text-cool-gray-900">
+                  <div className=" text-xl xl:text-2xl leading-6 font-medium text-cool-gray-900">
                     Bajo nivel de emisiones
-                  </dt>
-                  <dd className="flex space-x-3 lg:border-t-0 lg:py-0 lg:pb-4">
+                  </div>
+                  <div className="flex space-x-3 lg:border-t-0 lg:py-0 lg:pb-4">
                     <span className="lg:text-md  leading-6 3xl:leading-8 text-gray-500">
                       Tecnología 100% alineada con la tendencia en reducción de
                       emisión de gases invernadero porque reduce el consumo
                       eléctrico de la empresa (ISO 14000)
                     </span>
-                  </dd>
+                  </div>
                 </div>
               </div>
-            </dl>
+            </div>
           </div>
         </div>
       </div>

@@ -8,7 +8,7 @@ const Typeform = () => {
           <title>Contacto | bioclimex</title>
           <meta
             name="description"
-            content="Simplifica la administración de tu escuela en México. Más de 25 años como proveedores de software para escuelas y colegios Mexicanos."
+            content="Los expertos en climatización de espacios industriales y comerciales en México"
           />
         </Head>
       <Widget id="Z4uJvQhT" className="h-screen" />
