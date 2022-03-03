@@ -66,8 +66,8 @@ const BeforeFooter = () => {
               width={100}
               htmlAttributes={{ media: "(min-width: 320px)", alt:"Angel de la indpendencia ciudad de méxico" }}
               imgixParams={{
-                ar: "1:0.6",
-                h: "118",
+                ar: "1:0.58",
+                h: "105",
                 fit: "crop",
                 auto: "compress",
               }}
