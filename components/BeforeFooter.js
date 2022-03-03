@@ -76,7 +76,7 @@ const BeforeFooter = () => {
               src="https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-04.jpg"
               width={4000}
               htmlAttributes={{ alt:"Angel de la indpendencia ciudad de méxico" }}
-              className="ml-8 md:ml-20 w-10/12 h-48 md:h-96 lg:h-120 lg:w-3/5 inline text-center relative"
+              className="ml-8 md:ml-20 w-10/12 h-44 md:h-96 lg:h-120 lg:w-3/5 inline text-center relative"
               height={4000}
               imgixParams={{
                 ar: "2:7",
