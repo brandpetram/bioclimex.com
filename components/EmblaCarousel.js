@@ -126,6 +126,7 @@ const EmblaCarousel = () => {
                         "fp-x": slide.fpx,
                         "fp-y": slide.fpx,
                         "fp-z": slide.fpx,
+                        q: "10"
                       }}
                     />
                   </figure>

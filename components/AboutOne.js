@@ -112,11 +112,11 @@ const AboutOne = () => {
                       Refacciones originales
                     </p>
                   </div>
-                  <dd className="mt-2 ml-16 text-base text-gray-500">
+                  <div className="mt-2 ml-16 text-base text-gray-500">
                     Estaremos contigo cuando tus equipos requieran mantenimiento
                     y las refacciones se proveen de manera segura y a tiempo,
                     siempre.
-                  </dd>
+                  </div>
                 </div>
               </div>
               <div className="mt-10 space-y-10">
@@ -257,11 +257,11 @@ const AboutOne = () => {
                         Tecnología Australiana de clase mundial
                       </p>
                     </div>
-                    <dd className="mt-2 ml-16 text-base text-gray-500">
+                    <div className="mt-2 ml-16 text-base text-gray-500">
                       Breezair es respaldado por Seeley International, el
                       fabricante número 1 de aire acondicionado de Australia y
                       líder mundial de sistemas de refrigeración.
-                    </dd>
+                    </div>
                   </div>
                 </div>
                 <div className="mt-10 space-y-10">
@@ -284,11 +284,11 @@ const AboutOne = () => {
                         Servicio en todo México
                       </p>
                     </div>
-                    <dd className="mt-2 ml-16 text-base text-gray-500">
+                    <div className="mt-2 ml-16 text-base text-gray-500">
                       Gracias a nuestra red nacional, damos servicio a cualquier
                       estado de la República Mexicana, comunícate con nosotros y
                       platícanos de tu proyecto y sus requerimientos.
-                    </dd>
+                    </div>
                   </div>
                 </div>
               </div>

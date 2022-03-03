@@ -66,16 +66,16 @@ const WhyUs = () => {
                   />
                 </svg>
                 <div className="space-y-2">
-                  <dt className=" text-xl xl:text-2xl leading-6 font-medium text-cool-gray-900">
+                  <div className=" text-xl xl:text-2xl leading-6 font-medium text-cool-gray-900">
                     Ahorro de energía
-                  </dt>
-                  <dd className="flex space-x-3 lg:py-0 lg:pb-4">
+                  </div>
+                  <div className="flex space-x-3 lg:py-0 lg:pb-4">
                     <span className="lg:text-md  leading-6 3xl:leading-8 text-gray-500">
                       Con capacidad para climatizar un espacio de de 200 m2 con
                       1kw/h, el uso energético es de una 5ta parte del que
                       requiere un sistema de climatización tradicional.
                     </span>
-                  </dd>
+                  </div>
                 </div>
               </div>
               <div className="flex space-x-3">

@@ -121,7 +121,10 @@ const MosaicOne = () => {
                   <Source
                     sizes="15vw"
                     src="https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-01.jpg"
-                    htmlAttributes={{ media: "(min-width:1024px)", alt: "Familia feliz en supermercado climatizado" }}
+                    htmlAttributes={{
+                      media: "(min-width:1024px)",
+                      alt: "Familia feliz en supermercado climatizado",
+                    }}
                     imgixParams={{
                       ar: "1:1",
                       fit: "crop",
@@ -130,7 +133,9 @@ const MosaicOne = () => {
                     }}
                   />
                   <Imgix
-                    htmlAttributes={{alt: "Familia feliz en supermercado climatizado"}}
+                    htmlAttributes={{
+                      alt: "Familia feliz en supermercado climatizado",
+                    }}
                     className={
                       "my-3 md:my-0 pt-3 pl-8 pr-8 pb-8 ml-5 md:p-10 xl:p-12 overflow-hidden"
                     }
@@ -168,18 +173,24 @@ const MosaicOne = () => {
               <Source
                 sizes="30vw"
                 src="https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-13.jpg"
-                htmlAttributes={{ media: "(min-width:1024px)", alt: "Seccion de frutas y verduras en supermercado" }}
+                htmlAttributes={{
+                  media: "(min-width:1024px)",
+                  alt: "Seccion de frutas y verduras en supermercado",
+                }}
                 imgixParams={{
                   ar: "1:1",
                   fit: "crop",
                   auto: "compress",
+                  q: "30"
                 }}
               />
               <Imgix
                 className={
                   "bg-blue-600 transition duration-300 ease-in-out transform hover:scale-90"
                 }
-                htmlAttributes={{alt: "Seccion de frutas y verduras en supermercado"}}
+                htmlAttributes={{
+                  alt: "Seccion de frutas y verduras en supermercado",
+                }}
                 src="https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-13.jpg"
                 sizes="50vw"
                 imgixParams={{
@@ -199,25 +210,30 @@ const MosaicOne = () => {
             <Picture>
               <Source
                 src="https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-14.jpg"
-                htmlAttributes={{ media: "(min-width:1024px)", alt: "Carrito de supermercado" }}
+                htmlAttributes={{
+                  media: "(min-width:1024px)",
+                  alt: "Carrito de supermercado",
+                }}
                 sizes="30vw"
                 imgixParams={{
                   ar: "1:1",
                   fit: "crop",
                   auto: "compress",
+                  q: "30"
                 }}
               />
               <Imgix
                 className={
                   "bg-blue-600 transition duration-300 ease-in-out transform hover:scale-90"
                 }
-                htmlAttributes={{alt: "Carrito de supermercado"}}
+                htmlAttributes={{ alt: "Carrito de supermercado" }}
                 src="https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-14.jpg"
                 sizes="50vw"
                 imgixParams={{
                   ar: "1:1",
                   fit: "crop",
                   auto: "compress",
+                  q: "30"
                 }}
               />
             </Picture>
@@ -255,18 +271,18 @@ const MosaicOne = () => {
             </div>
           </div>
           <div className={"relative "}>
-          <a href={"/contacto"}>
+            <a href={"/contacto"}>
               <div
                 className={
                   "absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 cursor-pointer w-full"
                 }
               >
                 <h1 className="text-center mt-0 lg:mt-0 xl:mt-0 uppercase tracking-widest leading-tight font-bold text-xs md:text-lg lg:text-sm 2xl:text-lg ">
-                  Climatización <br className="hidden md:block" /> Y
-                  Ventilación
+                  Climatización <br className="hidden md:block" /> Y Ventilación
                 </h1>
                 <p className="hidden md:block text-center text-gray-600 mt-5 font-normal md:font-light text-xs md:text-lg lg:text-sm 2xl:text-lg">
-                  Cotiza ahora<br />
+                  Cotiza ahora
+                  <br />
                   dando clic aquí
                 </p>
                 <div className=" mt-6 w-1/12  mx-auto">
@@ -290,25 +306,30 @@ const MosaicOne = () => {
             <Picture>
               <Source
                 src="https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-10.jpg"
-                htmlAttributes={{ media: "(min-width:1024px)", alt: "Pasillo de supermercado" }}
+                htmlAttributes={{
+                  media: "(min-width:1024px)",
+                  alt: "Pasillo de supermercado",
+                }}
                 sizes="30vw"
                 imgixParams={{
                   ar: "1:1",
                   fit: "crop",
                   auto: "compress",
+                  q: "30"
                 }}
               />
               <Imgix
                 className={
                   "bg-blue-600 transition duration-300 ease-in-out transform hover:scale-90"
                 }
-                htmlAttributes={{alt: "Pasillo de supermercado"}}
+                htmlAttributes={{ alt: "Pasillo de supermercado" }}
                 src="https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-10.jpg"
                 sizes="50vw"
                 imgixParams={{
                   ar: "1:1",
                   fit: "crop",
                   auto: "compress",
+                  q: "30",
                 }}
               />
             </Picture>
@@ -318,11 +339,15 @@ const MosaicOne = () => {
           <div>
             <Picture>
               <Source
-                htmlAttributes={{ media: "(min-width:1024px)", alt: "Dulces y sección fria en mini super climatizado"  }}
+                htmlAttributes={{
+                  media: "(min-width:1024px)",
+                  alt: "Dulces y sección fria en mini super climatizado",
+                }}
                 src="https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-11.jpg"
                 imgixParams={{
                   ar: "1:1",
                   fit: "crop",
+                  q: "30",
                   auto: "compress",
                   crop: "focalpoint",
                   "fp-z": 1,
@@ -330,7 +355,9 @@ const MosaicOne = () => {
                 }}
               />
               <Imgix
-              htmlAttributes={{alt: "Dulces y sección fria en mini super climatizado"}}
+                htmlAttributes={{
+                  alt: "Dulces y sección fria en mini super climatizado",
+                }}
                 src="https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-11.jpg"
                 sizes="95vw"
                 imgixParams={{
