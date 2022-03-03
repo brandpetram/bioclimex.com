@@ -20,7 +20,7 @@ const TitleImage = () => {
           <Source
             width={2000}
             src="https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-08.jpg"
-            htmlAttributes={{ media: "(min-width: 1280px)" }}
+            htmlAttributes={{ media: "(min-width: 1280px)", alt: "Render de restaurante climatizado" }}
             imgixParams={{
               ar: "1:1",
               fit: "clamp",
@@ -30,7 +30,7 @@ const TitleImage = () => {
           <Source
             width={400}
             src="https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-08.jpg"
-            htmlAttributes={{ media: "(min-width: 320px)" }}
+            htmlAttributes={{ media: "(min-width: 320px)" , alt: "Render de restaurante climatizado"}}
             imgixParams={{
               ar: "1:1.1",
               fit: "clamp",
@@ -38,6 +38,7 @@ const TitleImage = () => {
             }}
           />
           <Imgix
+          htmlAttributes={{alt: "Render de restaurante climatizado"}}
             src="https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-09.jpg"
             ix-sizes="auto"
           />

@@ -141,7 +141,7 @@ const Cover = () => {
               <Source
                 src="https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-06.jpg"
                 sizes="30vw"
-                htmlAttributes={{ media: "(min-width: 768px)" }}
+                htmlAttributes={{ media: "(min-width: 768px)", alt: "Nave industrial de procesos en méxico"}}
                 imgixParams={{
                   ar: "1:1.2",
                   fit: "crop",
@@ -152,7 +152,7 @@ const Cover = () => {
               <Source
                 src="https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-06.jpg"
                 sizes="50vw"
-                htmlAttributes={{ media: "(min-width: 320px)" }}
+                htmlAttributes={{ media: "(min-width: 320px)" , alt: "Nave industrial de procesos en méxico"}}
                 imgixParams={{
                   ar: "1:2",
                   fit: "crop",
@@ -163,6 +163,8 @@ const Cover = () => {
               <Imgix
                 sizes="50vw"
                 className={"-mt-20 lg:-mt-0"}
+                htmlAttributes={{ alt: "Nave industrial de procesos en méxico"}}
+
                 src="https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-06.jpg"
                 imgixParams={{
                   ar: "2:2",

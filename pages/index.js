@@ -19,10 +19,10 @@ const Home = () => {
     <div>
       <div className={"space-y-24 d:space-y-40 w-11/12 mx-auto"}>
         <Head>
-          <title>Bioclimex | Climatización y ventilación industrial</title>
+          <title>Bioclimex | Climatización y ventilación industrial de Espacios Industriales en Todo México</title>
           <meta
             name="description"
-            content="Simplifica la administración de tu escuela en México. Más de 25 años como proveedores de software para escuelas y colegios Mexicanos."
+            content="Los expertos en climatización de espacios industriales y comerciales en México"
           />
         </Head>
         <div className={"mt-20 md:mt-0"} >

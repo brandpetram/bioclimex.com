@@ -15,7 +15,7 @@ const MosaicOne = () => {
                 height={1000}
                 src="https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-12.jpg"
                 htmlAttributes={{
-                  alt: "carne de res fresca",
+                  alt: "Farmacia con medicamentos",
                   media: "(min-width:768px)",
                 }}
                 imgixParams={{
@@ -28,7 +28,7 @@ const MosaicOne = () => {
                 height={450}
                 src="https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-12.jpg"
                 htmlAttributes={{
-                  alt: "carne de res fresca",
+                  alt: "Farmacia con medicamentos",
                   media: "(min-width:320px)",
                 }}
                 imgixParams={{
@@ -41,7 +41,7 @@ const MosaicOne = () => {
                 height={1700}
                 src="https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-12.jpg"
                 htmlAttributes={{
-                  alt: "carne de res fresca",
+                  alt: "Farmacia con medicamentos",
                 }}
                 imgixParams={{
                   auto: "compress",
@@ -121,7 +121,7 @@ const MosaicOne = () => {
                   <Source
                     sizes="15vw"
                     src="https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-01.jpg"
-                    htmlAttributes={{ media: "(min-width:1024px)" }}
+                    htmlAttributes={{ media: "(min-width:1024px)", alt: "Familia feliz en supermercado climatizado" }}
                     imgixParams={{
                       ar: "1:1",
                       fit: "crop",
@@ -130,6 +130,7 @@ const MosaicOne = () => {
                     }}
                   />
                   <Imgix
+                    htmlAttributes={{alt: "Familia feliz en supermercado climatizado"}}
                     className={
                       "my-3 md:my-0 pt-3 pl-8 pr-8 pb-8 ml-5 md:p-10 xl:p-12 overflow-hidden"
                     }
@@ -158,6 +159,7 @@ const MosaicOne = () => {
               className={
                 "bg-gray-200 transition duration-300 h-full ease-in-out transform hover:scale-90"
               }
+              alt="Rebder de mini super"
               src="../store.svg"
             />
           </div>
@@ -166,7 +168,7 @@ const MosaicOne = () => {
               <Source
                 sizes="30vw"
                 src="https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-13.jpg"
-                htmlAttributes={{ media: "(min-width:1024px)" }}
+                htmlAttributes={{ media: "(min-width:1024px)", alt: "Seccion de frutas y verduras en supermercado" }}
                 imgixParams={{
                   ar: "1:1",
                   fit: "crop",
@@ -177,6 +179,7 @@ const MosaicOne = () => {
                 className={
                   "bg-blue-600 transition duration-300 ease-in-out transform hover:scale-90"
                 }
+                htmlAttributes={{alt: "Seccion de frutas y verduras en supermercado"}}
                 src="https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-13.jpg"
                 sizes="50vw"
                 imgixParams={{
@@ -196,7 +199,7 @@ const MosaicOne = () => {
             <Picture>
               <Source
                 src="https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-14.jpg"
-                htmlAttributes={{ media: "(min-width:1024px)" }}
+                htmlAttributes={{ media: "(min-width:1024px)", alt: "Carrito de supermercado" }}
                 sizes="30vw"
                 imgixParams={{
                   ar: "1:1",
@@ -208,6 +211,7 @@ const MosaicOne = () => {
                 className={
                   "bg-blue-600 transition duration-300 ease-in-out transform hover:scale-90"
                 }
+                htmlAttributes={{alt: "Carrito de supermercado"}}
                 src="https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-14.jpg"
                 sizes="50vw"
                 imgixParams={{
@@ -286,7 +290,7 @@ const MosaicOne = () => {
             <Picture>
               <Source
                 src="https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-10.jpg"
-                htmlAttributes={{ media: "(min-width:1024px)" }}
+                htmlAttributes={{ media: "(min-width:1024px)", alt: "Pasillo de supermercado" }}
                 sizes="30vw"
                 imgixParams={{
                   ar: "1:1",
@@ -298,6 +302,7 @@ const MosaicOne = () => {
                 className={
                   "bg-blue-600 transition duration-300 ease-in-out transform hover:scale-90"
                 }
+                htmlAttributes={{alt: "Pasillo de supermercado"}}
                 src="https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-10.jpg"
                 sizes="50vw"
                 imgixParams={{
@@ -313,7 +318,7 @@ const MosaicOne = () => {
           <div>
             <Picture>
               <Source
-                htmlAttributes={{ media: "(min-width:1024px)" }}
+                htmlAttributes={{ media: "(min-width:1024px)", alt: "Dulces y sección fria en mini super climatizado"  }}
                 src="https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-11.jpg"
                 imgixParams={{
                   ar: "1:1",
@@ -325,6 +330,7 @@ const MosaicOne = () => {
                 }}
               />
               <Imgix
+              htmlAttributes={{alt: "Dulces y sección fria en mini super climatizado"}}
                 src="https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-11.jpg"
                 sizes="95vw"
                 imgixParams={{

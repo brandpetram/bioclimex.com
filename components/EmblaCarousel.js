@@ -109,17 +109,17 @@ const EmblaCarousel = () => {
                 }
                 key={slide.src}
               >
-                <a
+                <div
                   className={
                     "w-72 lg:w-96 xl:w-56 2xl:w-96 3xl:w-110 4xl:w-120 5xl:w-148"
                   }
-                  href={"#"+slide.title}
                 >
                   <figure className="relative">
                     <Imgix
                       width={1000}
                       src={slide.src}
-                      alt={slide.alt}
+                      alt={slide.desc}
+                      htmlAttributes={{ alt: slide.desc }}
                       imgixParams={{
                         ar: "1:1.17",
                         fit: "crop",
@@ -129,7 +129,7 @@ const EmblaCarousel = () => {
                       }}
                     />
                   </figure>
-                </a>
+                </div>
                 <h1
                   className={
                     "mt-5 font-bold uppercase leading-none mb-1 text-gray-900"

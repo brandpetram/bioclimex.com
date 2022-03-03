@@ -105,7 +105,7 @@ const BigWorld = () => {
             src="https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-02.jpg"
             width={1500}
             height={1500}
-            htmlAttributes={{ media: "(min-width: 2560px)" }}
+            htmlAttributes={{ media: "(min-width: 2560px)", alt: "Planeta tierra azul" }}
             imgixParams={{
               h: "1500",
               "fp-x": "0",
@@ -120,7 +120,7 @@ const BigWorld = () => {
             src="https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-02.jpg"
             width={1100}
             height={1100}
-            htmlAttributes={{ media: "(min-width: 1920px)" }}
+            htmlAttributes={{ media: "(min-width: 1920px)", alt: "Planeta tierra azul" }}
             imgixParams={{
               h: "1100",
               "fp-x": "0",
@@ -135,7 +135,7 @@ const BigWorld = () => {
             src="https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-02.jpg"
             width={800}
             height={750}
-            htmlAttributes={{ media: "(min-width: 1280px)" }}
+            htmlAttributes={{ media: "(min-width: 1280px)" , alt: "Planeta tierra azul"}}
             imgixParams={{
               h: "750",
               "fp-x": "0",
@@ -149,7 +149,7 @@ const BigWorld = () => {
           <Source
             src="https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-02.jpg"
             width={750}
-            htmlAttributes={{ media: "(min-width: 375px)" }}
+            htmlAttributes={{ media: "(min-width: 375px)" , alt: "Planeta tierra azul"}}
             imgixParams={{
               h: "1500",
               "fp-x": "0",
@@ -163,6 +163,7 @@ const BigWorld = () => {
 
           <Imgix
             className={" float-right 4xl:-mt-20 7xl:-mt-40"}
+            htmlAttributes={{alt: "Planeta tierra azul"}}
             src="https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-02.jpg"
             imgixParams={{
               h: "1500",

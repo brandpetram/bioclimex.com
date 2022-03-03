@@ -10,7 +10,7 @@ const BeforeFooter = () => {
               src="https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-04.jpg"
               width={4000}
               height={4000}
-              htmlAttributes={{ media: "(min-width: 2550px)" }}
+              htmlAttributes={{ media: "(min-width: 2550px)", alt: "Angel de la indpendencia ciudad de méxico" }}
               imgixParams={{
                 ar: "15:9",
                 fit: "crop",
@@ -20,7 +20,7 @@ const BeforeFooter = () => {
             <Source
               src="https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-04.jpg"
               width={2000}
-              htmlAttributes={{ media: "(min-width: 1920px)" }}
+              htmlAttributes={{ media: "(min-width: 1920px)", alt: "Angel de la indpendencia ciudad de méxico"  }}
               imgixParams={{
                 ar: "15:9",
                 fit: "crop",
@@ -31,7 +31,7 @@ const BeforeFooter = () => {
             <Source
               src="https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-04.jpg"
               width={1735}
-              htmlAttributes={{ media: "(min-width: 1280px)" }}
+              htmlAttributes={{ media: "(min-width: 1280px)", alt: "Angel de la indpendencia ciudad de méxico"  }}
               imgixParams={{
                 ar: "15:9",
                 fit: "crop",
@@ -42,7 +42,7 @@ const BeforeFooter = () => {
             <Source
               src="https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-04.jpg"
               width={1735}
-              htmlAttributes={{ media: "(min-width: 1024px)" }}
+              htmlAttributes={{ media: "(min-width: 1024px)", alt: "Angel de la indpendencia ciudad de méxico"  }}
               imgixParams={{
                 ar: "1:1.05",
                 fit: "crop",
@@ -53,7 +53,7 @@ const BeforeFooter = () => {
             <Source
               src="https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-04.jpg"
               width={760}
-              htmlAttributes={{ media: "(min-width: 768px)" }}
+              htmlAttributes={{ media: "(min-width: 768px)" , alt: "Angel de la indpendencia ciudad de méxico" }}
               imgixParams={{
                 ar: "1:0.9",
                 fit: "crop",

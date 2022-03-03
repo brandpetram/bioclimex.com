@@ -26,7 +26,7 @@ export default function ContentSplitWithImage() {
             <Source
               width={2000}
               src="https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-03.jpg"
-              htmlAttributes={{ media: "(min-width: 1280px)" }}
+              htmlAttributes={{ media: "(min-width: 1280px)", alt: "Ingenieros planificando la ventilacion industrial adecuada" }}
               imgixParams={{
                 ar: "1:1",
                 fit: "clamp",
@@ -36,7 +36,7 @@ export default function ContentSplitWithImage() {
             <Source
               width={400}
               src="https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-03.jpg"
-              htmlAttributes={{ media: "(min-width: 320px)" }}
+              htmlAttributes={{ media: "(min-width: 320px)", alt: "Ingenieros planificando la ventilacion industrial adecuada" }}
               imgixParams={{
                 ar: "1:1.1",
                 fit: "clamp",
@@ -45,6 +45,7 @@ export default function ContentSplitWithImage() {
             />
             <Imgix
               className="h-92 w-full object-cover lg:absolute lg:h-full "
+              htmlAttributes={{alt: "Ingenieros planificando la ventilacion industrial adecuada" }}
               src="https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-03.jpg"
               ix-sizes="auto"
             />

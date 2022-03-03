@@ -8,7 +8,7 @@ const DivideTitle = () => {
           <Source
             width={1500}
             src="https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-24.jpg"
-            htmlAttributes={{ media: "(min-width: 1280px)" }}
+            htmlAttributes={{ media: "(min-width: 1280px)" , alt: "Equipo de ventilacion Breezair"}}
             imgixParams={{
               ar: "1:1",
               fit: "clamp",
@@ -18,7 +18,7 @@ const DivideTitle = () => {
           <Source
             width={400}
             src="https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-24.jpg"
-            htmlAttributes={{ media: "(min-width: 320px)" }}
+            htmlAttributes={{ media: "(min-width: 320px)" , alt: "Equipo de ventilacion Breezair" }}
             imgixParams={{
               ar: "1:1.1",
               fit: "crop",
@@ -26,6 +26,7 @@ const DivideTitle = () => {
             }}
           />
           <Imgix
+             htmlAttributes={{ alt: "Equipo de ventilacion Breezair" }}
             src="https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-24.jpg"
             ix-sizes="auto"
           />
