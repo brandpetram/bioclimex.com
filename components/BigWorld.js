@@ -36,7 +36,7 @@ const BigWorld = () => {
               </ul>
             </div>
             <div className=" mt-12 lg:mt-0 lg:col-span-3 lg:ml-16 mx-10 lg:mx-0">
-              <dl className="space-y-10 sm:space-y-0 sm:grid sm:grid-cols-1 sm:gap-y-10">
+              <div className="space-y-10 sm:space-y-0 sm:grid sm:grid-cols-1 sm:gap-y-10">
                 <div className="space-y-4">
                   <div className="space-y-2">
                     <dt className="text-lg leading-6 font-medium text-gray-700">
@@ -94,7 +94,7 @@ const BigWorld = () => {
                     </dd>
                   </div>
                 </div>
-              </dl>
+              </div>
             </div>
           </div>
         </div>

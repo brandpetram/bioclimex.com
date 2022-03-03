@@ -65,7 +65,7 @@ const AboutOne = () => {
                 espacios industriales ventilados al 100%.
               </p>
 
-              <dl className="mt-10 space-y-10">
+              <div className="mt-10 space-y-10">
                 <div className="relative">
                   <dt>
                     <div className="absolute flex items-center justify-center h-12 w-12 rounded-md text-white">
@@ -91,8 +91,8 @@ const AboutOne = () => {
                     incluyendo cobertura sobre corrosión.
                   </dd>
                 </div>
-              </dl>
-              <dl className="mt-10 space-y-10">
+              </div>
+              <div className="mt-10 space-y-10">
                 <div className="relative">
                   <dt>
                     <div className="absolute flex items-center justify-center h-12 w-12 rounded-md text-white">
@@ -118,8 +118,8 @@ const AboutOne = () => {
                     siempre.
                   </dd>
                 </div>
-              </dl>
-              <dl className="mt-10 space-y-10">
+              </div>
+              <div className="mt-10 space-y-10">
                 <div className="relative">
                   <dt>
                     <div className="absolute flex items-center justify-center h-12 w-12 rounded-md text-white">
@@ -146,7 +146,7 @@ const AboutOne = () => {
                     que 15 años nos dá, la ponemos a tu servicio.
                   </dd>
                 </div>
-              </dl>
+              </div>
             </div>
 
             <div className="mt-10 -mx-4 relative lg:mt-0" aria-hidden="true">
@@ -186,7 +186,7 @@ const AboutOne = () => {
                 className="relative mx-auto"
                 width="490"
                 src="https://brandpetram.imgix.net/bioclimex.com/climatizacion-industrial-mexico-3.jpeg?auto=compress&ar=1%3A1.2&fit=crop"
-                alt=""
+                alt="Equipo breezair"
               />
             </div>
           </div>
@@ -237,7 +237,7 @@ const AboutOne = () => {
                   bajo consumo, multinóminado y varias veces ganador de premios
                   a la calidad.
                 </p>
-                <dl className="mt-10 space-y-10">
+                <div className="mt-10 space-y-10">
                   <div className="relative">
                     <dt>
                       <div className="absolute flex items-center justify-center h-12 w-12 rounded-md">
@@ -263,8 +263,8 @@ const AboutOne = () => {
                       líder mundial de sistemas de refrigeración.
                     </dd>
                   </div>
-                </dl>
-                <dl className="mt-10 space-y-10">
+                </div>
+                <div className="mt-10 space-y-10">
                   <div className="relative">
                     <dt>
                       <div className="absolute flex items-center justify-center h-12 w-12 rounded-md text-white">
@@ -290,7 +290,7 @@ const AboutOne = () => {
                       platícanos de tu proyecto y sus requerimientos.
                     </dd>
                   </div>
-                </dl>
+                </div>
               </div>
 
               <div className="mt-10 -mx-4 relative lg:mt-0 lg:col-start-1">
@@ -331,7 +331,7 @@ const AboutOne = () => {
                   className="relative mx-auto"
                   width="490"
                   src="https://brandpetram.imgix.net/bioclimex.com/climatizacion-industrial-mexico-5.jpeg?auto=compress&ar=1%3A1.2&fit=crop"
-                  alt=""
+                  alt="Equipo breezair"
                 />
               </div>
             </div>
