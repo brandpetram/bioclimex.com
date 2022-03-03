@@ -180,11 +180,11 @@ const Cover = () => {
               "md:hidden float-right mr-5 -mt-64 text-right space-y-3 font-regular tracking-tight"
             }
           >
-            <h1>Utilizado</h1>
-            <h1>Por cientos</h1>
-            <h1>de escuelas</h1>
-            <h1>en todo</h1>
-            <h1>México</h1>
+            <li><h1>Utilizado</h1></li>
+            <li><h1>Por cientos</h1></li>
+            <li><h1>de escuelas</h1></li>
+            <li><h1>en todo</h1></li>
+            <li><h1>México</h1></li>
           </ul>
         </div>
         <Link href={"#"}>
