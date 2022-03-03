@@ -49,7 +49,7 @@ const Cover = () => {
             <Source
               src="https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-05.jpg"
               sizes="70vw"
-              htmlAttributes={{ media: "(min-width: 1280px)" }}
+              htmlAttributes={{ media: "(min-width: 1280px)", alt: "Familia feliz en supermercado climatizado" }}
               imgixParams={{
                 ar: "1.735:1",
                 fit: "crop",
@@ -63,7 +63,7 @@ const Cover = () => {
             <Source
               src="https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-05.jpg"
               sizes="70vw"
-              htmlAttributes={{ media: "(min-width: 1024px)" }}
+              htmlAttributes={{ media: "(min-width: 1024px)", alt: "Familia feliz en supermercado climatizado" }}
               imgixParams={{
                 ar: "1:1.05",
                 fit: "crop",
@@ -77,13 +77,13 @@ const Cover = () => {
             <Source
               src="https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-05.jpg"
               sizes="70vw"
-              htmlAttributes={{ media: "(min-width: 768px)" }}
+              htmlAttributes={{ media: "(min-width: 768px)", alt: "Familia feliz en supermercado climatizado" }}
               imgixParams={{
                 ar: "1.735:1",
                 fit: "crop",
                 crop: "focalpoint",
                 auto: "compress",
-                q: "30",
+                q: "10",
                 "fp-y": ".5",
                 "fp-z": "1",
               }}
@@ -91,13 +91,13 @@ const Cover = () => {
             <Source
               src="https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-05.jpg"
               sizes="100vw"
-              htmlAttributes={{ media: "(min-width: 320px)" }}
+              htmlAttributes={{ media: "(min-width: 320px)" , alt: "Familia feliz en supermercado climatizado"}}
               imgixParams={{
                 ar: "1:1",
                 fit: "crop",
                 auto: "compress",
                 crop: "focalpoint",
-                q: "30",
+                q: "10",
                 "fp-y": ".5",
                 "fp-x": ".4",
                 "fp-z": "1",
@@ -105,14 +105,14 @@ const Cover = () => {
             />
             <Imgix
               sizes="100vw"
-              className={""}
+              htmlAttributes={{alt: "Familia feliz en supermercado climatizado"}}
               src="https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-05.jpg"
               imgixParams={{
                 ar: "2:2",
                 h: "280",
                 fit: "crop",
                 auto: "compress",
-                q: "30",
+                q: "20",
               }}
             />
           </Picture>

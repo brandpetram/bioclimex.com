@@ -63,22 +63,19 @@ const BeforeFooter = () => {
             />
             <Source
               src="https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-04.jpg"
-              width={800}
+              width={200}
               htmlAttributes={{ media: "(min-width: 320px)" }}
               imgixParams={{
-                ar: "1:1",
-                h: "800",
+                ar: "1:0.6",
+                h: "200",
                 fit: "crop",
-                crop: "focalpoint",
-                "fp-z": "1",
-                "fp-x": ".7",
                 auto: "compress",
               }}
             />
             <Imgix
               src="https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-04.jpg"
               width={4000}
-              className="ml-8 md:ml-20 w-7/12 h-64 md:h-96 lg:h-120 lg:w-3/5 inline text-center relative"
+              className="ml-8 md:ml-20 w-10/12 h-48 md:h-96 lg:h-120 lg:w-3/5 inline text-center relative"
               height={4000}
               imgixParams={{
                 ar: "2:7",
