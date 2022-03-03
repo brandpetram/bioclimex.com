@@ -63,11 +63,11 @@ const BeforeFooter = () => {
             />
             <Source
               src="https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-04.jpg"
-              width={300}
+              width={100}
               htmlAttributes={{ media: "(min-width: 320px)", alt:"Angel de la indpendencia ciudad de méxico" }}
               imgixParams={{
                 ar: "1:0.6",
-                h: "192",
+                h: "100",
                 fit: "crop",
                 auto: "compress",
               }}
