@@ -54,8 +54,8 @@ export default function ContentSplitWithImage() {
       </div>
       <div className="relative pt-12 px-4 sm:pt-16 sm:px-6 lg:px-8 lg:max-w-7xl lg:mx-auto lg:grid lg:grid-cols-2">
         <div className="lg:col-start-2 lg:pl-8">
-          <div className="text-base max-w-prose mx-auto lg:max-w-lg lg:ml-auto lg:mr-0">
-            <h2 className="leading-6 text-innovat-blue font-semibold tracking-wide uppercase text-gray-400">
+          <div className="text-lg max-w-prose mx-auto lg:max-w-lg lg:ml-auto lg:mr-0">
+            <h2 className="leading-6 text-innovat-blue font-bold tracking-wide uppercase text-gray-400">
               LOS EXPERTOS EN VENTILACIÓN / CLIMATIZACIÓN
             </h2>
             <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-700 sm:text-4xl">
@@ -92,7 +92,7 @@ export default function ContentSplitWithImage() {
                 También podemos proveerte con la documentación para que tu
                 equipo lo haga.
               </p>
-              <h3 className={"text-gray-700"}>¿Por qué escoger Bioclimex?</h3>
+              <h3 className={"text-gray-900 text-2xl font-bold"}>¿Por qué escoger Bioclimex?</h3>
               <p>
                 Lo que nos diferencía de otros competidores es el importante
                 ahorro energético, el uso de equipos de ultima generación en
@@ -100,15 +100,15 @@ export default function ContentSplitWithImage() {
                 patentadas en Australia y de uso comprobado en un gran número de
                 industrias en el mundo.
               </p>
-              <div className="space-x-5">
+              <div className="space-x-5 pb-14">
                 <a href={"/contacto"}>
-                  <button className="bg-blue-600 py-2 px-4 text-white">
-                    Comienza aquí
+                  <button className="bg-blue-600 py-2 px-4 text-white font-bold">
+                    Comenzar
                   </button>
                 </a>
 
                 <a href={"/climatizacion-industrial"}>
-                  <button className="bg-gray-900 py-2 px-4 text-white">
+                  <button className="bg-gray-900 py-2 px-4 text-white font-bold">
                     Conoce más
                   </button>
                 </a>

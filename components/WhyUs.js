@@ -3,10 +3,9 @@ const WhyUs = () => {
     <div
       id="ventajas"
       className="lg:mt-10 xl:mt-16 w-11/12 mx-auto"
-      id="ventajas"
     >
       <div className="bg-white">
-        <div className="px-10 lg:px-0 lg:max-w-screen-lg  xl:max-w-screen-xl 3xl:max-w-screen-2xl 4xl:max-w-screen-3xl mx-auto py-16 px-4 sm:px-6 lg:py-24 lg:px-8 lg:grid lg:grid-cols-3 lg:gap-x-8">
+        <div className="px-10 lg:max-w-screen-lg  xl:max-w-screen-xl 3xl:max-w-screen-2xl 4xl:max-w-screen-3xl mx-auto py-16 sm:px-6 lg:py-24 lg:px-8 lg:grid lg:grid-cols-3 lg:gap-x-8">
           <div>
             <h2 className="text-base leading-6 font-semibold text-cool-gray-900 uppercase tracking-wide">
               ¿Por qué conviene?

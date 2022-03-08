@@ -17,7 +17,7 @@ const Advantages = () => {
           <h3 className="text-gray-100 text-md uppercase font-extrabold">
             Bioclimex México
           </h3>
-          <h2 className="mt-3 lg:mt-8 xl:mt-12 3xl:mt-20 lg:mt-0 text-gray-100 text-4xl md:text-11xl xl:text-17xl 2xl:text-18xl 3xl:text-22xl 4xl:text-25xl 5xl:text-29xl max-w-xs w-2/3 md:max-w-xl 3xl:max-w-4xl font-medium md:font-bold leading-none">
+          <h2 className="mt-3 lg:mt-8 xl:mt-12 3xl:mt-20 text-gray-100 text-4xl md:text-11xl xl:text-17xl 2xl:text-18xl 3xl:text-22xl 4xl:text-28xl 5xl:text-29xl max-w-xs w-2/3 md:max-w-xl 3xl:max-w-4xl font-medium md:font-bold leading-none">
             Somos la brisa de aire que genera ahorro y sonrisas.
           </h2>
         </div>

@@ -95,13 +95,13 @@ const EmblaCarousel = () => {
   }, [embla, onSelect]);
 
   return (
-    <div className={"w-auto"}>
-      <h2 className=" md:w-3/4 xl:w-8/12 stroke font-extrabold text-gray-900 text-7xl md:text-9xl lg:text-16xl xl:text-20xl 2xl:text-22xl 3xl:text-20xl 4xl:text-22xl mx-4 mb-5 md:mb-0 leading-none md:leading-none xl:ml-10 tracking-tight">
+    <div className={"w-auto ml-10"}>
+      <h2 className=" md:w-3/4 xl:w-9/12 stroke font-bold text-gray-900 text-7xl md:text-9xl lg:text-16xl xl:text-20xl 2xl:text-22xl 3xl:text-20xl 4xl:text-32xl mx-4 mb-5 md:mb-0 leading-none md:leading-none xl:ml-10 tracking-tight">
         ¿Qué espacios ventilamos y climatizamos?
       </h2>
       <div className="relative overflow-hidden">
         <div className="w-auto pt-10 overflow-hidden" ref={viewportRef}>
-          <div className="flex w-full space-x-10">
+          <div className="flex w-full space-x-5">
             {slides.map((slide, index) => (
               <div
                 className={
@@ -111,12 +111,12 @@ const EmblaCarousel = () => {
               >
                 <div
                   className={
-                    "w-72 lg:w-96 xl:w-56 2xl:w-96 3xl:w-110 4xl:w-120 5xl:w-148"
+                    "w-72 lg:w-96 xl:w-56 2xl:w-96 3xl:w-110 4xl:w-144 5xl:w-148"
                   }
                 >
                   <figure className="relative">
                     <Imgix
-                      width={500}
+                      width={800}
                       src={slide.src}
                       alt={slide.desc}
                       htmlAttributes={{ alt: slide.desc }}
@@ -133,7 +133,7 @@ const EmblaCarousel = () => {
                 </div>
                 <h1
                   className={
-                    "mt-5 font-bold uppercase leading-none mb-1 text-gray-900"
+                    "mt-5 font-bold uppercase leading-none mb-1 text-gray-900 text-xl"
                   }
                 >
                   {slide.title}

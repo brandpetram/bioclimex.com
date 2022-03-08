@@ -11,7 +11,7 @@ const Cover = () => {
     <div className={"overflow-hidden"} id="inicio">
       <div className={"relative"}>
         <svg
-          className=" hidden lg:block lg:overflow-hidden absolute left-full transform -translate-x-1/2 -translate-y-7"
+          className=" hidden lg:block lg:overflow-hidden absolute left-full transform -translate-x-full -translate-y-7"
           width="404"
           height="784"
           fill="none"
@@ -44,14 +44,28 @@ const Cover = () => {
         </svg>
       </div>
       <div className={"flex flex-col md:grid grid-cols-12 gap-4"}>
-        <div className={"md:col-span-9 relative"}>
+      <div className={"md:col-span-9 xl:pl-16 relative"}>
           <Picture>
+          <Source
+              src="https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-05.jpg"
+              sizes="70vw"
+              htmlAttributes={{ media: "(min-width: 1920px)", alt: "Familia feliz en supermercado climatizado" }}
+              imgixParams={{
+                ar: "1.35:1",
+                fit: "crop",
+                crop: "focalpoint",
+                auto: "compress",
+                q: "45",
+                "fp-y": ".5",
+                "fp-z": "1",
+              }}
+            />
             <Source
               src="https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-05.jpg"
               sizes="70vw"
               htmlAttributes={{ media: "(min-width: 1280px)", alt: "Familia feliz en supermercado climatizado" }}
               imgixParams={{
-                ar: "1.735:1",
+                ar: "1.2:1",
                 fit: "crop",
                 crop: "focalpoint",
                 auto: "compress",
@@ -119,12 +133,12 @@ const Cover = () => {
 
           <div
             className={
-              "transform bg-white bg-opacity-80 w-3/4 right-0 -mt-20 lg:-mt-32 xl:-mt-64 3xl:-mt-72 float-right font-bold text-2xl md:text-7xl lg:text-12xl 2xl:text-18xl 3xl:text-20xl  5xl:text-28xl"
+              "transform leading-tight bg-white bg-opacity-80 w-3/4 right-0 -mt-20 lg:-mt-32 xl:-mt-64 3xl:-mt-72 float-right font-bold text-2xl md:text-7xl lg:text-20xl 2xl:text-18xl 3xl:text-24xl  5xl:text-28xl"
             }
           >
-            <div className={"p-12 lg:w-10/12"}>
+            <div className={"p-12 lg:w-11/12"}>
               <p className={"text-base text-gray-500"}>Bienvenido a Bioclimex S.A. de C.V.</p>
-              <h1 className={"text-gray-700"}>
+              <h1 className={"text-gray-700 "}>
                 <span className={"text-blue-700"}>Ventilación y Climatización</span>{" "}
                 industrial / comercial en Todo México
               </h1>
@@ -143,7 +157,7 @@ const Cover = () => {
                 sizes="30vw"
                 htmlAttributes={{ media: "(min-width: 768px)", alt: "Nave industrial de procesos en méxico"}}
                 imgixParams={{
-                  ar: "1:1.2",
+                  ar: "1:1.39",
                   fit: "crop",
                   auto: "compress",
                   q: "30",
@@ -200,7 +214,7 @@ const Cover = () => {
       </div>
 
       <svg
-        className="hidden lg:block absolute right-full transform translate-x-1/2 -translate-y-1/2"
+        className="hidden lg:block absolute right-full transform translate-x-1/2 -translate-y-44"
         width="404"
         height="1400"
         fill="none"

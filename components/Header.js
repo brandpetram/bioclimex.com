@@ -60,7 +60,7 @@ const HeaderWithFullWidthLayouts = (props) => {
     } else {
       document.getElementById("navbar").style.height = "60px";
       document.getElementById("wrap").style.height = "60px";
-      document.getElementById("logo").style.transform = "scale(1.2)";
+      document.getElementById("logo").style.transform = "scale(1.5)";
     }
     window.onscroll = function () {
       var currentScrollPos = window.pageYOffset;
@@ -78,7 +78,7 @@ const HeaderWithFullWidthLayouts = (props) => {
       } else {
         document.getElementById("navbar").style.height = "4.5rem";
         document.getElementById("wrap").style.height = "4.5rem";
-        document.getElementById("logo").style.transform = "scale(1.2)";
+        document.getElementById("logo").style.transform = "scale(1.5)";
       }
 
       prevScrollpos = currentScrollPos;
@@ -95,12 +95,12 @@ const HeaderWithFullWidthLayouts = (props) => {
           aria-hidden="true"
         />
         <div className="flex " id="wrap">
-          <div className="w-full self-center mx-auto py-5 sm:py-4">
-            <div className="flex pr-10 mx-auto">
-              <div className="w-1/3 h-10 flex">
+          <div className="w-full self-center mx-auto">
+            <div className="flex pl-10 pr-0 mx-auto">
+              <div className="w-1/3 flex ">
                 <img
                   src="../logo.svg"
-                  className="h-8 2xl:h-10 hidden lg:block transition-all duration-700"
+                  className="h-8 2xl:h-8 hidden lg:block transition-all duration-700 "
                   id="logo"
                 />
               </div>

@@ -17,7 +17,7 @@ import DivideTitle from "../components/DivideTitle";
 const Home = () => {
   return (
     <div>
-      <div className={"space-y-24 d:space-y-40 w-11/12 mx-auto"}>
+      <div className={"space-y-24 d:space-y-40 "}>
         <Head>
           <title>Bioclimex | Climatización y ventilación industrial de Espacios Industriales en Todo México</title>
           <meta
@@ -31,7 +31,7 @@ const Home = () => {
         <InBetweenTitle />
       </div>
       <div className={"mt-72 space-y-24 d:space-y-40 pb-44"}>
-        <ContentSplitWithImage />
+        <div className={"mb-52"}><ContentSplitWithImage /></div>
         <EmblaCarousel />
         <Advantages />
         <WhyUs />

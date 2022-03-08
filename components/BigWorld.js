@@ -8,7 +8,10 @@ const BigWorld = () => {
     SetContactoSlide(!ContactoSlideStatus);
   };
   return (
-    <div className="relative flex flex-col flex-col-reverse lg:grid-cols-none lg:flex lg:flex-row mt-32" id="manufactura">
+    <div
+      className="relative flex flex-col flex-col-reverse lg:grid-cols-none lg:flex lg:flex-row mt-32"
+      id="manufactura"
+    >
       <div className="z-0 -mt-0 md:-mt-0 lg:-mt-0 md:inset-y-0 md:left-0 md:w-full flex-none lg:ml-20 3xl:ml-40 lg:pt-40 lg:max-w-3xl 3xl:max-w-4xl">
         <h1 className="text-gray-700 w-10/12 md:w-full md:mt-0 top-0 mx-5 xs:mx-10 lg:mx-0 text-6xl lg:text-12 xl:text-16xl 2xl:text-18xl 3xl:text-20xl leading-none font-bold xl:max-w-2xl 2xl:max-w-3xl">
           Fabricados en Australia, aclamados en el mundo y ahora presentes en
@@ -49,8 +52,8 @@ const BigWorld = () => {
                       </span>
                       <div className="flex-0">
                         <a href="/contacto">
-                          <button className="w-32 bg-blue-600 hover:bg-blue-600-light p-2 text-white rounded-md">
-                            Contacto
+                          <button className="w-32 bg-gray-900 hover:bg-gray-900-light p-2 text-white">
+                            Cotizar
                           </button>
                         </a>
                       </div>
@@ -67,8 +70,8 @@ const BigWorld = () => {
                       </span>
                       <div className="flex-0">
                         <a href="/contacto">
-                          <button className="w-32 bg-blue-600 hover:bg-blue-600-light p-2 text-white rounded-md">
-                            Contacto
+                          <button className="w-32 bg-gray-900 hover:bg-gray-900-light p-2 text-white">
+                            Cotizar
                           </button>
                         </a>
                       </div>
@@ -86,8 +89,8 @@ const BigWorld = () => {
                       </span>
                       <div className="flex-0">
                         <a href="/contacto">
-                          <button className="w-32 bg-blue-600 hover:bg-blue-600-light p-2 text-white rounded-md">
-                            Contacto
+                          <button className="w-32 bg-gray-900 hover:bg-gray-900-light p-2 text-white">
+                            Cotizar
                           </button>
                         </a>
                       </div>
@@ -105,7 +108,10 @@ const BigWorld = () => {
             src="https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-02.jpg"
             width={1500}
             height={1500}
-            htmlAttributes={{ media: "(min-width: 2560px)", alt: "Planeta tierra azul" }}
+            htmlAttributes={{
+              media: "(min-width: 2560px)",
+              alt: "Planeta tierra azul",
+            }}
             imgixParams={{
               h: "1500",
               "fp-x": "0",
@@ -120,7 +126,10 @@ const BigWorld = () => {
             src="https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-02.jpg"
             width={1100}
             height={1100}
-            htmlAttributes={{ media: "(min-width: 1920px)", alt: "Planeta tierra azul" }}
+            htmlAttributes={{
+              media: "(min-width: 1920px)",
+              alt: "Planeta tierra azul",
+            }}
             imgixParams={{
               h: "1100",
               "fp-x": "0",
@@ -135,7 +144,10 @@ const BigWorld = () => {
             src="https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-02.jpg"
             width={800}
             height={750}
-            htmlAttributes={{ media: "(min-width: 1280px)" , alt: "Planeta tierra azul"}}
+            htmlAttributes={{
+              media: "(min-width: 1280px)",
+              alt: "Planeta tierra azul",
+            }}
             imgixParams={{
               h: "750",
               "fp-x": "0",
@@ -149,7 +161,10 @@ const BigWorld = () => {
           <Source
             src="https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-02.jpg"
             width={750}
-            htmlAttributes={{ media: "(min-width: 375px)" , alt: "Planeta tierra azul"}}
+            htmlAttributes={{
+              media: "(min-width: 375px)",
+              alt: "Planeta tierra azul",
+            }}
             imgixParams={{
               h: "1500",
               "fp-x": "0",
@@ -163,7 +178,7 @@ const BigWorld = () => {
 
           <Imgix
             className={" float-right 4xl:-mt-20 7xl:-mt-40"}
-            htmlAttributes={{alt: "Planeta tierra azul"}}
+            htmlAttributes={{ alt: "Planeta tierra azul" }}
             src="https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-02.jpg"
             imgixParams={{
               h: "1500",

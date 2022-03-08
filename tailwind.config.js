@@ -11,6 +11,7 @@ module.exports = {
       blue: colors.blue,
       orange: colors.orange,
       indigo: colors.indigo,
+      green: colors.green,
       "bioclimex-blue": "#2172EC",
       "bioclimex-black": "#333333"
     },
