@@ -1,13 +1,14 @@
+import Imgix from "react-imgix";
 
 
 const CardCta = () => {
     return(
         <div
-    class="mt-10 lg:mt-0 lg:max-w-screen-lg  xl:max-w-screen-xl 3xl:max-w-screen-2xl 4xl:max-w-screen-3xl mx-auto"
+    className="mt-10 lg:mt-0 lg:max-w-screen-lg  xl:max-w-screen-xl 3xl:max-w-screen-2xl 4xl:max-w-screen-3xl mx-auto"
   >
-    <span class="absolute transform 4xl:translate-x-40 -translate-y-20 mt-56">
+    <span className="absolute transform 4xl:translate-x-40 -translate-y-20 mt-56">
       <svg
-        class="hidden lg:block"
+        className="hidden lg:block"
         width="404"
         height="484"
         fill="none"
@@ -27,7 +28,7 @@ const CardCta = () => {
               y="0"
               width="4"
               height="4"
-              class="text-gray-200"
+              className="text-gray-200"
               fill="currentColor"
             />
           </pattern>
@@ -40,45 +41,52 @@ const CardCta = () => {
       </svg>
     </span>
     <div
-      class="flex flex-col lg:flex-row items-center lg:items-end justify-center mt-10 md:mt-0 ml-0 lg:ml-20 xl:ml-40"
+      className="flex flex-col lg:flex-row items-center lg:items-end justify-center mt-10 md:mt-0 ml-0 lg:ml-20 xl:ml-40"
     >
       <div
-        class="max-w-xs md:max-w-xl lg:max-w-sm xl:max-w-md bg-white shadow-2xl z-20"
+        className="max-w-xs md:max-w-xl lg:max-w-sm xl:max-w-md bg-white shadow-2xl z-20"
       >
-        <div class="text-center" style={{padding: "70px 40px 60px"}}>
+        <div className="text-center" style={{padding: "70px 40px 60px"}}>
           <h1
-            class="font-extrabold text-6xl lg:text-7xl xl:text-9xl text-gray-900 leading-tight mt-5"
+            className="font-extrabold text-6xl lg:text-7xl xl:text-9xl text-gray-900 leading-tight mt-5"
           >
             Galardonada Eficiencia en Equipos
           </h1>
-          <p class="text-gray-600 my-15 text-md leading-relaxed">
+          <p className="text-gray-600 py-10 text-md leading-relaxed">
             Breezair refuerza su reputación de innovación, calidad y servicio
             como uno de los mejores equipos de refrigeración de bajo consumo a
             través de sus numerosas nominaciones y premios obtenidos
           </p>
           <button
-            class="border border-bioclimex-blue px-12 py-4 hover:bg-bioclimex-blue hover:text-white"
+            className="border border-bioclimex-blue px-12 py-4 hover:bg-bioclimex-blue hover:text-white"
           >
             Conocer más
           </button>
         </div>
       </div>
-      <div class="max-w-3xl min-w-40 lg:-ml-24 xl:-ml-32 z-10">
-        <img
-          class="mt-10 md:w-10/12 lg:w-11/12 mx-auto"
-          src="https://bioclimex.com/_nuxt/img/recibiendo-premio-breezair-eficiencia-mexico.3757ef0.jpg"
-          alt=""
-        />
+      <div className="max-w-3xl min-w-40 lg:-ml-24 xl:-ml-32 z-10">
+         <Imgix
+              sizes="50vw"
+              className="mt-10 md:w-10/12 lg:w-11/12 mx-auto"
+              htmlAttributes={{alt: "Familia feliz en supermercado climatizado"}}
+              src="https://brandpetram.imgix.net/bioclimex.com/recibiendo-premio-breezair-eficiencia-mexico.jpg"
+              imgixParams={{
+                ar: "1:0.6",
+                fit: "crop",
+                auto: "compress",
+                q: "20",
+              }}
+            />
       </div>
     </div>
-    <div class="relative">
+    <div className="relative">
       <img
-        class="mt-24 md:pt-20 lg:pt-20 w-3/4 2xl:w-1/2 mx-auto "
-        src="https://bioclimex.com/_nuxt/2ac7019ebe32f15aa562387c00651c44.svg"
+        className="mt-24 md:pt-20 lg:pt-20 w-3/4 2xl:w-1/2 mx-auto "
+        src="./ema.svg"
         alt=""
       />
       <p
-        class="text-gray-500 font-light text-xl md:text-2xl lg:text-2xl 3xl:text-4xl leading-relaxed text-center w-11/12 mx-auto mt-20"
+        className="text-gray-500 font-light text-xl md:text-2xl lg:text-2xl 3xl:text-4xl leading-relaxed text-center w-11/12 mx-auto mt-20"
       >
         Nuestro equipo Breezair TBSI 580 recibió un importante galardón de la
         industria después de que se anunciara como ganador del premio en la

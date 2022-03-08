@@ -5,10 +5,10 @@ const InBetweenTitle = () => {
   return (
     <div className={"overflow-hidden"}>
       <div className={"relative"}></div>
-      <div className={"mx-10"}>
+      <div className={"mx-5 lg:mx-10"}>
         <h2
           className={
-            "subtitulo text-gray-700 md:max-w-xl xl:max-w-3xl 2xl:max-w-3xl 4xl:max-w-4xl 5xl:max-w-5xl text-3xl md:text-8xl lg:text-4xl xl:text-9xl 3xl:text-11xl 4xl:text-13xl 5xl:text-20xl md:ml-20 lg:ml-56 2xl:ml-72 3xl:ml-80 4xl:ml-96 5xl:mx-auto tracking-wider md:leading-normal lg:font-light"
+            " text-gray-700 md:max-w-xl xl:max-w-5xl 4xl:max-w-4xl text-3xl md:text-8xl lg:text-4xl xl:text-10xl 3xl:text-11xl 4xl:text-16xl 5xl:text-20xl md:ml-20 lg:ml-40 2xl:ml-72 3xl:ml-80 4xl:mx-auto 5xl:mx-auto tracking-wider md:leading-normal lg:font-light"
           }
         >
          Contamos con más de 15 años climatizando la industria y comercios mexicanos de manera <span class="text-blue-600">eficiente, efectiva y con bajo consumo eléctrico. </span>

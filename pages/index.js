@@ -13,11 +13,12 @@ import TextImage from "../components/TextImage";
 import TitleImage from "../components/TitleImage";
 import Faqs from "../components/Faqs";
 import DivideTitle from "../components/DivideTitle";
-
+import CtaBio from "../components/CtaBio";
+import CardCta from "../components/CardCta";
 const Home = () => {
   return (
     <div>
-      <div className={"space-y-24 d:space-y-40 "}>
+      <div className={"lg:space-y-24 d:space-y-40 "}>
         <Head>
           <title>Bioclimex | Climatización y ventilación industrial de Espacios Industriales en Todo México</title>
           <meta
@@ -25,21 +26,23 @@ const Home = () => {
             content="Los expertos en climatización de espacios industriales y comerciales en México"
           />
         </Head>
-        <div className={"mt-20 md:mt-0"} >
+        <div className={"mt-20 md:mt-0 "} >
           <Cover />
         </div>
         <InBetweenTitle />
       </div>
-      <div className={"mt-72 space-y-24 d:space-y-40 pb-44"}>
-        <div className={"mb-52"}><ContentSplitWithImage /></div>
+      <div className={"mt-20 lg:mt-72 space-y-24 d:space-y-40 pb-44"}>
+        <div className={"lg:mb-52"}><ContentSplitWithImage /></div>
         <EmblaCarousel />
         <Advantages />
         <WhyUs />
         <DivideTitle />
         <BigWorld />
+        <CtaBio/>
         <TextImage />
         <MosaicOne />
         <TitleImage />
+        <CardCta />
       </div>
       <SixSquares />{" "}
       <div

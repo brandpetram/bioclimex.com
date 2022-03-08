@@ -6,14 +6,14 @@ const MyComponent = () => {
       <section className="bg-blue-600 sm:h-7xl md:h-7xl lg:h-6xl">
         <h1
           className={
-            "hidden lg:block lg:absolute leading-none pt-64 text-44xl text-white font-extrabold tracking-tighter overflow-hidden opacity-20 md:-mt-48"
+            "hidden lg:block lg:absolute leading-[20rem] 3xl:leading-[27rem] pt-10 text-[21rem] 2xl:text-[28rem] 4xl:text-[32rem] text-blue-200 font-bold opacity-10 "
           }
         >
           Servicio
           <br />
           Integral
         </h1>
-        <div className="container text-gray-100 max-w-2xl 7xl:max-w-4xl mx-auto px-20 md:px-0 pt-96 7xl:pt-120">
+        <div className="container text-gray-100 max-w-2xl 7xl:max-w-4xl mx-auto px-20 md:px-0 pt-48 5xl:pt-120">
           <h1 className="text-4xl md:text-6xl 7xl:text-16xl leading-relaxed tracking-wide font-light">
             En Bioclimex obtienes un servicio Intergral 360. Nos encargamos la
             ingeniería, instalación y proveduría de refacciones

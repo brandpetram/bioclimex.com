@@ -42,7 +42,7 @@ const DivideTitle = () => {
           <span className="text-bioclimex-blue">1kW</span>
         </h1>
         <hr className="my-10" />
-        <div className="text-gray-500 font-light text-xl md:text-2xl lg:text-2xl 3xl:text-4xl leading-relaxed ">
+        <div className="text-gray-500 font-light text-xl md:text-2xl lg:text-3xl 3xl:text-4xl leading-relaxed ">
           <p>
             Los climatizadores evaporativos pueden parecer iguales por fuera sin
             embargo tienen grandes diferencias. En Bioclimex, preferimos

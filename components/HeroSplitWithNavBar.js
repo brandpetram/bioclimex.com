@@ -70,7 +70,7 @@ const HeroSplitWithNavBar = (props) => {
               </div>
               <div className="-mr-2 -my-2 lg:hidden grid justify-items-stretch w-full ">
                 <div className="justify-self-end">
-                  <Popover.Button className="bg-gray-800  overflow-hidden rounded-md p-2 inline-flex items-center justify-center text-gray-300 hover:text-gray-500 hover:bg-gray-100">
+                  <Popover.Button className="bg-white  overflow-hidden rounded-md p-2 inline-flex items-center justify-center text-gray-900 hover:text-gray-900 hover:bg-gray-100">
                     <span className="sr-only">Abrir menu</span>
                     <MenuIcon
                       onClick={(e) => ChangeState(true)}

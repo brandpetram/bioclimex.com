@@ -1,4 +1,4 @@
-import Reac, { useState } from "react";
+import { useState } from "react";
 import Imgix, { Picture, Source } from "react-imgix";
 import Link from "next/link";
 
@@ -133,7 +133,7 @@ const Cover = () => {
 
           <div
             className={
-              "transform leading-tight bg-white bg-opacity-80 w-3/4 right-0 -mt-20 lg:-mt-32 xl:-mt-64 3xl:-mt-72 float-right font-bold text-2xl md:text-7xl lg:text-20xl 2xl:text-18xl 3xl:text-24xl  5xl:text-28xl"
+              "transform leading-tight bg-white bg-opacity-80 w-3/4 right-0 -mt-20 lg:-mt-96 3xl:-mt-84 4xl:-mt-72 float-right font-bold text-2xl md:text-7xl lg:text-20xl 2xl:text-18xl 3xl:text-20xl 4xl:text-24xl 5xl:text-28xl"
             }
           >
             <div className={"p-12 lg:w-11/12"}>
@@ -176,7 +176,7 @@ const Cover = () => {
               />
               <Imgix
                 sizes="50vw"
-                className={"-mt-20 lg:-mt-0"}
+                className={"-mt-20 lg:mt-48 3xl:mt-72"}
                 htmlAttributes={{ alt: "Nave industrial de procesos en méxico"}}
 
                 src="https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-06.jpg"

@@ -114,19 +114,19 @@ const HeaderWithFullWidthLayouts = (props) => {
                       offset={item.offset}
                       duration={1000}
                       key={item.name}
-                      className="font-semibold text-gray-900 lg:text-xs 2xl:text-sm 7xl:text-lg hover:text-sky-500 cursor-pointer"
+                      className="font-bold text-gray-900 lg:text-xs 2xl:text-sm 7xl:text-lg hover:text-sky-500 cursor-pointer"
                     >
                       {item.name}
                     </Link>
                   ))}
                   <a
-                    className="font-semibold text-gray-900 lg:text-xs 2xl:text-sm 7xl:text-lg hover:text-sky-500 cursor-pointer"
+                    className="font-bold text-gray-900 lg:text-xs 2xl:text-sm 7xl:text-lg hover:text-sky-500 cursor-pointer"
                     href="/climatizacion-industrial"
                   >
                     INDUSTRIAL
                   </a>
                   <a
-                    className="font-semibold text-gray-900 lg:text-xs 2xl:text-sm 7xl:text-lg hover:text-sky-500 cursor-pointer"
+                    className="font-bold text-gray-900 lg:text-xs 2xl:text-sm 7xl:text-lg hover:text-sky-500 cursor-pointer"
                     href="/contacto"
                   >
                     CONTACTO
