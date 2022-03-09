@@ -105,7 +105,7 @@ const EmblaCarousel = () => {
             {slides.map((slide, index) => (
               <div
                 className={
-                  index === 0 ? "flex flex-col pl-10" : "flex flex-col"
+                  index === 0 ? "flex flex-col pl-4 md:pl-10" : "flex flex-col"
                 }
                 key={slide.src}
               >

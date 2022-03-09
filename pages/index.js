@@ -26,13 +26,13 @@ const Home = () => {
             content="Los expertos en climatización de espacios industriales y comerciales en México"
           />
         </Head>
-        <div className={"mt-20 md:mt-0 "} >
+        <div className={"mt-20 md:mt-0 "} id="inicio">
           <Cover />
         </div>
         <InBetweenTitle />
       </div>
       <div className={"mt-20 lg:mt-72 space-y-24 d:space-y-40 pb-44"}>
-        <div className={"lg:mb-52"}><ContentSplitWithImage /></div>
+        <div className={"lg:mb-52"} id="nosotros"><ContentSplitWithImage /></div>
         <EmblaCarousel />
         <Advantages />
         <WhyUs />

@@ -54,79 +54,58 @@ const MenuFull = (props) => {
                       {/* Replace with your content */}
                       <div className="absolute inset-0 px-4 sm:px-6">
                         <div className="h-full" aria-hidden="true">
-                          
                           <nav
                             className="grid gap-y-8 divide-y-2"
                             id="estatico"
                           >
-                            <Link
-                              to={"inicio"}
-                              spy={true}
-                              smooth={true}
-                              offset={50}
-                              duration={1000}
+                            <a
+                              href={"/#inicio"}
                               className="-m-3 p-3 flex items-center hover:bg-gray-50"
-                              onClick={() => props.ChangeState(false)}
+                             
                             >
                               <span className="ml-3 text-base font-medium text-gray-800">
                                 Inicio
                               </span>
-                            </Link>
+                            </a>
 
-                            <Link
-                              to={"nosotros"}
-                              spy={true}
-                              smooth={true}
-                              offset={200}
-                              duration={1000}
+                            <a
+                              href={"/#nosotros"}
                               className="-m-3 p-3 flex items-center hover:bg-gray-50"
-                              onClick={() => props.ChangeState(false)}
+                             
                             >
                               <span className="ml-3 text-base font-medium text-gray-800">
                                 Nosotros
                               </span>
-                            </Link>
+                            </a>
 
-                            <Link
-                              to={"ventajas"}
-                              spy={true}
-                              smooth={true}
-                              offset={-30}
-                              duration={1000}
+                            <a
+                              href={"/#ventajas"}
                               className="-m-3 p-3 flex items-center hover:bg-gray-50"
-                              onClick={() => props.ChangeState(false)}
+                             
                             >
                               <span className="ml-3 text-base font-medium text-gray-800">
                                 Ventajas
                               </span>
-                            </Link>
+                            </a>
 
-                            <Link
-                              to={"manufactura"}
-                              spy={true}
-                              smooth={true}
-                              offset={200}
-                              duration={1000}
+                            <a
+                              href={"/#manufactura"}
                               className="-m-3 p-3 flex items-center hover:bg-gray-50"
-                              onClick={() => props.ChangeState(false)}
+                              
                             >
                               <span className="ml-3 text-base font-medium text-gray-800">
                                 Manufactura
                               </span>
-                            </Link>
-                            <Link
-                              to={"preguntas"}
-                              spy={true}
-                              smooth={true}
-                              offset={-30}
-                              duration={1000}
+                            </a>
+                            <a
+                              href={"/#preguntas"}
                               className="-m-3 p-3 flex items-center hover:bg-gray-50"
-                              onClick={() => props.ChangeState(false)}
+                            
                             >
                               <span className="ml-3 text-base font-medium text-gray-800">
                                 Preguntas
                               </span>
-                            </Link>
+                            </a>
                             <a
                               href="/climatizacion-industrial"
                               className="-m-3 p-3 flex items-center hover:bg-gray-50 "

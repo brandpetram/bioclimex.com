@@ -1,7 +1,6 @@
 /* This example requires Tailwind CSS v2.0+ */
-import { Fragment, useState, useEffect } from "react";
-import { Popover, Transition } from "@headlessui/react";
-import { ChevronDownIcon } from "@heroicons/react/solid";
+import { useState, useEffect } from "react";
+import { Popover } from "@headlessui/react";
 import { Link } from "react-scroll";
 
 const navigation = [
@@ -26,7 +25,7 @@ const navigation = [
   {
     name: "MANUFACTURA",
     link: "manufactura",
-    offset: -50,
+    offset: 250,
     mobileOffset: -10,
   },
 

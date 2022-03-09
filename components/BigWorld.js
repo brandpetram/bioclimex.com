@@ -12,7 +12,7 @@ const BigWorld = () => {
       className="relative flex flex-col flex-col-reverse lg:grid-cols-none lg:flex lg:flex-row mt-32"
       id="manufactura"
     >
-      <div className="z-0 -mt-0 md:-mt-0 lg:-mt-0 md:inset-y-0 md:left-0 md:w-full flex-none lg:ml-20 3xl:ml-40 lg:pt-40 lg:max-w-3xl 3xl:max-w-4xl">
+      <div className="z-0 mt-10 md:-mt-0 lg:-mt-0 md:inset-y-0 md:left-0 md:w-full flex-none lg:ml-20 3xl:ml-40 lg:pt-40 lg:max-w-3xl 3xl:max-w-4xl">
         <h1 className="text-gray-900 w-10/12 md:w-full md:mt-0 top-0 mx-5 xs:mx-10 lg:mx-0 text-6xl lg:text-12 xl:text-16xl 2xl:text-18xl 3xl:text-20xl leading-none font-bold xl:max-w-2xl 2xl:max-w-3xl">
           Fabricados en Australia, aclamados en el mundo y ahora presentes en
           México.

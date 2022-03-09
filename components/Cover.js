@@ -148,7 +148,7 @@ const Cover = () => {
         <div className={"md:col-span-3 xl:pl-10 md:pr-0 md:relative"}>
           <div
             className={
-              "md:mt-40 lg:mt-24 xl:mt-20 2xl:mt-36 4xl:mt-48 7xl:mt-56 w-1/2 md:w-full"
+              "-mt-36 md:mt-40 lg:mt-24 xl:mt-20 2xl:mt-36 4xl:mt-48 7xl:mt-56  md:w-full"
             }
           >
             <Picture>
@@ -189,17 +189,6 @@ const Cover = () => {
               />
             </Picture>
           </div>
-          <ul
-            className={
-              "md:hidden float-right mr-5 -mt-64 text-right space-y-3 font-regular tracking-tight"
-            }
-          >
-            <li><h1>Utilizado</h1></li>
-            <li><h1>Por cientos</h1></li>
-            <li><h1>de escuelas</h1></li>
-            <li><h1>en todo</h1></li>
-            <li><h1>México</h1></li>
-          </ul>
         </div>
         <Link href={"#"}>
           <button
