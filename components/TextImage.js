@@ -48,7 +48,7 @@ const TextImage = () => {
           />
           <Source
             src="https://bioclimex.com/_nuxt/img/bioclimatizacion-ventilacion-y-climatizacion-en-supermercados-mexicanos.092ab5b.jpg"
-            width={1280}
+            width={1680}
             height={750}
             htmlAttributes={{
               media: "(min-width: 1280px)",
