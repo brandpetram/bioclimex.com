@@ -1,4 +1,6 @@
 import { Link } from "react-scroll";
+import { Fragment, useEffect } from "react";
+
 const navigation = [
   {
     name: "INICIO",
@@ -34,16 +36,24 @@ const navigation = [
 ];
 
 const Footer = (props) => {
+  useEffect(() => {
+    document.getElementById("link0").href = "#linkscroll"
+    document.getElementById("link1").href = "#linkscroll"
+    document.getElementById("link2").href = "#linkscroll"
+    document.getElementById("link3").href = "#linkscroll"
+    document.getElementById("link4").href = "#linkscroll"
+}, []);
   return (
     <div className="bg-white  text-gray-500 hover:text-gray-900 ">
       <div className="max-w-screen-xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
         <nav className="-mx-5 -my-2 flex flex-wrap justify-center ">
           
-        {navigation.map((item) => (
-           <div className="px-5 py-2">
+        {navigation.map((item, index) => (
+           <div className="px-5 py-2" key={index}>
                     <Link
                       to={item.link}
                       spy={true}
+                      id={"link"+index}
                       smooth={true}
                       offset={item.offset}
                       duration={1000}
