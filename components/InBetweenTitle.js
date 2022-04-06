@@ -4,7 +4,6 @@ import Link from "next/link";
 const InBetweenTitle = () => {
   return (
     <div className={"overflow-hidden"}>
-      <div className={"relative"}></div>
       <div className={"mx-5 lg:mx-10"}>
         <h2
           className={

@@ -11,7 +11,7 @@ const Cover = () => {
     <div className={"overflow-hidden"} id="inicio">
       <div className={"relative"}>
         <svg
-          className=" hidden lg:block lg:overflow-hidden absolute left-full transform -translate-x-full -translate-y-7"
+          className=" hidden lg:block lg:overflow-hidden absolute left-full transform -translate-x-full -translate-y-7 opacity-50"
           width="404"
           height="784"
           fill="none"
@@ -203,7 +203,7 @@ const Cover = () => {
       </div>
 
       <svg
-        className="hidden lg:block absolute right-full transform translate-x-1/2 -translate-y-44"
+        className="hidden lg:block absolute right-full transform translate-x-1/2 -translate-y-44 opacity-50"
         width="404"
         height="1400"
         fill="none"

@@ -6,7 +6,7 @@ const CardCta = () => {
         <div
     className="mt-10 lg:mt-0 lg:max-w-screen-lg  xl:max-w-screen-xl 3xl:max-w-screen-2xl 4xl:max-w-screen-3xl mx-auto"
   >
-    <span className="absolute transform 4xl:translate-x-40 -translate-y-20 mt-56">
+    <span className="absolute transform 4xl:translate-x-40 -translate-y-20 mt-56 opacity-50">
       <svg
         className="hidden lg:block"
         width="404"

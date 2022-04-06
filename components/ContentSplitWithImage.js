@@ -52,7 +52,7 @@ export default function ContentSplitWithImage() {
           </Picture>
         </div>
       </div>
-      <div className="relative pt-12 px-4 sm:pt-16 sm:px-6 lg:px-8 lg:max-w-7xl lg:mx-auto lg:grid lg:grid-cols-2">
+      <div className="relative pt-10 lg:max-w-7xl lg:mx-auto lg:grid lg:grid-cols-2">
         <div className="lg:col-start-2 lg:pl-8">
           <div className="text-lg max-w-prose mx-auto lg:max-w-lg lg:ml-auto lg:mr-0">
             <h2 className="leading-6 text-innovat-blue font-bold tracking-wide uppercase text-gray-400">

@@ -96,7 +96,7 @@ const EmblaCarousel = () => {
 
   return (
     <div className={"w-auto ml-3"}>
-      <h2 className=" md:w-3/4 xl:w-10/12 stroke font-bold text-gray-900 text-7xl md:text-9xl lg:text-18xl xl:text-24xl 3xl:text-20xl 4xl:text-32xl mx-4 leading-none md:leading-none xl:ml-10 tracking-tight">
+      <h2 className=" md:w-3/4 xl:w-10/12 stroke font-bold text-gray-900 text-7xl md:text-9xl lg:text-18xl xl:text-24xl 3xl:text-32xl mx-4 leading-none md:leading-none xl:ml-24 tracking-tight">
         ¿Qué espacios ventilamos y climatizamos?
       </h2>
       <div className="relative overflow-hidden">
@@ -105,7 +105,7 @@ const EmblaCarousel = () => {
             {slides.map((slide, index) => (
               <div
                 className={
-                  index === 0 ? "flex flex-col pl-4 md:pl-10" : "flex flex-col"
+                  index === 0 ? "flex flex-col pl-4 md:pl-24" : "flex flex-col"
                 }
                 key={slide.src}
               >

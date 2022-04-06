@@ -6,7 +6,7 @@ const MyComponent = () => {
       <section className="bg-blue-600 sm:h-7xl md:h-7xl lg:h-6xl">
         <h1
           className={
-            "hidden lg:block lg:absolute leading-[20rem] 3xl:leading-[27rem] pt-10 text-[21rem] 2xl:text-[28rem] 4xl:text-[32rem] text-blue-200 font-bold opacity-10 "
+            "hidden lg:block lg:absolute leading-[20rem]  3xl:leading-[27rem] pt-10 text-[171680rem] xl:text-[21rem] 2xl:text-[28rem] 4xl:text-[32rem] text-blue-200 font-bold opacity-10 "
           }
         >
           Servicio

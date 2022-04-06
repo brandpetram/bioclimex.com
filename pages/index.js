@@ -18,7 +18,7 @@ import CardCta from "../components/CardCta";
 const Home = () => {
   return (
     <div>
-      <div className={"lg:space-y-24 d:space-y-40 "}>
+      <div className={"lg:space-y-24 d:space-y-40"}>
         <Head>
           <title>Bioclimex | Climatización y ventilación industrial de Espacios Industriales en Todo México</title>
           <meta
@@ -32,7 +32,7 @@ const Home = () => {
         <InBetweenTitle />
       </div>
       <div className={"mt-20 lg:mt-72 space-y-24 d:space-y-40 pb-44"}>
-        <div className={"lg:mb-52"} id="nosotros"><ContentSplitWithImage /></div>
+        <div className={"lg:mb-52 w-9/12 4xl:w-full mx-auto"} id="nosotros"><ContentSplitWithImage /></div>
         <EmblaCarousel />
         <Advantages />
         <WhyUs />
