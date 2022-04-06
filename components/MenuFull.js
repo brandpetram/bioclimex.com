@@ -1,10 +1,17 @@
 /* This example requires Tailwind CSS v2.0+ */
-import { Fragment } from "react";
+import { Fragment, useEffect } from "react";
 import { Dialog, Transition } from "@headlessui/react";
 import { Link } from "react-scroll";
 import { XIcon } from "@heroicons/react/outline";
 
 const MenuFull = (props) => {
+  useEffect(() => {
+    document.getElementById("link0").href = "#linkscroll"
+    document.getElementById("link1").href = "#linkscroll"
+    document.getElementById("link2").href = "#linkscroll"
+    document.getElementById("link3").href = "#linkscroll"
+    document.getElementById("link4").href = "#linkscroll"
+}, []);
   return (
     <>
       <Transition.Root show={props.state} as={Fragment}>
@@ -62,6 +69,7 @@ const MenuFull = (props) => {
                             <Link
                               to={"inicio"}
                               spy={true}
+                              id={"link0"}
                               smooth={true}
                               offset={50}
                               duration={1000}
@@ -76,6 +84,7 @@ const MenuFull = (props) => {
                             <Link
                               to={"nosotros"}
                               spy={true}
+                              id={"link1"}
                               smooth={true}
                               offset={200}
                               duration={1000}
@@ -90,6 +99,7 @@ const MenuFull = (props) => {
                             <Link
                               to={"ventajas"}
                               spy={true}
+                              id={"link2"}
                               smooth={true}
                               offset={-30}
                               duration={1000}
@@ -104,6 +114,7 @@ const MenuFull = (props) => {
                             <Link
                               to={"manufactura"}
                               spy={true}
+                              id={"link3"}
                               smooth={true}
                               offset={200}
                               duration={1000}
@@ -117,6 +128,7 @@ const MenuFull = (props) => {
                             <Link
                               to={"preguntas"}
                               spy={true}
+                              id={"link4"}
                               smooth={true}
                               offset={-30}
                               duration={1000}

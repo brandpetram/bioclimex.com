@@ -47,6 +47,11 @@ const color_text = "text-gray-800";
 const HeaderWithFullWidthLayouts = (props) => {
   const [state, setstate] = useState(false);
   useEffect(() => {
+      document.getElementById("link0").href = "#linkscroll"
+      document.getElementById("link1").href = "#linkscroll"
+      document.getElementById("link2").href = "#linkscroll"
+      document.getElementById("link3").href = "#linkscroll"
+      document.getElementById("link4").href = "#linkscroll"
     setstate(true);
   }, []);
 
@@ -105,9 +110,10 @@ const HeaderWithFullWidthLayouts = (props) => {
               </div>
               <div className="w-full text-right">
                 <Popover.Group as="nav" className="space-x-5 relative lg:mt-2">
-                  {navigation.map((item) => (
+                  {navigation.map((item, index) => (
                     <Link
                       to={item.link}
+                      id={"link" + index}
                       spy={true}
                       smooth={true}
                       offset={item.offset}

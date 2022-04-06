@@ -92,7 +92,7 @@ lg:h-16"
           <p className="text-center text-base leading-6 text-gray-400">
             © 2020 Bioclimex SA de CV. Derechos Reservados
             <br />
-            <a>Aviso de privacidad</a>
+            <a href="/privacidad">Aviso de privacidad</a>
           </p>
         </div>
       </div>
