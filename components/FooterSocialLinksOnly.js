@@ -37,11 +37,11 @@ const navigation = [
 
 const Footer = (props) => {
   useEffect(() => {
-    document.getElementById("link0").href = "#linkscroll"
-    document.getElementById("link1").href = "#linkscroll"
-    document.getElementById("link2").href = "#linkscroll"
-    document.getElementById("link3").href = "#linkscroll"
-    document.getElementById("link4").href = "#linkscroll"
+    document.getElementById("linkScroll0").href = "#linkscroll"
+    document.getElementById("linkScroll1").href = "#linkscroll"
+    document.getElementById("linkScroll2").href = "#linkscroll"
+    document.getElementById("linkScroll3").href = "#linkscroll"
+    document.getElementById("linkScroll4").href = "#linkscroll"
 }, []);
   return (
     <div className="bg-white  text-gray-500 hover:text-gray-900 ">
@@ -53,7 +53,7 @@ const Footer = (props) => {
                     <Link
                       to={item.link}
                       spy={true}
-                      id={"link"+index}
+                      id={"linkScroll"+index}
                       smooth={true}
                       offset={item.offset}
                       duration={1000}
