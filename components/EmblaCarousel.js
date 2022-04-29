@@ -95,7 +95,7 @@ const EmblaCarousel = () => {
   }, [embla, onSelect]);
 
   return (
-    <div className={"w-auto ml-3"}>
+    <div className={"w-auto ml-3"} id="servicios">
       <h2 className=" md:w-3/4 xl:w-10/12 stroke font-bold text-gray-900 text-7xl md:text-9xl lg:text-18xl xl:text-24xl 3xl:text-32xl mx-4 leading-none md:leading-none xl:ml-24 tracking-tight">
         ¿Qué espacios ventilamos y climatizamos?
       </h2>

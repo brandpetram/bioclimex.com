@@ -1,19 +1,23 @@
 import React from "react";
-import Header from "./HeaderInterno";
+import HeaderSimpleBranded from "./HeaderSimpleBranded";
 import FooterSocialLinksOnly from "./FooterSocialLinksOnly";
-import HeroSplitWithNavBar from "./HeroSplitWithNavBarInterno"
-
 const Layout = ({ children }) => {
   return (
-    <div>
-      <div className="hidden absolute lg:block w-full mx-auto z-99" style={{zIndex:999}}>
-        <Header  />
+    <div className="overflow-hidden">
+      <div className="z-50 ">
+        <HeaderSimpleBranded />
       </div>
-      <div className="lg:hidden mb-16">
-        <HeroSplitWithNavBar/>
+      <div className="z-0 relative lg:mt-40">
+        {children}
       </div>
-      <div className="">
-      {children}
+      <div>
+        <a href="https://api.whatsapp.com/send/?phone=525520838489&text=Hola%2C+estoy+en+bioclimex.mx+y+me+interesa+cotizar">
+          <img
+            className="w-12 h-12 md:w-16 md:h-16 mb-3 mr-3 z-50 bottom-0 right-0 fixed"
+            src="/whatsapp.svg"
+            alt=""
+          />
+        </a>
       </div>
       <FooterSocialLinksOnly />
     </div>

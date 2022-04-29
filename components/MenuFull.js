@@ -1,17 +1,62 @@
 /* This example requires Tailwind CSS v2.0+ */
-import { Fragment, useEffect } from "react";
+import { Fragment, useState, useEffect } from "react";
 import { Dialog, Transition } from "@headlessui/react";
 import { Link } from "react-scroll";
-import { XIcon } from "@heroicons/react/outline";
+import { MenuIcon } from "@heroicons/react/outline";
+import { Popover } from "@headlessui/react";
+
+const navigation = [
+  {
+    name: "INICIO",
+    link: "inicio",
+    hidden: 1,
+    offset: -500,
+    mobileOffset: 420,
+  },
+  {
+    name: "NOSOTROS",
+    link: "nosotros",
+    hidden: 1,
+    offset: 20,
+    mobileOffset: 70,
+  },
+  {
+    name: "VENTAJAS",
+    link: "ventajas",
+    hidden: 1,
+    offset: -20,
+    mobileOffset: -20,
+  },
+  {
+    name: "MANUFACTURA",
+    link: "manufactura",
+    offset: 250,
+    mobileOffset: -10,
+  },
+  {
+    name: "SERVICIOS ",
+    link: "servicios",
+    offset: 10,
+    mobileOffset: -10,
+  },
+
+  {
+    name: "PREGUNTAS",
+    link: "preguntas",
+    offset: -20,
+    mobileOffset: -10,
+  },
+];
 
 const MenuFull = (props) => {
+  const [state, setstate] = useState(false);
+
   useEffect(() => {
-    document.getElementById("link0").href = "#linkscroll"
-    document.getElementById("link1").href = "#linkscroll"
-    document.getElementById("link2").href = "#linkscroll"
-    document.getElementById("link3").href = "#linkscroll"
-    document.getElementById("link4").href = "#linkscroll"
-}, []);
+    if (window.location.pathname == "/") {
+      setstate(true);
+    }
+  }, []);
+
   return (
     <>
       <Transition.Root show={props.state} as={Fragment}>
@@ -33,26 +78,31 @@ const MenuFull = (props) => {
                 leaveFrom="opacity-100"
                 leaveTo="opacity-0"
               >
-                <div className="w-screen max-w-md">
-                  <div className="h-full flex flex-col py-6 bg-white shadow-xl overflow-y-scroll">
+                <div className="w-screen ">
+                  <div className="h-full flex flex-col py-6 bg-blue-900 shadow-xl overflow-y-scroll">
                     <div className="px-4 sm:px-6">
                       <div className="flex items-start justify-between">
                         <Dialog.Title className="text-lg font-medium text-gray-900">
                           {" "}
-                          <img
-                            className="h-8 w-auto"
-                            src="/logo.svg"
-                            alt="Workflow"
-                          />
+                          <a href="/">
+                            <img
+                              className="h-auto w-auto"
+                              src="/logo.svg"
+                              alt="Logo bse"
+                            />
+                          </a>
                         </Dialog.Title>
                         <div className="ml-3 h-7 flex items-center">
                           <button
                             type="button"
-                            className="rounded-md text-gray-800 hover:text-gray-900 focus:outline-none"
+                            className=" text-white "
                             onClick={() => props.ChangeState(false)}
                           >
                             <span className="sr-only">Close panel</span>
-                            <XIcon className="h-6 w-6" aria-hidden="true" />
+                            <MenuIcon
+                              className="h-10 w-10"
+                              aria-hidden="true"
+                            />
                           </button>
                         </div>
                       </div>
@@ -61,100 +111,59 @@ const MenuFull = (props) => {
                       {/* Replace with your content */}
                       <div className="absolute inset-0 px-4 sm:px-6">
                         <div className="h-full" aria-hidden="true">
-                          
-                          <nav
-                            className="grid gap-y-8 divide-y-2"
-                            id="estatico"
-                          >
-                            <Link
-                              to={"inicio"}
-                              spy={true}
-                              id={"link0"}
-                              smooth={true}
-                              offset={50}
-                              duration={1000}
-                              className="-m-3 p-3 flex items-center hover:bg-gray-50"
-                              onClick={() => props.ChangeState(false)}
-                            >
-                              <span className="ml-3 text-base font-medium text-gray-800">
-                                Inicio
-                              </span>
-                            </Link>
-
-                            <Link
-                              to={"nosotros"}
-                              spy={true}
-                              id={"link1"}
-                              smooth={true}
-                              offset={200}
-                              duration={1000}
-                              className="-m-3 p-3 flex items-center hover:bg-gray-50"
-                              onClick={() => props.ChangeState(false)}
-                            >
-                              <span className="ml-3 text-base font-medium text-gray-800">
-                                Nosotros
-                              </span>
-                            </Link>
-
-                            <Link
-                              to={"ventajas"}
-                              spy={true}
-                              id={"link2"}
-                              smooth={true}
-                              offset={-30}
-                              duration={1000}
-                              className="-m-3 p-3 flex items-center hover:bg-gray-50"
-                              onClick={() => props.ChangeState(false)}
-                            >
-                              <span className="ml-3 text-base font-medium text-gray-800">
-                                Ventajas
-                              </span>
-                            </Link>
-
-                            <Link
-                              to={"manufactura"}
-                              spy={true}
-                              id={"link3"}
-                              smooth={true}
-                              offset={200}
-                              duration={1000}
-                              className="-m-3 p-3 flex items-center hover:bg-gray-50"
-                              onClick={() => props.ChangeState(false)}
-                            >
-                              <span className="ml-3 text-base font-medium text-gray-800">
-                                Manufactura
-                              </span>
-                            </Link>
-                            <Link
-                              to={"preguntas"}
-                              spy={true}
-                              id={"link4"}
-                              smooth={true}
-                              offset={-30}
-                              duration={1000}
-                              className="-m-3 p-3 flex items-center hover:bg-gray-50"
-                              onClick={() => props.ChangeState(false)}
-                            >
-                              <span className="ml-3 text-base font-medium text-gray-800">
-                                Preguntas
-                              </span>
-                            </Link>
+                          <nav className="grid gap-y-5 text-white text-lg pt-6">
+                            {navigation.map((item, index) =>
+                              state ? (
+                                <Link
+                                  to={item.link}
+                                  id={"link" + index}
+                                  spy={true}
+                                  smooth={true}
+                                  offset={item.offset}
+                                  duration={1000}
+                                  key={item.name}
+                                  onClick={() => props.ChangeState(false)}
+                                  >
+                                  {item.name}
+                                </Link>
+                              ) : (
+                                <a
+                                  href={"/#" + item.link}
+                                  id={"link" + index}
+                                  key={item.name}
+                                >
+                                  {item.name}
+                                </a>
+                              )
+                            )}
                             <a
+                              className="grid gap-y-5 text-white text-lg "
                               href="/climatizacion-industrial"
-                              className="-m-3 p-3 flex items-center hover:bg-gray-50 "
                             >
-                              <span className="ml-3 text-base font-medium text-gray-800 ">
-                                Industrial
-                              </span>
+                              INDUSTRIAL
+                            </a>
+                            <a
+                              className="grid gap-y-5 text-white text-lg"
+                              href="/contacto"
+                            >
+                              CONTACTO
                             </a>
                           </nav>
-
-                          <div className={"py-6 space-y-6"}>
+                          <div className="w-full h-2 border-t border-dashed mt-8"></div>
+                          <div className="pt-4  h-[30vh] text-white">
+                            <h1 className="font-bold text-xl">Wellmedic</h1>
+                            <div className="mt-4 font-extralight text-lg space-y-3 flex flex-col">
+                              <a href="tel:8116467617"> (81) 1646 7617</a>
+                              <a href="tel:8117682209">(81) 1768 2209</a>
+                              <a href="tel:8117682210">(81) 1768 2210</a>
+                            </div>
                             <a
-                              href="/contacto"
-                              className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-blue-500 hover:bg-blue-600"
+                              target="_blank"
+                              href="http://wa.me/5218121086523?text=Hola%20estoy%20en%20bse.mx%20y%20me%20interesa%20conocer%20más%20sobre%20los%20procedimientos%20bariátricos"
                             >
-                              Contacto
+                              <button className="w-full p-3 bg-green-600 my-10">
+                                Enviar WhatsApp
+                              </button>
                             </a>
                           </div>
                         </div>

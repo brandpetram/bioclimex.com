@@ -1,18 +1,14 @@
 import React from "react";
-import Header from "./Header";
+import HeaderSimpleBranded from "./HeaderSimpleBranded";
 import FooterSocialLinksOnly from "./FooterSocialLinksOnly";
-import HeroSplitWithNavBar from "./HeroSplitWithNavBar"
 const Layout = ({ children }) => {
   return (
-    <div className="overflow-hidden">
-      <div className="hidden absolute lg:block w-full mx-auto z-99" style={{zIndex:999}}>
-        <Header  />
+    <div >
+      <div className="z-50 overflow-hidden">
+        <HeaderSimpleBranded />
       </div>
-      <div className="lg:hidden">
-        <HeroSplitWithNavBar/>
-      </div>
-      <div className="">
-      {children}
+      <div className="z-0 relative ">
+        {children}
       </div>
       <div>
         <a href="https://api.whatsapp.com/send/?phone=525520838489&text=Hola%2C+estoy+en+bioclimex.mx+y+me+interesa+cotizar">
