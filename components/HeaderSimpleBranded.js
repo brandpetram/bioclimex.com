@@ -168,7 +168,7 @@ export default function HeaderSimpleBranded() {
                 alt=""
               />
             </a>
-            <div className="w-7/12 2xl:w-6/12 3xl:w-4/12 4xl:w-full text-right">
+            <div className="w-full text-right">
               <Popover.Group as="nav" className="space-x-5 relative lg:mt-2">
                 {navigation.map((item, index) =>
                   state ? (

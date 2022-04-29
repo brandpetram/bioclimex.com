@@ -7,7 +7,7 @@ const slides = [
   {
     src: "https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-20.jpg",
     alt: "epsilon template",
-    href: "#",
+    href: "/servicios/bypass-gastrico",
     title: "Restaurantes / comida rápida",
     desc: "Ventilación y climatización en restaurantes de comida rápida",
   },
@@ -103,18 +103,19 @@ const EmblaCarousel = () => {
         <div className="w-auto pt-5 overflow-hidden" ref={viewportRef}>
           <div className="flex w-full space-x-5">
             {slides.map((slide, index) => (
-              <div
+              <a
                 className={
                   index === 0 ? "flex flex-col pl-4 md:pl-24" : "flex flex-col"
                 }
                 key={slide.src}
+                href={slide.href}
               >
                 <div
                   className={
                     "w-72 lg:w-96 xl:w-[25rem] 2xl:w-120 3xl:w-110 4xl:w-[34rem] 5xl:w-148"
                   }
                 >
-                  <figure className="relative">
+                  <figure className="relative overflow-hidden group cursor-pointer">
                     <Imgix
                       width={800}
                       src={slide.src}
@@ -126,9 +127,26 @@ const EmblaCarousel = () => {
                         "fp-x": slide.fpx,
                         "fp-y": slide.fpx,
                         "fp-z": slide.fpx,
-                        q: "30"
+                        q: "30",
                       }}
                     />
+                    <span className="transition-all duration-300 opacity-75 translate-y-[80vh] group-hover:translate-y-0 bg-blend-overlay	bg-blue-600 absolute inset-0"></span>
+                    <svg
+                      width="36"
+                      height="26"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      className={"absolute bottom-12 left-8 -translate-x-40 group-hover:translate-x-0 transition-all duration-300"}
+                    >
+                      <path
+                        d="M.75 11.082h29.708v3.833H.75v-3.832z"
+                        fill="#fff"
+                      />
+                      <path
+                        d="m22.217 25.842-2.684-2.684L29.693 13 19.532 2.842 22.217.158 35.057 13l-12.84 12.842z"
+                        fill="#fff"
+                      />
+                    </svg>
                   </figure>
                 </div>
                 <h1
@@ -141,7 +159,7 @@ const EmblaCarousel = () => {
                 <p className={"leading-none text-sm text-gray-600"}>
                   {slide.desc}
                 </p>
-              </div>
+              </a>
             ))}
           </div>
         </div>
