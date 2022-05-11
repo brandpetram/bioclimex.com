@@ -109,7 +109,7 @@ const EmblaCarousel = () => {
                   index === 0 ? "flex flex-col pl-4 md:pl-24" : "flex flex-col"
                 }
                 key={slide.srcEmbla}
-                href={slide.href}
+                href={slide.href ? slide.href : "#"}
               >
                 <div
                   className={
