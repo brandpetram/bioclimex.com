@@ -2,6 +2,7 @@ import React, { useState, useEffect, useCallback } from "react";
 import { PrevButton, NextButton } from "./EmblaCarouselButtons";
 import useEmblaCarousel from "embla-carousel-react";
 import Imgix from "react-imgix";
+import soluciones from "../data/soluciones.json";
 
 const slides = [
   {
@@ -102,12 +103,12 @@ const EmblaCarousel = () => {
       <div className="relative overflow-hidden">
         <div className="w-auto pt-5 overflow-hidden" ref={viewportRef}>
           <div className="flex w-full space-x-5">
-            {slides.map((slide, index) => (
+            {soluciones.map((slide, index) => (
               <a
                 className={
                   index === 0 ? "flex flex-col pl-4 md:pl-24" : "flex flex-col"
                 }
-                key={slide.src}
+                key={slide.srcEmbla}
                 href={slide.href}
               >
                 <div
@@ -115,10 +116,10 @@ const EmblaCarousel = () => {
                     "w-72 lg:w-96 xl:w-[25rem] 2xl:w-120 3xl:w-110 4xl:w-[34rem] 5xl:w-148"
                   }
                 >
-                  <figure className="relative overflow-hidden group cursor-pointer">
+                  <figure className={slide.href ? "relative overflow-hidden group cursor-pointer" : "relative overflow-hidden group"}>
                     <Imgix
                       width={800}
-                      src={slide.src}
+                      src={slide.srcEmbla}
                       alt={slide.desc}
                       htmlAttributes={{ alt: slide.desc }}
                       imgixParams={{
@@ -130,7 +131,8 @@ const EmblaCarousel = () => {
                         q: "30",
                       }}
                     />
-                    <span className="transition-all duration-300 opacity-75 translate-y-[80vh] group-hover:translate-y-0 bg-blend-overlay	bg-blue-600 absolute inset-0"></span>
+                    {slide.href ? 
+                    <><span className="transition-all duration-300 opacity-75 translate-y-[80vh] group-hover:translate-y-0 bg-blend-overlay	bg-blue-600 absolute inset-0"></span>
                     <svg
                       width="36"
                       height="26"
@@ -146,7 +148,8 @@ const EmblaCarousel = () => {
                         d="m22.217 25.842-2.684-2.684L29.693 13 19.532 2.842 22.217.158 35.057 13l-12.84 12.842z"
                         fill="#fff"
                       />
-                    </svg>
+                    </svg></>
+                    : ""}
                   </figure>
                 </div>
                 <h1

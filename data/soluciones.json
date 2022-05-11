@@ -1,14 +1,14 @@
 [
-
   {
-    "id": "bypass-gastrico",
-    "name": "Bypass Gástrico",
-    "longName": "Bypass Gástrico",
-    "video" : "https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fbsemex%2Fvideos%2F1229778614176802%2F&show_text=false&width=560&t=0",
-    "description": "Los expertos en Bypass Gástrico en Monterrey y todo México",
-    "longDescription": "El Bypass Gástrico es también conocido como el estándar de oro de los procedimiento bariátricos por los excelentes resultados que brinda en el tratamiento de la obesidad excesiva",
+    "id": "climatizacion-industria-automotriz",
+    "name": "Name",
+    "longName": "LongName",
+    "video": "",
+    "description": "Description",
+    "longDescription": "Long description",
     "icon": "/emblema.svg",
     "src": "https://brandpetram.imgix.net/bse.mx/antes-y-despues-cirugia-bariatra-en-monterrey-14.jpeg",
+    "alt": "",
     "fpx": ".5",
     "fpy": "1",
     "fpz": "1",
@@ -17,15 +17,6 @@
         "title": "Un procedimiento con 50 años de experiencia y mejora continua",
         "text": "El estómago humano tiene una capacidad promedio de 2 litros, sin embargo esta capacidad se puede ampliar o reducir según los hábitos alimenticios de cada persona, el Bypass Gástrico, también llamada Cirugía de Derivación Gástrica, cuenta ya con 50 años de empezar a ser aplicada a las personas y ahora se te ofrece a ti en un procedimiento laparoscópico mínimamente invasivo.\n"
       },
-
-      {
-        "title": "¿En qué consiste exactamente el Bypass Gástrico?",
-        "text": "El Bypass Gástrico es también conocido como el estándar de oro de los procedimiento bariátricos por los excelentes resultados que brinda en el tratamiento de la obesidad excesiva. Es un procedimiento que reduce la capacidad del estómago, creándole un pequeño reservorio gástrico (“pouch”) de 40 mililitros, donde posteriormente se creará un “puente” (o sea, el bypass gástrico) que le permitirá al alimento pasar de forma más directa al intestino delgado, dándole así a tu cuerpo la oportunidad de finalmente funcionar al 100% de su capacidad."
-      },
-      {
-        "title": " ¿Cuáles son los beneficios que obtienes con este procedimiento?",
-        "text": "El Bypass Gástrico reduce tu capacidad de ingesta, con lo cual se logra que tu organismo reciba sólo el alimento que necesita, esto SIN QUE SIENTAS HAMBRE, debido principalmente a que tu cuerpo deja de producir en exceso la hormona del apetito, la grelina, al sentir que tu estómago se llena más rápido."
-      },
       {
         "image": "https://brandpetram.imgix.net/bse.mx/hombre-delgado-feliz-despues-de-cirugia-bariatra-en-monterrey-0.jpeg",
         "alt": "Construyendo una estación de medición y regulación en México",
@@ -33,14 +24,6 @@
       },
       {
         "text": "Otros beneficios adicionales que se han demostrado que acompañan a este procedimiento son que tu metabolismo quemará las calorías que recibe de manera más acelerada y que incluso no sólo logra acabar con la obesidad mórbida de las personas, sino que también hace lo mismo con aquellas enfermedades que se desarrollan a su sombra, como por ejemplo la diabetes mellitus tipo 2, siendo comunes los casos en los que se vuelve innecesaria la medicación."
-      },
-      {
-        "title": "¿Este procedimiento dónde lo llevan a cabo?",
-        "text": "Este procedimiento lo proyectamos con absoluta seriedad y lo realizamos en nuestro centro de cirugía avanzada, ubicado en Monterrey, Nuevo León, bajo las más estrictas medidas de seguridad, su abordaje tiene lugar de manera mínimamente invasiva y una vez hecho el procedimiento nos aseguramos que los tiempos de recuperación posoperatoria sean reducidos, con lo cual logramos resultados óptimos. Además, anteriormente el Bypass Gástrico se hacía de una manera invasiva que implicaba la manipulación y el corte del estómago y el intestino delgado, pero por fortuna ahora nuestro equipo multidisciplinario es capaz de realizar este procedimiento de manera laparoscópica, esto significa que se realiza mediante unas pocas incisiones en el abdomen, lo cual tiene múltiples beneficios en cuanto a tiempo de recuperación postoperatoria."
-      },
-      {
-        "title": "¿Sólo recomiendan este procedimiento para combatir la obesidad en exceso?",
-        "text": "También recomendamos ampliamente este procedimiento a nuestras pacientes que buscan recuperar su salud y planean un embarazo, es una excelente opción ya que es 100% compatible con el periodo de gestación, te sugerimos ver nuestros testimonios."
       },
       {
         "title": "¿Qué ofrecemos en nuestro paquete de Bypass Gástrico por Laparoscopia?"
@@ -68,42 +51,42 @@
         ]
       }
     ],
-    "textos": [{}]
+    "textos": [{}],
+    "srcEmbla": "https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-20.jpg",
+    "altEmbla": "",
+    "href": "/servicios/climatizacion-industria-automotriz",
+    "title": "Restaurantes / comida rápida",
+    "desc": "Ventilación y climatización en restaurantes de comida rápida"
   },
+
   {
-    "id": "banda-gastrica-ajustable",
-    "name": "Banda Gástrica Ajustable",
-    "longName": "Banda Gástrica Ajustable",
-    "description": "La Banda Gástrica Ajustable es una de las cirugías bariátricas más realizadas en Monterrey y en todo México",
-    "longDescription": "Por su facilidad, excelentes resultados y menor inversión económica, esta cirugía es una de las preferidas por los pacientes con problemas de sobrepeso.",
+    "id": "",
+    "name": "Name",
+    "longName": "LongName",
+    "video": "",
+    "description": "Description",
+    "longDescription": "Long description",
     "icon": "/emblema.svg",
-    "src": "https://brandpetram.imgix.net/bse.mx/mujer-delgada-feliz-despues-de-cirugia-bariatra-en-monterrey-5.jpeg",
+    "src": "https://brandpetram.imgix.net/bse.mx/antes-y-despues-cirugia-bariatra-en-monterrey-14.jpeg",
+    "alt": "",
     "fpx": ".5",
     "fpy": "1",
     "fpz": "1",
     "texts": [
       {
-        "title": "¿En qué consiste?",
-        "text": "Es la colocación de un dispositivo (la Lap-Band) en el tercio superior del estómago, con lo que se crea un pequeño reservorio gástrico por arriba de la banda cuyo tamaño varía según el paciente, permitiendo que la cantidad de alimento que ingresa al estómago se reduzca así, logrando que el paciente quede satisfecho de forma más rápida y durante más tiempo."
+        "title": "Un procedimiento con 50 años de experiencia y mejora continua",
+        "text": "El estómago humano tiene una capacidad promedio de 2 litros, sin embargo esta capacidad se puede ampliar o reducir según los hábitos alimenticios de cada persona, el Bypass Gástrico, también llamada Cirugía de Derivación Gástrica, cuenta ya con 50 años de empezar a ser aplicada a las personas y ahora se te ofrece a ti en un procedimiento laparoscópico mínimamente invasivo.\n"
       },
       {
-        "title": "¿Cuáles son los beneficios que puedo obtener con la Banda Gástrica Ajustable?",
-        "text": "Este procedimiento se realiza por vía laparoscópica, es decir, mediante varias incisiones pequeñas en el abdomen, lo cual tiene la ventaja de que reduce enormemente el dolor y los días de recuperación postoperatoria, por lo cual el paciente puede retomar su vida cotidiana en menos tiempo mientras que su estómago va a ir recuperando su forma natural a la vez que los beneficios del procedimiento se van volviendo, notando éste una mejora progresiva en su calidad de vida. El retiro de la banda gástrica ajustable es igualmente reversible a través de otro procedimiento quirúrgico."
+        "image": "https://brandpetram.imgix.net/bse.mx/hombre-delgado-feliz-despues-de-cirugia-bariatra-en-monterrey-0.jpeg",
+        "alt": "Construyendo una estación de medición y regulación en México",
+        "aspectRatio": "1:1.3"
       },
       {
-        "title": "¿Cómo llevan a cabo este procedimiento?",
-        "text": "Para ello empleamos el LAP-BAND SYSTEM (www.lapband.com) la primera banda gástrica ajustable aprobada por la U.S. FDA (United States Food and Drugs Administration) y actualmente la mejor banda disponible en el mercado. Procuramos mantener la integridad del tubo digestivo en todo momento y, aunque tu banda es para toda la vida, en el momento que tú desees la podemos retirar para permitir que tu estómago quede como en un inicio."
-      },
-      
-      {
-        "title": "¿Cuándo recomiendan la realización de este procedimiento?",
-        "text": "Nosotros lo recomendamos para el tratamiento de aquellas obesidades que no hayan cedido ante regímenes alimenticios o de ejercicio que se encuentran en un IMC (índice de masa corporal) de 40 o un poco más alto, siendo también adecuado para quienes su IMC es 35 si se considera que su condición encierra algún riesgo o situación incapacitantes."
+        "text": "Otros beneficios adicionales que se han demostrado que acompañan a este procedimiento son que tu metabolismo quemará las calorías que recibe de manera más acelerada y que incluso no sólo logra acabar con la obesidad mórbida de las personas, sino que también hace lo mismo con aquellas enfermedades que se desarrollan a su sombra, como por ejemplo la diabetes mellitus tipo 2, siendo comunes los casos en los que se vuelve innecesaria la medicación."
       },
       {
-        "text": "Al igual que el resto de nuestras cirugías es 100% compatible con el embarazo."
-      },
-      {
-        "title": "¿Qué ofrecemos en nuestro paquete de Banda Gástrica Ajustable?"
+        "title": "¿Qué ofrecemos en nuestro paquete de Bypass Gástrico por Laparoscopia?"
       },
       {
         "lista": [
@@ -128,42 +111,41 @@
         ]
       }
     ],
-    "textos": [{}]
+    "textos": [{}],
+    "srcEmbla": "https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-15.jpg",
+    "altEmbla": "",
+    "href": null,
+    "title": "Cafés",
+    "desc": "Ventilación y climatización en cafés"
   },
   {
-    "id": "centro-de-ajustes",
-    "name": " Centro de Ajustes",
-    "longName": "Centro de Ajustes",
-    "description": "Centro de Ajustes en Monterrey",
-    "longDescription": "¿Ya cuentas con una banda gástrica y no has logrado los objetivos que te ofrecieron cuando se te realizó el procedimiento? Contáctanos y permite que te apoyemos a sacar todo el provecho a tu cirugía, tenemos una tasa de éxito con banda gástrica de más del 99%.",
+    "id": "",
+    "name": "Name",
+    "longName": "LongName",
+    "video": "",
+    "description": "Description",
+    "longDescription": "Long description",
     "icon": "/emblema.svg",
-    "src": "https://brandpetram.imgix.net/bse.mx/mujer-delgada-feliz-despues-de-cirugia-bariatra-en-monterrey-3.jpeg",
+    "src": "https://brandpetram.imgix.net/bse.mx/antes-y-despues-cirugia-bariatra-en-monterrey-14.jpeg",
+    "alt": "",
     "fpx": ".5",
     "fpy": "1",
     "fpz": "1",
     "texts": [
       {
-        "title": "¿En qué consiste un ajuste?",
-        "text": "El dispositivo de la Banda Gástrica Ajustable es un dispositivo neumático (la LAP-Band) puesto en el tercio superior del estómago con el propósito de crear un reservorio gástrico en la parte de arriba de la banda. El propósito de esto es que la ingesta del paciente se reduzca, pues menos alimento ingresa al estómago, haciéndote sentir satisfecho más pronto y durante más tiempo. Sin embargo, el procedimiento de la Banda Gástrica Ajustable no tiene una presión ni una tamaño estandarizado, pues estas medidas varían de paciente en paciente, lo cual implica que, si no se hace su cálculo de manera correcta, los resultados no serán los que se te prometieron al inicio."
+        "title": "Un procedimiento con 50 años de experiencia y mejora continua",
+        "text": "El estómago humano tiene una capacidad promedio de 2 litros, sin embargo esta capacidad se puede ampliar o reducir según los hábitos alimenticios de cada persona, el Bypass Gástrico, también llamada Cirugía de Derivación Gástrica, cuenta ya con 50 años de empezar a ser aplicada a las personas y ahora se te ofrece a ti en un procedimiento laparoscópico mínimamente invasivo.\n"
       },
       {
-        "title": "¿Cuándo recomiendan la realización de este procedimiento?",
-        "text": "Nosotros recomendamos la Banda Gástrica Ajustable para el tratamiento de obesidades que no ceden ante regímenes alimenticios o de ejercicio que se encuentran en un IMC de 40 o un poco más alto o bien de 35 en adelante si se considera que ese IMC es un riesgo para tu salud."
-      },
-      {
-        "text": "Esta opción tiene grandes niveles de éxito, sin embargo, el procedimiento tiene que ser ejecutado de manera correcta pues de lo contrario los beneficios tardarán más tiempo en observarse, o simplemente no serán observados en absoluto. Por si fuera poco, el que los beneficios de la Banda Gástrica Ajustable se manifiesten de manera progresiva hace que una mala ejecución tarde en observarse."
-      },
-      {
-        "title": "¿Cómo llevan a cabo este procedimiento?",
-        "text": "Primero se hacen los estudios necesarios para revisar cuáles son las medidas correspondientes a tu caso, luego se realiza la procedimiento de ajuste, revisando en todo momento que se llegue a feliz término para que los beneficios prometidos por fin tengan lugar. El mantener la integridad del tubo digestivo en todo momento es nuestra prioridad y si, a pesar de que tu banda es para toda la vida, deseas que te la retiremos, así será para permitir que tu estómago sea liberado de la banda."
-      },
-      {
-        "image": "https://brandpetram.imgix.net/bse.mx/mujer-delgada-feliz-despues-de-cirugia-bariatra-en-monterrey-8.jpeg",
+        "image": "https://brandpetram.imgix.net/bse.mx/hombre-delgado-feliz-despues-de-cirugia-bariatra-en-monterrey-0.jpeg",
         "alt": "Construyendo una estación de medición y regulación en México",
         "aspectRatio": "1:1.3"
       },
       {
-        "title": "¿Qué ofrecemos en nuestro paquete del Centro de Ajustes?"
+        "text": "Otros beneficios adicionales que se han demostrado que acompañan a este procedimiento son que tu metabolismo quemará las calorías que recibe de manera más acelerada y que incluso no sólo logra acabar con la obesidad mórbida de las personas, sino que también hace lo mismo con aquellas enfermedades que se desarrollan a su sombra, como por ejemplo la diabetes mellitus tipo 2, siendo comunes los casos en los que se vuelve innecesaria la medicación."
+      },
+      {
+        "title": "¿Qué ofrecemos en nuestro paquete de Bypass Gástrico por Laparoscopia?"
       },
       {
         "lista": [
@@ -188,270 +170,41 @@
         ]
       }
     ],
-    "textos": [{}]
+    "textos": [{}],
+    "srcEmbla": "https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-18.jpg",
+    "altEmbla": "",
+    "href": null,
+    "title": "Procesos de manufactura",
+    "desc": "Ventilación y climatización en procesos de manufactura"
   },
   {
-    "id": "cirugia-de-revision",
-    "name": "Cirugía de Revisión",
-    "longName": "Cirugía de Revisión",
-    "description": "Disponible en Monterrey",
-    "longDescription": "La cirugía bariátrica es considerada la medida más efectiva para bajar de peso; sin embargo, se dan algunos casos en los que los pacientes no logran los resultados esperados, por lo que resulta conveniente someterse a una cirugía de revisión. Conoce más sobre este tema aquí.",
+    "id": "",
+    "name": "Name",
+    "longName": "LongName",
+    "video": "",
+    "description": "Description",
+    "longDescription": "Long description",
     "icon": "/emblema.svg",
-    "src": "https://brandpetram.imgix.net/bse.mx/mujer-delgada-feliz-despues-de-cirugia-bariatra-en-monterrey-14.jpeg",
+    "src": "https://brandpetram.imgix.net/bse.mx/antes-y-despues-cirugia-bariatra-en-monterrey-19.jpeg",
+    "alt": "",
     "fpx": ".5",
     "fpy": "1",
     "fpz": "1",
     "texts": [
       {
-        "title": "Por que la cirugía de revisión",
-        "text": "Si bien el índice de fracasos  en una cirugía bariátrica es mínimo, es posible que suceda. Los pacientes que han sufrido complicaciones o efectos secundarios negativos; como consecuencia de una cirugía bariátrica deficiente, mal indicada o no adecuadamente vigilada, pueden requerir procedimientos secundarios para corregir los errores de una primera intervención. En Bariatric Surgery Experts somos especialistas en Cirugías de Revisión para estos casos."
+        "title": "Un procedimiento con 50 años de experiencia y mejora continua",
+        "text": "El estómago humano tiene una capacidad promedio de 2 litros, sin embargo esta capacidad se puede ampliar o reducir según los hábitos alimenticios de cada persona, el Bypass Gástrico, también llamada Cirugía de Derivación Gástrica, cuenta ya con 50 años de empezar a ser aplicada a las personas y ahora se te ofrece a ti en un procedimiento laparoscópico mínimamente invasivo.\n"
       },
       {
-        "title": "¿Por qué se producen fallos?",
-        "text": "Los motivos son numerosos y pueden ir desde la inexperiencia del equipo multidisciplinario la falta de apego del paciente a su tratamiento, hasta comorbilidades que permanecen después de la intervención. Estos problemas están generalmente asociados con factores de fallas metabólicas. Los casos con resultados insatisfactorios requieren de un enfoque diferente, más parecidos a los de los fallos por dificultades metabólicas, que requieren de la conversión de la cirugía bariátrica un tipo de operación para bajar de peso más activa.",
-        "second": "La cirugía bariátrica puede fallar por razones metabólicas o mecánicas del procedimiento inicial, por lo que hay que tener muy presente que el objetivo que se persigue es perder y, posteriormente, mantener el peso ideal. Una cirugía de revisión es una técnica efectiva que le permitirá volver a tener un cuerpo saludable y proporcionado."
-      },
-      {
-        "title": "¿Cuándo recomiendan someterse a una Cirugía de Revisión?",
-        "text": "Nosotros recomendamos la realización de un procedimiento de este tipo en el caso de que hayas sido sometido a un procedimiento bariátrico y haya efectos indeseados o no sientas que estás recibiendo el tratamiento adecuado o simplemente porque no percibes las mejorías que se te ofrecieron en un inicio. Hay casos en los que las mejorías atribuibles a un procedimiento de este tipo tardan en manifestarse, pero si después de un periodo razonable de espera existe la manifiesta ausencia de resultados, entonces sí recomendamos este procedimiento, más si hay complicaciones de cualquier índole."
-      },
-      {
-        "image": "https://brandpetram.imgix.net/bse.mx/cirugia-bariatra-en-monterrey-6.jpeg",
+        "image": "https://brandpetram.imgix.net/bse.mx/hombre-delgado-feliz-despues-de-cirugia-bariatra-en-monterrey-0.jpeg",
         "alt": "Construyendo una estación de medición y regulación en México",
         "aspectRatio": "1:1.3"
       },
       {
-        "title": "¿Cómo llevamos a cabo una Cirugía de Revisión?",
-        "text": "Tras realizar un diagnóstico completo de tu caso, lo cual incluye tu situación inicial, qué se propuso originalmente, el procedimiento al cual fuiste sometido, qué resultados se consiguieron o si hubo alguno en absoluto o si, de darse el caso, como resultado de la intervención adviertes alguna disrupción en tu estado general de salud o si los estudios realizados exponen alguna situación, entonces estaremos convencidos de que requieres una Cirugía de Revisión, misma que se te será hecha en nuestro Hospital de la ciudad de Monterrey, Nuevo León, que está certificado como Centro de Excelencia en Cirugía Bariátrica por la Surgical Review Corporation de Estados Unidos  bajo, las más estrictas normas de seguridad e higiene por nuestros médicos y personal que también cuentan con certificaciones para realizar procedimientos de tipo bariátrico."
+        "text": "Otros beneficios adicionales que se han demostrado que acompañan a este procedimiento son que tu metabolismo quemará las calorías que recibe de manera más acelerada y que incluso no sólo logra acabar con la obesidad mórbida de las personas, sino que también hace lo mismo con aquellas enfermedades que se desarrollan a su sombra, como por ejemplo la diabetes mellitus tipo 2, siendo comunes los casos en los que se vuelve innecesaria la medicación."
       },
       {
-        "title": "¿Qué ofrecemos en nuestro paquete de Cirugía de Revisión?"
-      },
-      {
-        "lista": [
-          {
-            "item": "Cirujanos certificados con la más alta especialización y extensa práctica médica."
-          },
-          {
-            "item": "Equipo multidisciplinario conformado por: médico internista, anestesiólogo, nutriólogas, psiquiatra, psicóloga, cardiólogo, especialista en trastorno del sueño, neumólogo, gastroenterólogo, rehabilitación, fitness y wellness coach."
-          },
-          {
-            "item": "Hospital con certificación de Centro de Excelencia en Cirugía Metabólica y Bariátrica."
-          },
-          {
-            "item": "Atención médica especializada en cirugía bariátrica, obesidad y metabólica."
-          },
-          {
-            "item": "Materiales e Infraestructura de clase mundial"
-          },
-          {
-            "item": "Equipo de expertos multidiciplinario"
-          }
-        ]
-      }
-    ],
-    "textos": [{}]
-  },
-  {
-    "id": "allurion-balon-gastrico",
-    "name": "Allurión Balón Gástrico",
-    "longName": "Allurión Balón Gástrico",
-    "video" : "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fbsemex%2Fvideos%2F597061768321368%2F&show_text=false&width=667&t=0",
-    "description": "Allurión Balón Gástrico disponible en Monterrey",
-    "longDescription": "Pierde peso sintiéndote lleno. Toma el control de tu peso y de tu vida con el Balón Allurion y su Programa de Adelgazamiento.",
-    "icon": "/emblema.svg",
-    "src": "https://brandpetram.imgix.net/bse.mx/mujer-delgada-feliz-despues-de-cirugia-bariatra-en-monterrey-1.jpeg",
-    "fpx": ".5",
-    "fpy": "1",
-    "fpz": "1",
-    "texts": [
-      {
-        "text": "¿En qué consiste el Allurión Balón Gástrico?",
-        "second": "Si tienes sobre peso y has intentado de todo, gracias a la tecnología tienes una opción más segura y comprobada para poder bajar de peso de una vez por todas. El Programa Allurión apoya la pérdida continua de peso durante 6 meses y combina un método probado para el control de peso con un programa de ayuda para cambiar hábitos dañinos por otros que mejoren tu vida.\n"
-      },
-      {
-        "lista": [
-          {
-            "item": "A state-of-the-art gastric pill balloon, previously known as 'Elipse'"
-          },
-          {
-            "item": "The Allurion Connected Scale and Health Tracker, connected to the Allurion Mobile App to track and support your achievements"
-          },
-          {
-            "item": "A team of experts to support your personalised nutrition and lifestyle plan"
-          }
-        ]
-      }
-    ],
-    "textos": [{}]
-  },
-  {
-    "id": "sleeve-manga-gastrica",
-    "name": "Manga Gástrica (Sleeve)",
-    "longName": "Manga Gástrica (Sleeve)",
-    "description": "Manga Gástrica (Sleeve)",
-    "longDescription": "La Manga Gástrica es uno de los procedimientos más recientes dentro de la cirugía bariátrica. La manga gástrica ha mostrado extraordinarios resultados, totalmente aprobada para su utilización como procedimiento único por la ASMBS (American Society for Metabolic and Bariatric Surgery) y la IFSO (International Federation for the Surgery of the Obesity and Metabolic Disorders).",
-    "icon": "/emblema.svg",
-    "src": "https://brandpetram.imgix.net/bse.mx/mujer-delgada-feliz-despues-de-cirugia-bariatra-en-monterrey-2.jpeg",
-    "fpx": ".5",
-    "fpy": "1",
-    "fpz": "1",
-    "texts": [
-      {
-        "title" : "¿En qué consiste?",
-        "text": "El propósito de este procedimiento es reducir el tamaño del estómago hasta en un 85% aproximadamente, dejándolo con forma tubular y 250 ml de capacidad, contra los 2000 ml de capacidad que tiene un estómago normal; disminuyendo la ingesta de calorías del paciente permitiendo que el paciente quede satisfecho con cantidades pequeñas de alimento y pueda permanecer así por un periodo mayor; además, éste no sufrirá HAMBRE debido a que la Manga Gástrica limita la producción de grelina, la hormona del hambre."
-      },
-      {
-        "title" : "¿Cuándo se recomienda?",
-        "text": "Nosotros recomendamos la Manga Gástrica a pacientes que cuenten con una algún grado de obesidad que puede ser leve, de un Índice de Masa Corporal (IMC) de alrededor de 30, hasta muy severa, con un IMC superior a 40, siendo éstos últimos los candidatos idóneos para este procedimiento. Por lo que, si tienes un sobrepeso de más de 40 kilos, este sería el adecuado para ti. También es posible que seas candidato a la Manga Gástrica si padeces alguna enfermedad asociada al sobrepeso: apnea del sueño, presión alta, síndrome metabólico, si tu IMC es de alrededor de 30, aunque esto lo debe determinar alguno de nuestros médicos certificados."
-      },
-      {
-        "title" : "¿Qué beneficios ofrece la Manga Gástrica?",
-        "text": "Tiene entre sus ventajas que mantiene el flujo del tubo digestivo,pues no precisa de uniones entre intestinos; además no se presentará la malabsorción a nivel intestinal, es también técnicamente más sencillo que el Bypass"
-      },
-      {
-        "text": "Gástrico y no se coloca ningún cuerpo extraño y si bien es un procedimiento primordialmente restrictivo, tiene muchos beneficios metabólicos para los pacientes. Por último, desarrollamos una técnica quirúrgica que se sustenta primordialmente en tu seguridad durante la cirugía."
-      },
-      {
-        "title" : "¿De qué manera se lleva a cabo el procedimiento?",
-        "text" : "Este procedimiento también recibe el nombre de “gastrectomía vertical” y recibe el nombre de “manga” porque ésa es la forma a la que se asemeja el estómago una vez que el procedimiento ha concluido, el cual consiste en el retiro de hasta el 80% del estómago. Por ello es que nos enfocamos tanto en que sea segura para ti."
-      },
-      {
-        "image": "https://brandpetram.imgix.net/bse.mx/cirugia-bariatra-en-monterrey-9.jpeg",
-        "alt": "Construyendo una estación de medición y regulación en México",
-        "aspectRatio": "1:1.3"
-      },
-      {
-        "title": " ¿Qué ofrecemos en nuestro paquete de Manga Gástrica (Sleeve) por Laparoscopia?"
-      },
-      {
-        "lista": [
-          {
-            "item": "Cirujano con la más alta especialización y experiencia."
-          },
-          {
-            "item": "Atención Personalizada en todo momento."
-          },
-          {
-            "item": "Equipo multidisciplinario que consta de Médico internista-Cardiólogo, Neumólogo, Anestesiólogos, Gastroenterólogo, Apoyo psicológico, Rehabilitación, Nutrición clínica."
-          },
-          {
-            "item": "Todos los honorarios del equipo multidisciplinario"
-          },
-          {
-            "item": "Hospital certificado y con los últimos avances en equipo y materiales"
-          },
-          {
-            "item": "Materiales de la más alta calidad (Covidien MR, Ethicon endosurgery MR)"
-          },
-          {
-            "item": "Atención telefónica y presencial las 24 hrs"
-          },
-          {
-            "item": "La mejor experiencia en atención médica en todo momento"
-          },
-          {
-            "item": "Técnica quirúrgica que nos ha mantenido con estadística en nuestros pacientes de fugas de línea de grapas menor al 0.1%"
-          }
-        ]
-      }
-    ],
-    "textos": [{}]
-  },
-  {
-    "id": "cirugia-metabolica",
-    "name": "Cirugía Metabólica",
-    "longName": "Cirugía Metabólica ",
-    "description": "Cirugía Metabólica",
-    "longDescription": "La cirugía metabólica es un procedimiento que se lleva a cabo en aquellos pacientes que sufren de Diabetes Mellitus tipo 2.",
-    "icon": "/emblema.svg",
-    "src": "https://brandpetram.imgix.net/bse.mx/persona-delgada-ejecitandose-despues-de-una-cirugia-bariatra-en-monterrey-29.jpeg",
-    "fpx": ".5",
-    "fpy": "1",
-    "fpz": "1",
-    "texts": [
-      {
-        "title": "¿Qué es una cirugía metabólica?",
-        "text": "También llamada “cirugía para la diabetes”, es un procedimiento que tiene un mecanismo similar al Bypass Gástrico, en el cual se lleva a cabo un cambio en la anatomía del tubo digestivo, el cual induce un mejor control glucémico y metabólico del paciente, dicho efecto permite que una persona con obesidad pueda por fin llegar a una talla saludable. Por esto es que, tras la realización de la cirugía metabólica, se puede lograr hasta un 95% en la remisión de la diabetes."
-      },
-      {
-        "title": "¿Cuándo se recomienda?",
-        "text": "Sobre todo lo recomendamos en pacientes con obesidad de leve a severa, esto es, que tengan un Índice de Masa Corporal (IMC) ubicada dentro del rango de 30 a 40, pero sobre todo el paciente debe padecer diabetes Mellitus tipo II con niveles de glucemia (azúcar en sangre) fuera control a pesar de que el tratamiento médico que recibe y la disciplina con que el paciente asume su prescripción en lo relacionado con la medicación, la dieta y el ejercicio sean considerados adecuados. Si tú te encuentras en esta situación eres sin duda candidato a este procedimiento."
-      },
-      {
-        "title": "¿De qué manera se lleva a cabo?",
-        "text": "El procedimiento, que tiene una duración de aprox. de hora y media cuando es realizado por equipos multidisciplinarios certificados,  tiene lugar mediante una laparoscopía poco invasivas guiadas por video, la laparoscopía consiste en pequeñas incisiones en la piel del abdomen, a través de las cuales se puede ingresar a la cavidad abdominal con el propósito de trabajar en la restricción del aparato digestivo."
-      },
-      {
-        "image": "https://brandpetram.imgix.net/bse.mx/cirugia-bariatra-en-monterrey-15.jpeg",
-        "alt": "Construyendo una estación de medición y regulación en México",
-        "aspectRatio": "1:1.3"
-      },
-      {
-        "title": "¿Cuáles son sus beneficios?",
-        "text": "Además de los ya mencionados en cuanto a control de peso, el ayudar a controlar la diabetes Mellitus tipo 2 es de la mayor importancia, este padecimiento está íntimamente ligado al sobrepeso y, cuando no se encuentra bajo control, puede desencadenar males más graves como la insuficiencia renal, lesiones en los nervios periféricos, una gama de enfermedades de tipo cardiovascular y ceguera, entre otras. Se debe recalcar que una remisión en la diabetes puede significar el cese de la medicación del paciente, por lo que los beneficios por el mejoramiento de la calidad de vida del paciente son notables."
-      },
-      { "title": "¿Qué ofrecemos en nuestro paquete de cirugía metabólica?" },
-      {
-        "lista": [
-          {
-            "item": "Cirujanos certificados con la más alta especialización y extensa práctica médica."
-          },
-          {
-            "item": "Equipo multidisciplinario conformado por: médico internista, anestesiólogo, nutriólogas, psiquiatra, psicóloga, cardiólogo, especialista en trastorno del sueño, neumólogo, gastroenterólogo, rehabilitación, fitness y wellness coach."
-          },
-          {
-            "item": "Hospital con certificación de Centro de Excelencia en Cirugía Metabólica y Bariátrica."
-          },
-          {
-            "item": "Seguimiento personalizado en todo momento."
-          },
-          {
-            "item": "Materiales de la más alta calidad (Covidien MR, Ethicon endosurgery MR)."
-          },
-          {
-            "item": "Atención telefónica y presencial las 24 hrs."
-          }
-        ]
-      }
-    ],
-    "textos": [{}]
-  },
-  {
-    "id": "balon-intragastrico",
-    "name": "Balon intragástrico ",
-    "longName": "Balón intragástrico",
-    "description": "Balón intragástrico",
-    "longDescription": "Gana el control de tu peso y de tu vida con el procedimiento del balón intragástrico y su plan de pérdida de peso.",
-    "icon": "/emblema.svg",
-    "src": "https://brandpetram.imgix.net/bse.mx/antes-y-despues-cirugia-bariatra-en-monterrey-4.jpeg",
-    "fpx": ".5",
-    "fpy": "1",
-    "fpz": "1",
-    "texts": [
-      {
-        "title": "¿En qué consiste el Balón intragástrico ?",
-        "text": "Es la ubicación de un balón de silicón relleno de una solución salina en el interior del estómago de un paciente. Con esto se limita la cantidad de alimento que se puede ingerir, de manera que el paciente se llega a sentir satisfecho más pronto y dura más tiempo así. Es un procedimiento de vanguardia que data de 2009 y era anteriormente conocido como “Elipse”, cuenta además con el apoyo de un programa que registra actividades físicas y el rastreo del estado de salud de los pacientes."
-      },
-      {
-        "title" : "¿Cuáles son los beneficios del Balón Intragástrico?",
-        "text" : "Puede ser una opción si tu peso y estado de salud te generan inquietud y si has pasado por diversos planes de alimentación, ejercicio o híbridos que no te han dado resultados. Si bien el Balón Intragástrico es una gran ayuda para obtener resultados, igualmente se requiere un compromiso para que estos cambios saludables sean permanentes."
-      },
-      {
-        "title" : "¿Cuándo recomiendan el procedimiento del Balón intragástrico?",
-        "text" : "Este procedimiento puede ser el adecuado para ti si tu índice de masa corporal (IMC) se encuentra entre 30 y 40 y no te han intervenido quirúrgicamente en el estómago o en el esófago y quieres introducir cambios hacia un estilo de vida más saludable. Sin embargo, no recomendamos el balón intragástrico para todas las personas con algún grado de sobrepeso. Será alguno de nuestros médicos certificados quien determine si el Balón Intragástrico es el procedimiento correcto para ti."
-      },
-      {
-        "image": "https://brandpetram.imgix.net/bse.mx/cirugia-bariatra-en-monterrey-10.jpeg",
-        "alt": "Construyendo una estación de medición y regulación en México",
-        "aspectRatio": "1:1.3"
-      },
-      {
-        "title" : "¿Cómo se introduce el Balón Intragástrico en mi estómago?",
-        "text" : "Primero nuestro personal certificado verifica que tu estómago no cuente con alguna anomalía que haga imposible la realización del procedimiento, tras comprobarse que el procedimiento es viable, se pasa a la preparación, durante la cual se te dará un sedante. Una de las mejores cosas del Balón Intragástrico es que no serás sometido a ninguna cirugía. La colocación de balón es totalmente por vía endoscópica, esto es, que el balón llegará a tu estómago por medio de una sonda, un tubo pequeño y flexible llamado endoscopio, que no sólo colocará el balón en tu estómago, sino que también lo rellenará con solución salina, y una vez que lo termine de llenar y lo selle, se retirará."
-      },
-      {
-        "title": "¿Qué ofrecemos en nuestro paquete de Balón Gástrico?"
+        "title": "¿Qué ofrecemos en nuestro paquete de Bypass Gástrico por Laparoscopia?"
       },
       {
         "lista": [
@@ -476,149 +229,41 @@
         ]
       }
     ],
-    "textos": [{}]
+    "textos": [{}],
+    "srcEmbla": "https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-19.jpg",
+    "altEmbla": "",
+    "href": null,
+    "title": "Gimnasios y Canchas Techadas",
+    "desc": "Ventilación y climatización en gimasions"
   },
   {
-    "id": "endoscopia-digestiva",
-    "name": "Endoscopía digestiva",
-    "longName": "Endoscopía digestiva",
-    "description": "Endoscopía digestiva.",
-    "longDescription": "Contamos con la más amplia experiencia en el abordaje endoscópico diagnóstico y terapéutico.",
+    "id": "",
+    "name": "Name",
+    "longName": "LongName",
+    "video": "",
+    "description": "Description",
+    "longDescription": "Long description",
     "icon": "/emblema.svg",
-    "src": "https://brandpetram.imgix.net/bse.mx/persona-delgada-ejecitandose-despues-de-una-cirugia-bariatra-en-monterrey-4.jpeg",
+    "src": "https://brandpetram.imgix.net/bse.mx/antes-y-despues-cirugia-bariatra-en-monterrey-14.jpeg",
+    "alt": "",
     "fpx": ".5",
     "fpy": "1",
     "fpz": "1",
     "texts": [
       {
-        "title": "¿Qué es una Endoscopía Digestiva?",
-        "text": "También conocida como gastroscopia, es un procedimiento de diagnóstico o de tratamiento para padecimientos del aparato digestivo en su parte superior, esto es: duodeno, esófago y estómago. Consiste en la introducción de una sonda, formada por un pequeño tubo flexible y que es llamado “endoscopio”, que se introduce en la boca del paciente y que es capaz de llegar al intestino y permite a la persona que opera la sonda observar en un monitor lo que capta la cámara. Igualmente a la sonda se le pueden instalar un número de herramientas que sirven para cumplir con diferentes tareas, por ejemplo la extirpación de pólipos, la realización de biopsias, la cauterización de tejidos que sangran, entre varios otras posibilidades."
+        "title": "Un procedimiento con 50 años de experiencia y mejora continua",
+        "text": "El estómago humano tiene una capacidad promedio de 2 litros, sin embargo esta capacidad se puede ampliar o reducir según los hábitos alimenticios de cada persona, el Bypass Gástrico, también llamada Cirugía de Derivación Gástrica, cuenta ya con 50 años de empezar a ser aplicada a las personas y ahora se te ofrece a ti en un procedimiento laparoscópico mínimamente invasivo.\n"
       },
       {
-        "title": "¿Qué procedimientos de endoscopías digestivas podemos hacer?",
-        "text": "En nuestro Hospital de Monterrey, Nuevo León contamos con lo necesario para poder realizar las siguientes endoscopías digestivas:"
-      },
-      {
-        "lista": [
-          {
-            "item": "Panendoscopia"
-          },
-          {
-            "item": " Endoscopia bariátrica (Colocación y retiro de balón intragástrico)."
-          },
-          {
-            "item": "Colangiopancreatografía Retrógrada Endoscópica."
-          },
-          {
-            "item": "Enteroscopia."
-          },
-          {
-            "item": "Cápsula Endoscópica."
-          },
-          {
-            "item": "Colonoscopia."
-          },
-          {
-            "item": "Colocación de prótesis en esófago, intestino delgado y biliares."
-          },
-          {
-            "item": "Manometría esofágica."
-          },
-          {
-            "item": "pH-metría esofágica."
-          }
-        ]
-      },
-      {
-        "title": "¿Cuándo es recomendable recurrir a una endoscopía digestiva?",
-        "text": "Se recomienda principalmente para la realización de exploraciones al existir la sospecha de la existencia de una lesión o algún mal en el aparato digestivo, principalmente es importante en el papel para la detección y tratamiento de males, como fístulas, pólipos y otros la colonoscopía en particular es importante porque permite la detección del cáncer del colon."
-      },
-      {
-        "title": "¿De qué manera se lleva a cabo?",
-        "text": "Primero debe tomarse en cuenta que este tipo de procedimientos es normalmente indolororo, aunque en ciertas condiciones requiere la aplicación de una anestesia local o la aplicación de sedantes por vía intravenosa. Tampoco requiere una gran preparación y en general suele ser ambulatoria y tener duraciones de apenas unos cuantos minutos."
-      },
-      {
-        "image": "https://brandpetram.imgix.net/bse.mx/cirugia-bariatra-en-monterrey-19.jpeg",
+        "image": "https://brandpetram.imgix.net/bse.mx/hombre-delgado-feliz-despues-de-cirugia-bariatra-en-monterrey-0.jpeg",
         "alt": "Construyendo una estación de medición y regulación en México",
         "aspectRatio": "1:1.3"
       },
       {
-        "title": "¿Cuáles son los beneficios de este procedimiento?",
-        "text": "Gracias a esta familia de procedimientos es posible actualmente el diagnóstico y el tratamiento de padecimientos que antes requerían de manera forzosa una intervención quirúrgica, dado que permite la visualización directa de las lesiones en el interior de los órganos, lo cual representa un ahorro enorme en tiempo y recursos, el paciente entra por su propio pie y sale igualmente caminando tras la realización de una endoscopia digestiva, a diferencia de todo lo que implica la preparación, desarrollo y cuidados de un procedimiento quirúrgico."
+        "text": "Otros beneficios adicionales que se han demostrado que acompañan a este procedimiento son que tu metabolismo quemará las calorías que recibe de manera más acelerada y que incluso no sólo logra acabar con la obesidad mórbida de las personas, sino que también hace lo mismo con aquellas enfermedades que se desarrollan a su sombra, como por ejemplo la diabetes mellitus tipo 2, siendo comunes los casos en los que se vuelve innecesaria la medicación."
       },
       {
-        "title": " ¿Qué ofrecemos en nuestro paquete de Manga Gástrica (Sleeve) por Laparoscopia?"
-      },
-      {
-        "lista": [
-          {
-            "item": "Cirujano con la más alta especialización y experiencia."
-          },
-          {
-            "item": "Atención Personalizada en todo momento."
-          },
-          {
-            "item": "Equipo multidisciplinario que consta de Médico internista-Cardiólogo, Neumólogo, Anestesiólogos, Gastroenterólogo, Apoyo psicológico, Rehabilitación, Nutrición clínica."
-          },
-          {
-            "item": "Todos los honorarios del equipo multidisciplinario"
-          },
-          {
-            "item": "Hospital certificado y con los últimos avances en equipo y materiales"
-          },
-          {
-            "item": "Materiales de la más alta calidad (Covidien MR, Ethicon endosurgery MR)"
-          },
-          {
-            "item": "Atención telefónica y presencial las 24 hrs"
-          },
-          {
-            "item": "La mejor experiencia en atención médica en todo momento"
-          },
-          {
-            "item": "Técnica quirúrgica que nos ha mantenido con estadística en nuestros pacientes de fugas de línea de grapas menor al 0.1%"
-          }
-        ]
-      }
-    ],
-    "textos": [{}]
-  },
-  {
-    "id": "bariclip",
-    "name": "BariClip",
-    "longName": "BariClip",
-    "video" : "https://www.facebook.com/plugins/video.php?height=376&href=https%3A%2F%2Fwww.facebook.com%2Fbsemex%2Fvideos%2F542777116935095%2F&show_text=false&width=467&t=0",
-    "description": "BariClip disponible en Monterrey, México",
-    "longDescription": "Conoce la nueva opción de cirugía bariátrica reversible, ambulatoria y menos invasiva.",
-    "icon": "/emblema.svg",
-    "src": "https://brandpetram.imgix.net/bse.mx/mujer-delgada-feliz-despues-de-cirugia-bariatra-en-monterrey-7.jpeg",
-    "fpx": ".5",
-    "fpy": "1",
-    "fpz": "1",
-    "texts": [
-      {
-        "title": "¿Qué es un BariClip?",
-        "text": "Es un dispositivo de titanio con revestimiento de silicona que se introduce por vía laparoscópica con mínima invasión y que se coloca verticalmente alrededor del estómago. Es una solución permanente con la que sentirás menos hambre y tendrás sensación de saciedad con el 30% de la cantidad de  alimento que normalmente consumes. Si bien es un procedimiento con carácter de permanente, puede ser revertido mediante otro que es igualmente de tipo laparoscópico."
-      },
-      {
-        "title": "¿Qué beneficios tiene el BariClip?",
-        "text": "Es un procedimiento para el tratamiento de la obesidad aún menos invasiva que otros de su clase, en específico la de aquellas personas que no han logrado reducir su peso a pesar de haber sido sometidas a diferentes regímenes alimenticios, de ejercicio e híbridos, unido al hecho de que reproduce los beneficios que se obtienen con la manga gástrica pero sin los riesgos de fugas y la minimización de la ocurrencia de otros eventos indeseables como el reflujo postoperatorio, esto es debido a que la presión intragástrica es mucho menor. La pérdida de peso puede llegar a ser de alrededor del 60% en determinados casos, los cuales normalmente se obtienen con procedimientos muy invasivos como la gastrectomía."
-      },
-      {
-        "image": "https://brandpetram.imgix.net/bse.mx/cirugia-bariatra-en-monterrey-11.jpeg",
-        "alt": "Construyendo una estación de medición y regulación en México",
-        "aspectRatio": "1:1.3"
-      },
-      {
-        "title": "¿Cuándo recomiendan la aplicación del BariClip?",
-        "text": "Nosotros recomendamos este procedimiento en personas que tienen IMC de 29 en adelante, lo cual no es propiamente obesidad sino sobrepeso, pero hay que considerar que hay personas que por razones particulares comienzan a sufrir de varias de las dolencias y los malestares propios de la obesidad. Además, el procedimiento rectifica el estómago y no permite que el ácido refluya, esto lo vuelve idóneo para tratar el reflujo gastroesofágico y padecimientos similares."
-      },
-      {
-        "title": "¿Cómo se lleva a cabo el procedimiento del BariClip?",
-        "text": "Tiene lugar mediante un procedimiento laparoscópico, esto significa que se realizan varias pequeñas incisiones en el abdomen para que, a través de ellas, se haga la colocación del dispositivo en el estómago. Es un procedimiento seguro para el cual se requiere que el cirujano a cargo y todo su personal esté certificado para su ejecución, igualmente este mismo cirujano certificado es quien puede determinar si el BariClip es adecuado para la situación del paciente o es pertinente algún otro procedimiento."
-      },
-      {
-        "title": "¿Qué ofrecemos en nuestro paquete de BariClip?"
+        "title": "¿Qué ofrecemos en nuestro paquete de Bypass Gástrico por Laparoscopia?"
       },
       {
         "lista": [
@@ -643,6 +288,247 @@
         ]
       }
     ],
-    "textos": [{}]
+    "textos": [{}],
+    "srcEmbla": "https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-23.jpg",
+    "altEmbla": "",
+    "href": null,
+    "title": "Tiendas de conveniencia",
+    "desc": "Ventilación y climatización en tiendas de conveniencia"
+  },
+  {
+    "id": "",
+    "name": "Name",
+    "longName": "LongName",
+    "video": "",
+    "description": "Description",
+    "longDescription": "Long description",
+    "icon": "/emblema.svg",
+    "src": "https://brandpetram.imgix.net/bse.mx/antes-y-despues-cirugia-bariatra-en-monterrey-14.jpeg",
+    "alt": "",
+    "fpx": ".5",
+    "fpy": "1",
+    "fpz": "1",
+    "texts": [
+      {
+        "title": "Un procedimiento con 50 años de experiencia y mejora continua",
+        "text": "El estómago humano tiene una capacidad promedio de 2 litros, sin embargo esta capacidad se puede ampliar o reducir según los hábitos alimenticios de cada persona, el Bypass Gástrico, también llamada Cirugía de Derivación Gástrica, cuenta ya con 50 años de empezar a ser aplicada a las personas y ahora se te ofrece a ti en un procedimiento laparoscópico mínimamente invasivo.\n"
+      },
+      {
+        "image": "https://brandpetram.imgix.net/bse.mx/hombre-delgado-feliz-despues-de-cirugia-bariatra-en-monterrey-0.jpeg",
+        "alt": "Construyendo una estación de medición y regulación en México",
+        "aspectRatio": "1:1.3"
+      },
+      {
+        "text": "Otros beneficios adicionales que se han demostrado que acompañan a este procedimiento son que tu metabolismo quemará las calorías que recibe de manera más acelerada y que incluso no sólo logra acabar con la obesidad mórbida de las personas, sino que también hace lo mismo con aquellas enfermedades que se desarrollan a su sombra, como por ejemplo la diabetes mellitus tipo 2, siendo comunes los casos en los que se vuelve innecesaria la medicación."
+      },
+      {
+        "title": "¿Qué ofrecemos en nuestro paquete de Bypass Gástrico por Laparoscopia?"
+      },
+      {
+        "lista": [
+          {
+            "item": "Cirujanos certificados con la más alta especialización y extensa práctica médica."
+          },
+          {
+            "item": "Equipo multidisciplinario conformado por: médico internista, anestesiólogo, nutriólogas, psiquiatra, psicóloga, cardiólogo, especialista en trastorno del sueño, neumólogo, gastroenterólogo, rehabilitación, fitness y wellness coach."
+          },
+          {
+            "item": "Hospital con certificación de Centro de Excelencia en Cirugía Metabólica y Bariátrica."
+          },
+          {
+            "item": "Seguimiento personalizado en todo momento."
+          },
+          {
+            "item": "Materiales de la más alta calidad (Covidien MR, Ethicon endosurgery MR)."
+          },
+          {
+            "item": "Atención telefónica y presencial las 24 hrs."
+          }
+        ]
+      }
+    ],
+    "textos": [{}],
+    "srcEmbla": "https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-17.jpg",
+    "altEmbla": "",
+    "href": null,
+    "title": "Parques industriales",
+    "desc": "Ventilación y climatización en parques industriales"
+  },
+  {
+    "id": "",
+    "name": "Name",
+    "longName": "LongName",
+    "video": "",
+    "description": "Description",
+    "longDescription": "Long description",
+    "icon": "/emblema.svg",
+    "src": "https://brandpetram.imgix.net/bse.mx/antes-y-despues-cirugia-bariatra-en-monterrey-14.jpeg",
+    "alt": "",
+    "fpx": ".5",
+    "fpy": "1",
+    "fpz": "1",
+    "texts": [
+      {
+        "title": "Un procedimiento con 50 años de experiencia y mejora continua",
+        "text": "El estómago humano tiene una capacidad promedio de 2 litros, sin embargo esta capacidad se puede ampliar o reducir según los hábitos alimenticios de cada persona, el Bypass Gástrico, también llamada Cirugía de Derivación Gástrica, cuenta ya con 50 años de empezar a ser aplicada a las personas y ahora se te ofrece a ti en un procedimiento laparoscópico mínimamente invasivo.\n"
+      },
+      {
+        "image": "https://brandpetram.imgix.net/bse.mx/hombre-delgado-feliz-despues-de-cirugia-bariatra-en-monterrey-0.jpeg",
+        "alt": "Construyendo una estación de medición y regulación en México",
+        "aspectRatio": "1:1.3"
+      },
+      {
+        "text": "Otros beneficios adicionales que se han demostrado que acompañan a este procedimiento son que tu metabolismo quemará las calorías que recibe de manera más acelerada y que incluso no sólo logra acabar con la obesidad mórbida de las personas, sino que también hace lo mismo con aquellas enfermedades que se desarrollan a su sombra, como por ejemplo la diabetes mellitus tipo 2, siendo comunes los casos en los que se vuelve innecesaria la medicación."
+      },
+      {
+        "title": "¿Qué ofrecemos en nuestro paquete de Bypass Gástrico por Laparoscopia?"
+      },
+      {
+        "lista": [
+          {
+            "item": "Cirujanos certificados con la más alta especialización y extensa práctica médica."
+          },
+          {
+            "item": "Equipo multidisciplinario conformado por: médico internista, anestesiólogo, nutriólogas, psiquiatra, psicóloga, cardiólogo, especialista en trastorno del sueño, neumólogo, gastroenterólogo, rehabilitación, fitness y wellness coach."
+          },
+          {
+            "item": "Hospital con certificación de Centro de Excelencia en Cirugía Metabólica y Bariátrica."
+          },
+          {
+            "item": "Seguimiento personalizado en todo momento."
+          },
+          {
+            "item": "Materiales de la más alta calidad (Covidien MR, Ethicon endosurgery MR)."
+          },
+          {
+            "item": "Atención telefónica y presencial las 24 hrs."
+          }
+        ]
+      }
+    ],
+    "textos": [{}],
+    "srcEmbla": "https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-21.jpg",
+    "altEmbla": "",
+    "href": null,
+    "title": "Supermercados",
+    "desc": "Ventilación y climatización en supermercados"
+  },
+  {
+    "id": "",
+    "name": "Name",
+    "longName": "LongName",
+    "video": "",
+    "description": "Description",
+    "longDescription": "Long description",
+    "icon": "/emblema.svg",
+    "src": "https://brandpetram.imgix.net/bse.mx/antes-y-despues-cirugia-bariatra-en-monterrey-14.jpeg",
+    "alt": "",
+    "fpx": ".5",
+    "fpy": "1",
+    "fpz": "1",
+    "texts": [
+      {
+        "title": "Un procedimiento con 50 años de experiencia y mejora continua",
+        "text": "El estómago humano tiene una capacidad promedio de 2 litros, sin embargo esta capacidad se puede ampliar o reducir según los hábitos alimenticios de cada persona, el Bypass Gástrico, también llamada Cirugía de Derivación Gástrica, cuenta ya con 50 años de empezar a ser aplicada a las personas y ahora se te ofrece a ti en un procedimiento laparoscópico mínimamente invasivo.\n"
+      },
+      {
+        "image": "https://brandpetram.imgix.net/bse.mx/hombre-delgado-feliz-despues-de-cirugia-bariatra-en-monterrey-0.jpeg",
+        "alt": "Construyendo una estación de medición y regulación en México",
+        "aspectRatio": "1:1.3"
+      },
+      {
+        "text": "Otros beneficios adicionales que se han demostrado que acompañan a este procedimiento son que tu metabolismo quemará las calorías que recibe de manera más acelerada y que incluso no sólo logra acabar con la obesidad mórbida de las personas, sino que también hace lo mismo con aquellas enfermedades que se desarrollan a su sombra, como por ejemplo la diabetes mellitus tipo 2, siendo comunes los casos en los que se vuelve innecesaria la medicación."
+      },
+      {
+        "title": "¿Qué ofrecemos en nuestro paquete de Bypass Gástrico por Laparoscopia?"
+      },
+      {
+        "lista": [
+          {
+            "item": "Cirujanos certificados con la más alta especialización y extensa práctica médica."
+          },
+          {
+            "item": "Equipo multidisciplinario conformado por: médico internista, anestesiólogo, nutriólogas, psiquiatra, psicóloga, cardiólogo, especialista en trastorno del sueño, neumólogo, gastroenterólogo, rehabilitación, fitness y wellness coach."
+          },
+          {
+            "item": "Hospital con certificación de Centro de Excelencia en Cirugía Metabólica y Bariátrica."
+          },
+          {
+            "item": "Seguimiento personalizado en todo momento."
+          },
+          {
+            "item": "Materiales de la más alta calidad (Covidien MR, Ethicon endosurgery MR)."
+          },
+          {
+            "item": "Atención telefónica y presencial las 24 hrs."
+          }
+        ]
+      }
+    ],
+    "textos": [{}],
+    "srcEmbla": "https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-16.jpg",
+    "altEmbla": "",
+    "href": null,
+    "title": "Naves industriales",
+    "desc": "Ventilación y climatización en naves industriales"
+  },
+  {
+    "id": "",
+    "name": "Name",
+    "longName": "LongName",
+    "video": "",
+    "description": "Description",
+    "longDescription": "Long description",
+    "icon": "/emblema.svg",
+    "src": "https://brandpetram.imgix.net/bse.mx/antes-y-despues-cirugia-bariatra-en-monterrey-14.jpeg",
+    "alt": "",
+    "fpx": ".5",
+    "fpy": "1",
+    "fpz": "1",
+    "texts": [
+      {
+        "title": "Un procedimiento con 50 años de experiencia y mejora continua",
+        "text": "El estómago humano tiene una capacidad promedio de 2 litros, sin embargo esta capacidad se puede ampliar o reducir según los hábitos alimenticios de cada persona, el Bypass Gástrico, también llamada Cirugía de Derivación Gástrica, cuenta ya con 50 años de empezar a ser aplicada a las personas y ahora se te ofrece a ti en un procedimiento laparoscópico mínimamente invasivo.\n"
+      },
+      {
+        "image": "https://brandpetram.imgix.net/bse.mx/hombre-delgado-feliz-despues-de-cirugia-bariatra-en-monterrey-0.jpeg",
+        "alt": "Construyendo una estación de medición y regulación en México",
+        "aspectRatio": "1:1.3"
+      },
+      {
+        "text": "Otros beneficios adicionales que se han demostrado que acompañan a este procedimiento son que tu metabolismo quemará las calorías que recibe de manera más acelerada y que incluso no sólo logra acabar con la obesidad mórbida de las personas, sino que también hace lo mismo con aquellas enfermedades que se desarrollan a su sombra, como por ejemplo la diabetes mellitus tipo 2, siendo comunes los casos en los que se vuelve innecesaria la medicación."
+      },
+      {
+        "title": "¿Qué ofrecemos en nuestro paquete de Bypass Gástrico por Laparoscopia?"
+      },
+      {
+        "lista": [
+          {
+            "item": "Cirujanos certificados con la más alta especialización y extensa práctica médica."
+          },
+          {
+            "item": "Equipo multidisciplinario conformado por: médico internista, anestesiólogo, nutriólogas, psiquiatra, psicóloga, cardiólogo, especialista en trastorno del sueño, neumólogo, gastroenterólogo, rehabilitación, fitness y wellness coach."
+          },
+          {
+            "item": "Hospital con certificación de Centro de Excelencia en Cirugía Metabólica y Bariátrica."
+          },
+          {
+            "item": "Seguimiento personalizado en todo momento."
+          },
+          {
+            "item": "Materiales de la más alta calidad (Covidien MR, Ethicon endosurgery MR)."
+          },
+          {
+            "item": "Atención telefónica y presencial las 24 hrs."
+          }
+        ]
+      }
+    ],
+    "textos": [{}],
+    "srcEmbla": "https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-22.jpg",
+    "altEmbla": "",
+    "href": null,
+    "title": "Talleres metal-mecánicos",
+    "desc": "Ventilación y climatización en talleres de soldadura"
   }
 ]

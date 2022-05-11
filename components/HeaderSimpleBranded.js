@@ -54,7 +54,7 @@ export default function HeaderSimpleBranded() {
         var prevScrollpos = window.pageYOffset;
         if (prevScrollpos < 100) {
           document.getElementById("navbar").style.top = "0";
-          document.getElementById("wrap").style.marginTop = "3.5rem";
+          document.getElementById("wrap").style.marginTop = "1.5rem";
         } else {
           document.getElementById("navbar").style.top = "-200px";
         }
@@ -62,7 +62,7 @@ export default function HeaderSimpleBranded() {
           var currentScrollPos = window.pageYOffset;
           if (prevScrollpos < 100) {
             document.getElementById("navbar").style.top = "0";
-            document.getElementById("wrap").style.marginTop = "3.5rem";
+            document.getElementById("wrap").style.marginTop = "1.5rem";
           } else if (prevScrollpos > currentScrollPos) {
             document.getElementById("navbar").style.top = "0";
             document.getElementById("wrap").style.marginTop = "1rem";
@@ -153,23 +153,23 @@ export default function HeaderSimpleBranded() {
           </div>
         </div>
 
-        <div>
+      
           <div
             className={
-              "w-11/12 mt-14 mx-auto justify-between hidden inset-0 lg:flex transition-all duration-500"
+              "w-11/12 my-10 mx-auto justify-between hidden inset-0 lg:flex transition-all duration-500"
             }
             id="wrap"
           >
             {" "}
             <a href={"/"}>
               <img
-                className="w-[18rem] xl:w-[23rem] 2xl:w-[25rem] 3xl:w-[30rem] 4xl:w-[32rem] 7xl:w-[40rem] "
+                className="w-[18rem] xl:w-[23rem] 2xl:w-[25rem] 3xl:w-[28rem] 7xl:w-[32rem] "
                 src="/logo.svg"
                 alt=""
               />
             </a>
-            <div className="w-full text-right">
-              <Popover.Group as="nav" className="space-x-5 relative lg:mt-2">
+            <div className="w-full text-right grid content-center">
+              <Popover.Group as="nav" className="space-x-5 relative">
                 {navigation.map((item, index) =>
                   state ? (
                     <Link
@@ -218,7 +218,6 @@ export default function HeaderSimpleBranded() {
               </Popover.Group>
             </div>
           </div>
-        </div>
       </header>
       <div className={"lg:hidden z-50 "}>
         <MobilNavBar />
