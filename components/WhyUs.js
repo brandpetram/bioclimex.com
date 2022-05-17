@@ -22,7 +22,7 @@ const WhyUs = () => {
               competencia.
             </p>
             <div className="inline-flex mt-10">
-              <a href="/contacto">
+              <a href="/contacto.html">
                 <button className="bg-bioclimex-blue hover:bg-indigo-600 text-white font-bold py-2 px-4">
                   Comenzar
                 </button>

@@ -15,7 +15,7 @@ const CtaTwo = () => {
                 equipos para ventilación y climatización industrial y comercial.
               </p>
               <a
-                href="/contacto"
+                href="/contacto.html"
                 className="mt-8 bg-blue-500 border border-transparent rounded-md shadow px-5 py-3 inline-flex items-center text-base font-medium text-white hover:bg-red-700"
               >
                 Contacto

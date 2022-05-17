@@ -51,7 +51,7 @@ const BigWorld = () => {
                         enfríadores del mercado.
                       </span>
                       <div className="flex-0">
-                        <a href="/contacto">
+                        <a href="/contacto.html">
                           <button className="w-32 bg-gray-900 hover:bg-gray-900-light p-2 text-white">
                             Cotizar
                           </button>
@@ -69,7 +69,7 @@ const BigWorld = () => {
                         al año para ensamblar más de 80,000 equipos
                       </span>
                       <div className="flex-0">
-                        <a href="/contacto">
+                        <a href="/contacto.html">
                           <button className="w-32 bg-gray-900 hover:bg-gray-900-light p-2 text-white">
                             Cotizar
                           </button>
@@ -88,7 +88,7 @@ const BigWorld = () => {
                         comercial .
                       </span>
                       <div className="flex-0">
-                        <a href="/contacto">
+                        <a href="/contacto.html">
                           <button className="w-32 bg-gray-900 hover:bg-gray-900-light p-2 text-white">
                             Cotizar
                           </button>

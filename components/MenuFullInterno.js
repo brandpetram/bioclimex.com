@@ -118,7 +118,7 @@ const MenuFull = (props) => {
 
                           <div className={"py-6 space-y-6"}>
                             <a
-                              href="/contacto"
+                              href="/contacto.html"
                               className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-blue-500 hover:bg-blue-600"
                             >
                               Contacto

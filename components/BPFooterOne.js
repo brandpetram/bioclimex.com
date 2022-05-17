@@ -62,7 +62,7 @@ const BPFooterOne = () => {
           </div>
           <div className="px-5 py-2">
             <a
-              href="/contacto"
+              href="/contacto.html"
               className="text-base leading-6 text-gray-500 hover:text-gray-900"
             >
               Contacto

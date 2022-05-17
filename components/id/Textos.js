@@ -25,7 +25,7 @@ const Textos = ({ data }) => {
                 <p>{contenido.text}</p>
                 {contenido.image ? (
                   <div>
-                    <a href="/contacto">
+                    <a href="/contacto.html">
                       <Picture>
                         <Source
                           src={contenido.image}

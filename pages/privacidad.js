@@ -61,7 +61,7 @@ const Privacidad = () => {
             visitante, usted no está obligado a proporcionar información personal
             para utilizar este sitio web. Nuestro sitio web recopila la información
             que cada usuario deseé proporcionar voluntariamente a través del
-            formulario de contacto publicado en: https://bioclimex.com/contacto en
+            formulario de contacto publicado en: https://bioclimex.com/contacto.html en
             caso de que el usuario quiera contactarnos. Esa información consiste en
             el tipo de producto o servicio que requiere de nosotros, su nombre, su
             teléfono, su dirección de correo electrónico corporativo y/o personal.

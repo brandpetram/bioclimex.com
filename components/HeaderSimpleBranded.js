@@ -211,7 +211,7 @@ export default function HeaderSimpleBranded() {
                 </a>
                 <a
                   className="font-bold text-gray-900 text-sm 7xl:text-lg hover:text-sky-500 cursor-pointer"
-                  href="/contacto"
+                  href="/contacto.html"
                 >
                   CONTACTO
                 </a>

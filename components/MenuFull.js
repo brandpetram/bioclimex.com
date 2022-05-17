@@ -144,7 +144,7 @@ const MenuFull = (props) => {
                             </a>
                             <a
                               className="grid gap-y-5 text-white text-lg"
-                              href="/contacto"
+                              href="/contacto.html"
                             >
                               CONTACTO
                             </a>

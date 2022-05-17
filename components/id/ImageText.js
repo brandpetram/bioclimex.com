@@ -19,7 +19,7 @@ const ImageText = ({ image, title, text, cta }) => (
       <h1 className={"font-bold tracking-wide"}>{title}</h1>
       <p className={"tracking-wider font-light text-gray-700"}>{text}</p>
       <h1 className={"font-bold tracking-wider text-blue-600"}>
-        <a href={"/contacto"}>{cta}</a>
+        <a href={"/contacto.html"}>{cta}</a>
       </h1>
     </div>
   </div>

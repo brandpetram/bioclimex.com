@@ -21,7 +21,7 @@ const CtaBio = () => {
               </button>
             </a>
             <a
-              href="/contacto"
+              href="/contacto.html"
               className="mt-10 bg-transparent hover:bg-cool-gray-900 text-white font-semibold hover:text-cool-gray-300 py-4 px-8 border border-white hover:border-transparent"
             >
               Cotiza aquí
