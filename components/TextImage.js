@@ -19,7 +19,7 @@ const TextImage = () => {
       <div className="relative">
         <Picture>
           <Source
-            src="https://bioclimex.com/_nuxt/img/bioclimatizacion-ventilacion-y-climatizacion-en-supermercados-mexicanos.092ab5b.jpg"
+            src="https://brandpetram.imgix.net/bioclimex.com/bioclimatizacion-ventilacion-y-climatizacion-en-supermercados-mexicanos.jpg"
             width={2560}
             height={1600}
             htmlAttributes={{
@@ -33,7 +33,7 @@ const TextImage = () => {
             }}
           />
           <Source
-            src="https://bioclimex.com/_nuxt/img/bioclimatizacion-ventilacion-y-climatizacion-en-supermercados-mexicanos.092ab5b.jpg"
+            src="https://brandpetram.imgix.net/bioclimex.com/bioclimatizacion-ventilacion-y-climatizacion-en-supermercados-mexicanos.jpg"
             width={1920}
             height={1200}
             htmlAttributes={{
@@ -47,7 +47,7 @@ const TextImage = () => {
             }}
           />
           <Source
-            src="https://bioclimex.com/_nuxt/img/bioclimatizacion-ventilacion-y-climatizacion-en-supermercados-mexicanos.092ab5b.jpg"
+            src="https://brandpetram.imgix.net/bioclimex.com/bioclimatizacion-ventilacion-y-climatizacion-en-supermercados-mexicanos.jpg"
             width={1680}
             height={750}
             htmlAttributes={{
@@ -61,7 +61,7 @@ const TextImage = () => {
             }}
           />
           <Source
-            src="https://bioclimex.com/_nuxt/img/bioclimatizacion-ventilacion-y-climatizacion-en-supermercados-mexicanos.092ab5b.jpg"
+            src="https://brandpetram.imgix.net/bioclimex.com/bioclimatizacion-ventilacion-y-climatizacion-en-supermercados-mexicanos.jpg"
             width={750}
             htmlAttributes={{
               media: "(min-width: 375px)",
@@ -79,7 +79,7 @@ const TextImage = () => {
             htmlAttributes={{
               alt: "Familia feliz en centro comercial climatizado",
             }}
-            src="https://bioclimex.com/_nuxt/img/bioclimatizacion-ventilacion-y-climatizacion-en-supermercados-mexicanos.092ab5b.jpg"
+            src="https://brandpetram.imgix.net/bioclimex.com/bioclimatizacion-ventilacion-y-climatizacion-en-supermercados-mexicanos.jpg"
             imgixParams={{
               ar: "1:1",
               fit: "crop",
