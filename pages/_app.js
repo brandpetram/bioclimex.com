@@ -31,7 +31,7 @@ function MyApp({ Component, pageProps }) {
       <Layout>
           <Script
         strategy="lazyOnload"
-        src={`https://www.googletagmanager.com/gtag/js?id=${gtag.GA_TRACKING_ID}`}
+        src={`https://www.googletagmanager.com/gtag/js?id=AW-464893311`}
       />
       <Script
         id="gtag-init"
@@ -41,7 +41,7 @@ function MyApp({ Component, pageProps }) {
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', '${gtag.GA_TRACKING_ID}', {
+            gtag('config', 'AW-464893311', {
               page_path: window.location.pathname,
             });
           `,
@@ -56,7 +56,7 @@ function MyApp({ Component, pageProps }) {
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-53HR246'); `,
+})(window,document,'script','dataLayer','AW-464893311'); `,
         }}
       />
         <Head>
