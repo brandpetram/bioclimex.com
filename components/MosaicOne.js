@@ -168,7 +168,7 @@ const MosaicOne = () => {
               src="../store.svg"
             />
           </div>
-          <div className={"bg-redbuchef-black"}>
+          <div className={"bg-blue-700"}>
             <Picture>
               <Source
                 sizes="30vw"

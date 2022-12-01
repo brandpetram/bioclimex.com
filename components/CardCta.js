@@ -83,7 +83,7 @@ const CardCta = () => {
       <img
         className="mt-24 md:pt-20 lg:pt-20 w-3/4 2xl:w-1/2 mx-auto "
         src="./ema.svg"
-        alt=""
+        alt="Premio EMA emblema"
       />
       <p
         className="text-gray-500 font-light text-xl md:text-2xl lg:text-2xl 3xl:text-4xl leading-relaxed text-center w-11/12 mx-auto mt-20"

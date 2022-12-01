@@ -194,7 +194,7 @@ const Cover = () => {
           <button
             onClick={(e) => HanddleContactoSlide()}
             className={
-              "md:hidden bg-redbuchef-red mt-10 py-4 mx-5 rounded-md text-white tracking-widest font-regular text-lg"
+              "md:hidden bg-blue-600 my-10 py-4 mx-5 rounded-md text-white tracking-widest font-regular text-lg"
             }
           >
             Contactar ahora
