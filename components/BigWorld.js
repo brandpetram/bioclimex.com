@@ -34,7 +34,7 @@ const BigWorld = () => {
               <h4 className="mt-10 font-bold text-xl">Ventajas de Seely:</h4>
               <ul className="mt-5 list-disc	ml-10">
                 <li>Calidad e inovación</li>
-                <li className="my-5">Energeticamente eficientes</li>
+                <li className="my-5">Energéticamente eficientes</li>
                 <li>Experiencia y confiabilidad</li>
               </ul>
             </div>

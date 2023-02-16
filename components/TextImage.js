@@ -9,7 +9,7 @@ const TextImage = () => {
       </h1>
 
       <p className="text-gray-500 font-light text-xl md:text-2xl lg:text-2xl 3xl:text-3xl leading-relaxed text-center mt-10 w-11/12 mx-auto">
-        En Bioclimex tenemos gran experiencia enfríando locales comerciales en
+        En Bioclimex tenemos gran experiencia enfriando locales comerciales en
         como tiendas de conveniencia, tiendas de abarrotes y supermercados.
         Aplicamos la tecnología de enfriamiento por evaporación para llevar aire
         limpio y fresco a diferentes tipos de negocios. A diferencia del aire
