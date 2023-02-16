@@ -157,7 +157,7 @@ const MenuFull = (props) => {
                               </div>
                               <a
                                   target="_blank"
-                                  href="http://wa.me/5218121086523?text=Hola%20estoy%20en%20bse.mx%20y%20me%20interesa%20conocer%20más%20sobre%20los%20procedimientos%20bariátricos"
+                                  href="http://wa.me/5215544815125?text=Hola%20estoy%20en%20bse.mx%20y%20me%20interesa%20conocer%20más%20sobre%20los%20procedimientos%20bariátricos"
                               >
                                 <button className="w-full p-3 bg-green-600 mt-10 mb-5 text-white">
                                   Enviar WhatsApp

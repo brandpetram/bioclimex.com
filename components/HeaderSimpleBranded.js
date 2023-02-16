@@ -101,7 +101,7 @@ export default function HeaderSimpleBranded() {
               Whatsapp
               <a
                 target="_blank"
-                href="https://wa.me/525520838489?text=Hola,%20estoy%20en%20bioclimex.mx%20y%20me%20interesa%20cotizar."
+                href="https://wa.me/5215544815125?text=Hola,%20estoy%20en%20bioclimex.mx%20y%20me%20interesa%20cotizar."
                 className={"flex"}
               >
                 <img

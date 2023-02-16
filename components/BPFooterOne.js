@@ -70,7 +70,7 @@ const BPFooterOne = () => {
           </div>
           <div className="px-5 py-2">
             <a
-              href="https://wa.me/525520838489?text=Hola,%20estoy%20en%20bioclimex.mx%20y%20me%20interesa%20cotizar."
+              href="https://wa.me/5215544815125?text=Hola,%20estoy%20en%20bioclimex.mx%20y%20me%20interesa%20cotizar."
               className="text-base leading-6 text-gray-500 hover:text-gray-900"
             >
               WhatsApp
