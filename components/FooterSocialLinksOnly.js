@@ -67,7 +67,7 @@ const Footer = (props) => {
           
           <div className="px-5 py-2">
             <a
-              href="https://api.whatsapp.com/send/?phone=525520838489&text=Hola%2C+estoy+en+bioclimex.mx+y+me+interesa+cotizar"
+              href="https://api.whatsapp.com/send/?phone=525544815125&text=Hola%2C+estoy+en+bioclimex.mx+y+me+interesa+cotizar"
               className="text-base leading-6       "
             >
               WHATSAPP
