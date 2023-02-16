@@ -5,14 +5,6 @@ const Advantages = () => {
   return (
     <div>
       <div className="lg:max-w-5xl xl:max-w-6xl 3xl:max-w-7xl 4xl:max-w-full 4xl:w-10/12 mx-auto">
-        <h1 className="text-cool-gray-900 px-7 font-light text-3xl lg:text-4xl xl:text-9xl mb-20 md:mb-32 leading-relaxed">
-          Hemos aplicado nuestros servicios de ventilación y climatización en
-          espacios de manufactura y naves industriales donde se concentran altas
-          temperaturas. Gracias a nuestro expertise y la calidad de nuestros
-          equipos basados en climatización evaporativa generamos confort, ahorro
-          y un ambiente saludable alineado con las exigencias de la norma ISO
-          14000.
-        </h1>
         <div className="mt-6 md:mt-20 xl:mt-16 3xl:mt-20 5xl:mt-32 absolute ml-20 lg:ml-24 xl:ml-20">
           <h3 className="text-gray-100 text-md uppercase font-extrabold">
             Bioclimex México

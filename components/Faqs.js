@@ -78,7 +78,7 @@ const Faqs = () => {
                 ¿Qué garantías ofrecen?
               </div>
               <div className="text-base leading-6 text-gray-500">
-                Una de las razon por la que nuestros clientes nos prefieren es
+                Una de las razones por la que nuestros clientes nos prefieren es
                 porque contamos con las mejores garantías del mercado: 25 años
                 en corrosión de la estructura, 10 años en componentes mecánicos,
                 y 2 años en electrónicos.
@@ -89,7 +89,7 @@ const Faqs = () => {
                 ¿Se pueden usar en restaurantes?
               </div>
               <div className="text-base leading-6 text-gray-500">
-                Por lo menos media dozena de las principales cadenas de cafés y
+                Por lo menos media docena de las principales cadenas de cafés y
                 de comida rápida del mundo utilizan nuestra tecnología para
                 climatizar y ventilar sus establecimientos comerciales.
               </div>
