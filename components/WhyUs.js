@@ -228,7 +228,7 @@ const WhyUs = () => {
           id="tubos"
           className="font-bold text-8xl lg:text-12 xl:text-16xl 2xl:text-18xl 3xl:text-20xl leading-none"
         >
-          Da un salto al siguiente nivel. Climatiza hasta
+          Da un salto al siguiente nivel. Climatiza hasta{" "}
           <span className="text-bioclimex-blue">200m²</span> de tus espacios
           industriales y comerciales con solo
           <span className="text-bioclimex-blue">1kW</span>

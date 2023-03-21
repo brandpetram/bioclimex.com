@@ -88,8 +88,6 @@ export default function HeaderSimpleBranded() {
         <div className={"bg-blue-500 "}>
           <div className="w-10/12 mx-auto text-white flex justify-between font-light py-1 lg:py-3 7xl:py-4 text-xs xl:text-sm 2xl:text-md 3xl:text-lg 4xl:text-lg 7xl:text-xl">
             <div className="gap-x-5 hidden md:flex">
-
-
               <a href={"contacto"}>
                 <h1 className={"hidden lg:block -mt-0.5"}>
                   Solicita una cotización aquí
@@ -98,88 +96,91 @@ export default function HeaderSimpleBranded() {
             </div>
 
             <h1 className={"hidden lg:flex"}>
-              Whatsapp
               <a
                 target="_blank"
                 href="https://wa.me/5215544815125?text=Hola,%20estoy%20en%20bioclimex.mx%20y%20me%20interesa%20cotizar."
-                className={"flex"}
+                className={"flex items-center"}
               >
+                {" "}
+                Whatsapp
                 <img
                   src="/whatsapp.svg"
                   className="mx-3 w-6 mt-0.5"
                   loading="lazy"
                 />
               </a>
-              &nbsp;<a className={'underline'} href="tel:(55) 5919 7533">Llámanos al (55) 5919 7533</a>
+              &nbsp;
+              <a className={"underline"} href="tel:(55) 5919 7533">
+                Llámanos al (55) 5919 7533
+              </a>
             </h1>
           </div>
         </div>
 
-      
-          <div
-            className={
-              "w-11/12 my-10 mx-auto justify-between hidden inset-0 lg:flex transition-all duration-500"
-            }
-            id="wrap"
-          >
-            {" "}
-            <a href={"/"}>
-              <img
-                className="w-[18rem] xl:w-[23rem] 2xl:w-[25rem] 3xl:w-[28rem] 7xl:w-[32rem] "
-                src="/logo.svg"
-                alt=""
-              />
-            </a>
-            <div className="w-full text-right grid content-center">
-              <Popover.Group as="nav" className="space-x-5 relative">
-                {navigation.map((item, index) =>
-                  state ? (
-                    <Link
-                      to={item.link}
-                      id={"link" + index}
-                      spy={true}
-                      smooth={true}
-                      offset={item.offset}
-                      duration={1000}
-                      key={item.name}
-                      className={
-                        item.hidden
-                          ? "hidden xl:inline-flex font-bold text-gray-900 text-sm 7xl:text-lg hover:text-sky-500 cursor-pointer"
-                          : "font-bold text-gray-900 text-sm 7xl:text-lg hover:text-sky-500 cursor-pointer"
-                      }
-                    >
-                      {item.name}
-                    </Link>
-                  ) : (
-                    <a
-                      href={"/#" + item.link}
-                      id={"link" + index}
-                      key={item.name}
-                      className={
-                        item.hidden
-                          ? "hidden xl:inline-flex font-bold text-gray-900 text-sm 7xl:text-lg hover:text-sky-500 cursor-pointer"
-                          : "font-bold text-gray-900 text-sm 7xl:text-lg hover:text-sky-500 cursor-pointer"
-                      }
-                    >
-                      {item.name}
-                    </a>
-                  )
-                )}
-                <a
-                  className="font-bold text-gray-900 text-sm 7xl:text-lg hover:text-sky-500 cursor-pointer"
-                  href="/climatizacion-industrial"
-                >
-                  INDUSTRIAL
-                </a>
-                <a
-                  className="font-bold text-gray-900 text-sm 7xl:text-lg hover:text-sky-500 cursor-pointer"
-                  href="/contacto.html"
-                >
-                  CONTACTO
-                </a>
-              </Popover.Group>
-            </div>
+        <div
+          className={
+            "w-11/12 my-10 mx-auto justify-between hidden inset-0 lg:flex transition-all duration-500"
+          }
+          id="wrap"
+        >
+          {" "}
+          <a href={"/"}>
+            <img
+              className="w-[18rem] xl:w-[23rem] 2xl:w-[25rem] 3xl:w-[28rem] 7xl:w-[32rem] "
+              src="/logo.svg"
+              alt=""
+            />
+          </a>
+          <div className="w-full text-right grid content-center">
+            <Popover.Group as="nav" className="space-x-5 relative">
+              {navigation.map((item, index) =>
+                state ? (
+                  <Link
+                    to={item.link}
+                    id={"link" + index}
+                    spy={true}
+                    smooth={true}
+                    offset={item.offset}
+                    duration={1000}
+                    key={item.name}
+                    className={
+                      item.hidden
+                        ? "hidden xl:inline-flex font-bold text-gray-900 text-sm 7xl:text-lg hover:text-sky-500 cursor-pointer"
+                        : "font-bold text-gray-900 text-sm 7xl:text-lg hover:text-sky-500 cursor-pointer"
+                    }
+                  >
+                    {item.name}
+                  </Link>
+                ) : (
+                  <a
+                    href={"/#" + item.link}
+                    id={"link" + index}
+                    key={item.name}
+                    className={
+                      item.hidden
+                        ? "hidden xl:inline-flex font-bold text-gray-900 text-sm 7xl:text-lg hover:text-sky-500 cursor-pointer"
+                        : "font-bold text-gray-900 text-sm 7xl:text-lg hover:text-sky-500 cursor-pointer"
+                    }
+                  >
+                    {item.name}
+                  </a>
+                )
+              )}
+              <a
+                className="font-bold text-gray-900 text-sm 7xl:text-lg hover:text-sky-500 cursor-pointer"
+                href="/climatizacion-industrial"
+              >
+                INDUSTRIAL
+              </a>
+              <a
+                className="font-bold text-gray-900 text-sm 7xl:text-lg hover:text-sky-500 cursor-pointer"
+                href="/contacto.html"
+              >
+                CONTACTO
+              </a>
+            </Popover.Group>
           </div>
+        </div>
       </header>
       <div className={"lg:hidden z-50 "}>
         <MobilNavBar />

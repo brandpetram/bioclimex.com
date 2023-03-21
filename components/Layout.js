@@ -3,13 +3,11 @@ import HeaderSimpleBranded from "./HeaderSimpleBranded";
 import FooterSocialLinksOnly from "./FooterSocialLinksOnly";
 const Layout = ({ children }) => {
   return (
-    <div >
+    <div className="overflow-hidden">
       <div className="z-50 overflow-hidden">
         <HeaderSimpleBranded />
       </div>
-      <div className="z-0 relative ">
-        {children}
-      </div>
+      <div className="z-0 relative ">{children}</div>
       <div>
         <a href="https://api.whatsapp.com/send/?phone=525544815125&text=Hola%2C+estoy+en+bioclimex.mx+y+me+interesa+cotizar">
           <img

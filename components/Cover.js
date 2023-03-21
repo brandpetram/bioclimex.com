@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Imgix, { Picture, Source } from "react-imgix";
-import Link from "next/link";
+import NextLink from "next/link";
 
 const Cover = () => {
   const [ContactoSlideStatus, SetContactoSlide] = useState(false);
@@ -44,12 +44,15 @@ const Cover = () => {
         </svg>
       </div>
       <div className={"flex flex-col md:grid grid-cols-12 gap-4"}>
-      <div className={"md:col-span-9 xl:pl-16 relative"}>
+        <div className={"md:col-span-9 xl:pl-16 relative"}>
           <Picture>
-          <Source
+            <Source
               src="https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-05.jpg"
               sizes="70vw"
-              htmlAttributes={{ media: "(min-width: 1920px)", alt: "Familia feliz en supermercado climatizado" }}
+              htmlAttributes={{
+                media: "(min-width: 1920px)",
+                alt: "Familia feliz en supermercado climatizado",
+              }}
               imgixParams={{
                 ar: "1.35:1",
                 fit: "crop",
@@ -63,7 +66,10 @@ const Cover = () => {
             <Source
               src="https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-05.jpg"
               sizes="70vw"
-              htmlAttributes={{ media: "(min-width: 1280px)", alt: "Familia feliz en supermercado climatizado" }}
+              htmlAttributes={{
+                media: "(min-width: 1280px)",
+                alt: "Familia feliz en supermercado climatizado",
+              }}
               imgixParams={{
                 ar: "1.2:1",
                 fit: "crop",
@@ -77,7 +83,10 @@ const Cover = () => {
             <Source
               src="https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-05.jpg"
               sizes="70vw"
-              htmlAttributes={{ media: "(min-width: 1024px)", alt: "Familia feliz en supermercado climatizado" }}
+              htmlAttributes={{
+                media: "(min-width: 1024px)",
+                alt: "Familia feliz en supermercado climatizado",
+              }}
               imgixParams={{
                 ar: "1:1.05",
                 fit: "crop",
@@ -91,7 +100,10 @@ const Cover = () => {
             <Source
               src="https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-05.jpg"
               sizes="70vw"
-              htmlAttributes={{ media: "(min-width: 768px)", alt: "Familia feliz en supermercado climatizado" }}
+              htmlAttributes={{
+                media: "(min-width: 768px)",
+                alt: "Familia feliz en supermercado climatizado",
+              }}
               imgixParams={{
                 ar: "1.735:1",
                 fit: "crop",
@@ -105,7 +117,10 @@ const Cover = () => {
             <Source
               src="https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-05.jpg"
               sizes="100vw"
-              htmlAttributes={{ media: "(min-width: 320px)" , alt: "Familia feliz en supermercado climatizado"}}
+              htmlAttributes={{
+                media: "(min-width: 320px)",
+                alt: "Familia feliz en supermercado climatizado",
+              }}
               imgixParams={{
                 ar: "1:1",
                 fit: "crop",
@@ -119,7 +134,9 @@ const Cover = () => {
             />
             <Imgix
               sizes="100vw"
-              htmlAttributes={{alt: "Familia feliz en supermercado climatizado"}}
+              htmlAttributes={{
+                alt: "Familia feliz en supermercado climatizado",
+              }}
               src="https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-05.jpg"
               imgixParams={{
                 ar: "2:2",
@@ -137,9 +154,13 @@ const Cover = () => {
             }
           >
             <div className={"p-12 lg:w-11/12"}>
-              <p className={"text-base text-gray-500"}>Bienvenido a Bioclimex S.A. de C.V.</p>
+              <p className={"text-base text-gray-500"}>
+                Bienvenido a Bioclimex S.A. de C.V.
+              </p>
               <h1 className={"text-gray-700 "}>
-                <span className={"text-blue-700"}>Ventilación y Climatización</span>{" "}
+                <span className={"text-blue-700"}>
+                  Ventilación y Climatización
+                </span>{" "}
                 industrial / comercial en Todo México
               </h1>
             </div>
@@ -155,7 +176,10 @@ const Cover = () => {
               <Source
                 src="https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-06.jpg"
                 sizes="30vw"
-                htmlAttributes={{ media: "(min-width: 768px)", alt: "Nave industrial de procesos en méxico"}}
+                htmlAttributes={{
+                  media: "(min-width: 768px)",
+                  alt: "Nave industrial de procesos en méxico",
+                }}
                 imgixParams={{
                   ar: "1:1.39",
                   fit: "crop",
@@ -166,7 +190,10 @@ const Cover = () => {
               <Source
                 src="https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-06.jpg"
                 sizes="50vw"
-                htmlAttributes={{ media: "(min-width: 320px)" , alt: "Nave industrial de procesos en méxico"}}
+                htmlAttributes={{
+                  media: "(min-width: 320px)",
+                  alt: "Nave industrial de procesos en méxico",
+                }}
                 imgixParams={{
                   ar: "1:2",
                   fit: "crop",
@@ -177,8 +204,9 @@ const Cover = () => {
               <Imgix
                 sizes="50vw"
                 className={"-mt-20 lg:mt-48 3xl:mt-72"}
-                htmlAttributes={{ alt: "Nave industrial de procesos en méxico"}}
-
+                htmlAttributes={{
+                  alt: "Nave industrial de procesos en méxico",
+                }}
                 src="https://brandpetram.imgix.net/bioclimex.com/images/expertos-en-climatizacion-y-ventilacion-industrial-bioclimex-mexico-06.jpg"
                 imgixParams={{
                   ar: "2:2",
@@ -190,16 +218,14 @@ const Cover = () => {
             </Picture>
           </div>
         </div>
-        <Link href={"#"}>
-          <button
-            onClick={(e) => HanddleContactoSlide()}
-            className={
-              "md:hidden bg-blue-600 my-10 py-4 mx-5 rounded-md text-white tracking-widest font-regular text-lg"
-            }
-          >
-            Contactar ahora
-          </button>
-        </Link>
+        <NextLink
+          href={"/contacto.html"}
+          className={
+            "md:hidden text-center bg-blue-600 my-10 py-4 mx-5 rounded-md text-white tracking-widest font-regular text-lg"
+          }
+        >
+          Contactar ahora
+        </NextLink>
       </div>
 
       <svg

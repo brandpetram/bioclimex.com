@@ -6,14 +6,10 @@ import EmblaCarousel from "../components/EmblaCarousel";
 import Advantages from "../components/Advantages";
 import WhyUs from "../components/WhyUs";
 import BigWorld from "../components/BigWorld";
-import MosaicOne from "../components/MosaicOne";
 import SixSquares from "../components/SixSquares";
 import BeforeFooter from "../components/BeforeFooter";
-import TextImage from "../components/TextImage";
-import TitleImage from "../components/TitleImage";
 import Faqs from "../components/Faqs";
 import DivideTitle from "../components/DivideTitle";
-import CtaBio from "../components/CtaBio";
 import CardCta from "../components/CardCta";
 const Home = () => {
   return (
@@ -57,7 +53,7 @@ const Home = () => {
         <WhyUs />
         <CardCta />
       </div>
-      <div className="mt-24">
+      <div className="mt-24 space-y-44">
         <Faqs />
         <BeforeFooter />
       </div>

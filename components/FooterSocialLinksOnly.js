@@ -1,5 +1,5 @@
 import { Link } from "react-scroll";
-import { Fragment, useEffect } from "react";
+import NextLink from "next/link";
 
 const navigation = [
   {
@@ -36,35 +36,27 @@ const navigation = [
 ];
 
 const Footer = (props) => {
-  useEffect(() => {
-    document.getElementById("linkScroll0").href = "#linkscroll"
-    document.getElementById("linkScroll1").href = "#linkscroll"
-    document.getElementById("linkScroll2").href = "#linkscroll"
-    document.getElementById("linkScroll3").href = "#linkscroll"
-    document.getElementById("linkScroll4").href = "#linkscroll"
-}, []);
   return (
     <div className="bg-white  text-gray-500 hover:text-gray-900 ">
       <div className="max-w-screen-xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
         <nav className="-mx-5 -my-2 flex flex-wrap justify-center ">
-          
-        {navigation.map((item, index) => (
-           <div className="px-5 py-2" key={index}>
-                    <Link
-                      to={item.link}
-                      spy={true}
-                      id={"linkScroll"+index}
-                      smooth={true}
-                      offset={item.offset}
-                      duration={1000}
-                      key={item.name}
-                      className="cursor-pointer"
-                    >
-                      {item.name}
-                    </Link>
-                    </div>
-                  ))}
-          
+          {navigation.map((item, index) => (
+            <div className="px-5 py-2" key={index}>
+              <Link
+                to={item.link}
+                spy={true}
+                id={"linkScroll" + index}
+                smooth={true}
+                href={"/#" + item.link}
+                offset={item.offset}
+                duration={1000}
+                key={item.name}
+                className="cursor-pointer"
+              >
+                {item.name}
+              </Link>
+            </div>
+          ))}
           <div className="px-5 py-2">
             <a
               href="https://api.whatsapp.com/send/?phone=525544815125&text=Hola%2C+estoy+en+bioclimex.mx+y+me+interesa+cotizar"
@@ -74,29 +66,31 @@ const Footer = (props) => {
             </a>
           </div>{" "}
           <div className="px-5 py-2">
-            <Link href="/climatizacion-industrial" className="text-base leading-6       ">
+            <NextLink
+              href="/climatizacion-industrial"
+              className="text-base leading-6       "
+            >
               CLIMATIZACIÓN INDUSTRIAL
-            </Link>
+            </NextLink>
           </div>{" "}
           <div className="px-5 py-2">
-            <Link href="/privacidad" className="text-base leading-6       ">
+            <NextLink href="/privacidad" className="text-base leading-6       ">
               PRIVACIDAD
-            </Link>
+            </NextLink>
           </div>{" "}
           <div className="px-5 py-2">
-            <Link href="/terminos-de-uso" className="text-base leading-6       ">
+            <NextLink
+              href="/terminos-de-uso"
+              className="text-base leading-6       "
+            >
               TERMINOS DE USO
-            </Link>
+            </NextLink>
           </div>{" "}
-        
         </nav>{" "}
         <div className="my-20 mx-auto flex justify-center">
-          <img
-            src="./logo.svg"
-            alt=""
-            className="h-10 m
-lg:h-16"
-          />
+          <NextLink href="/">
+            <img src="./logo.svg" alt="" className="h-10 lg:h-16" />
+          </NextLink>
         </div>{" "}
         <div className="mt-8">
           <p className="text-center text-base leading-6 text-gray-400">
