@@ -51,7 +51,7 @@ function MyApp({ Component, pageProps }) {
         strategy="lazyOnload"
         id="clientify"
         dangerouslySetInnerHTML={{
-          __html: `<script>function loadScript(a){var b=document.getElementsByTagName("head")[0],c=document.createElement("script");c.type="text/javascript",c.src="https://tracker.metricool.com/resources/be.js",c.onreadystatechange=a,c.onload=a,b.appendChild(c)}loadScript(function(){beTracker.t({hash:"b87ca11281451fd909868e3d585b2f33"})});</script>
+          __html: `function loadScript(a){var b=document.getElementsByTagName("head")[0],c=document.createElement("script");c.type="text/javascript",c.src="https://tracker.metricool.com/resources/be.js",c.onreadystatechange=a,c.onload=a,b.appendChild(c)}loadScript(function(){beTracker.t({hash:"b87ca11281451fd909868e3d585b2f33"})});
         `,
         }}
       />
