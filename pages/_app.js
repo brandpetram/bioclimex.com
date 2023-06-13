@@ -55,6 +55,15 @@ function MyApp({ Component, pageProps }) {
         `,
         }}
       />
+      <Script 
+        strategy="lazyOnload"
+        id="conversion-tracker-google-phone"
+        dangerouslySetInnerHTML={{
+          __html: `gtag('config', 'AW-464893311/jzrMCL-83KoYEP_q1t0B', {
+            'phone_conversion_number': '5559197533'
+          });`,
+        }}
+      />
          <Script
         strategy="lazyOnload"
         id="clientify-2"
