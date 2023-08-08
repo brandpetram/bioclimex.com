@@ -2,7 +2,7 @@ import React from "react";
 
 const MyComponent = () => {
   return (
-    <div className={"overflow-hidden"}>
+    <div className={"overflow-hidden"} id="vermas">
       <section className="bg-blue-600 sm:h-7xl md:h-7xl lg:h-6xl">
         <h2
           className={

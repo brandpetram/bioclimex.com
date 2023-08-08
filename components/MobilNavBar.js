@@ -63,8 +63,8 @@ const HeroSplitWithNavBar = (props) => {
             <div className="flex justify-between items-center py-6 md:justify-start ">
               <div className="flex justify-start lg:w-0 lg:flex-1">
                 <a href="/">
-                  <span className="sr-only">Logo BSE</span>
-                  <img width="100%" height="100%" className="w-[200vw]" src="../logo.svg" alt="" id="logo-mobile" />
+                  <span className="sr-only">Logo Bioclimex</span>
+                  <img width="100%" height="100%" className="w-80" src="../logo.svg" alt="" id="logo-mobile" />
                 </a>
               </div>
               <div className="-mr-2 -my-2 lg:hidden grid justify-items-stretch w-full ">

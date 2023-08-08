@@ -119,20 +119,20 @@ export default function HeaderSimpleBranded() {
 
         <div
           className={
-            "w-11/12 my-10 mx-auto justify-between hidden inset-0 lg:flex transition-all duration-500"
+            "w-11/12 pb-10 2xl:pr-10 mx-auto justify-between items-bottom hidden lg:flex transition-all duration-500"
           }
           id="wrap"
         >
           {" "}
-          <a href={"/"}>
+          <a href={"/"} className="block">
             <img
-              className="w-[18rem] xl:w-[23rem] 2xl:w-[25rem] 3xl:w-[28rem] 7xl:w-[32rem] "
+              className="w-54 2xl:w-[18rem] "
               src="/logo.svg"
               alt=""
             />
           </a>
-          <div className="w-full text-right grid content-center">
-            <Popover.Group as="nav" className="space-x-5 relative">
+          <div className="5xl:w-8/12 pr-auto 5xl:text-[1.1rem]">
+            <Popover.Group as="nav" className="relative flex justify-between gap-5 items-center">
               {navigation.map((item, index) =>
                 state ? (
                   <Link
@@ -145,8 +145,8 @@ export default function HeaderSimpleBranded() {
                     key={item.name}
                     className={
                       item.hidden
-                        ? "hidden xl:inline-flex font-bold text-gray-900 text-sm 7xl:text-lg hover:text-sky-500 cursor-pointer"
-                        : "font-bold text-gray-900 text-sm 7xl:text-lg hover:text-sky-500 cursor-pointer"
+                        ? "hidden xl:inline-flex font-bold text-gray-900 hover:text-sky-500 cursor-pointer"
+                        : "font-bold text-gray-900 hover:text-sky-500 cursor-pointer"
                     }
                   >
                     {item.name}
@@ -158,8 +158,8 @@ export default function HeaderSimpleBranded() {
                     key={item.name}
                     className={
                       item.hidden
-                        ? "hidden xl:inline-flex font-bold text-gray-900 text-sm 7xl:text-lg hover:text-sky-500 cursor-pointer"
-                        : "font-bold text-gray-900 text-sm 7xl:text-lg hover:text-sky-500 cursor-pointer"
+                        ? "hidden xl:inline-flex font-bold text-gray-900 hover:text-sky-500 cursor-pointer"
+                        : "font-bold text-gray-900 hover:text-sky-500 cursor-pointer"
                     }
                   >
                     {item.name}
@@ -167,13 +167,13 @@ export default function HeaderSimpleBranded() {
                 )
               )}
               <a
-                className="font-bold text-gray-900 text-sm 7xl:text-lg hover:text-sky-500 cursor-pointer"
+                className="font-bold text-gray-900 hover:text-sky-500 cursor-pointer"
                 href="/climatizacion-industrial"
               >
                 INDUSTRIAL
               </a>
               <a
-                className="font-bold text-gray-900 text-sm 7xl:text-lg hover:text-sky-500 cursor-pointer"
+                className="font-bold bg-bioclimex-blue py-4 px-8 rounded text-white hover:text-sky-500 cursor-pointer"
                 href="/contacto.html"
               >
                 CONTACTO

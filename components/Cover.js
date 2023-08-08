@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Imgix, { Picture, Source } from "react-imgix";
 import NextLink from "next/link";
+import { Link } from "react-scroll";
 
 const Cover = () => {
   const [ContactoSlideStatus, SetContactoSlide] = useState(false);
@@ -150,26 +151,38 @@ const Cover = () => {
 
           <div
             className={
-              "transform leading-tight bg-white bg-opacity-80 w-3/4 right-0 -mt-20 lg:-mt-96 3xl:-mt-84 4xl:-mt-72 float-right font-bold text-2xl md:text-7xl lg:text-20xl 2xl:text-18xl 3xl:text-20xl 4xl:text-24xl 5xl:text-28xl"
+              "transform leading-tight bg-white bg-opacity-80 md:w-9/12 3xl:w-8/12 right-0 md:-mt-20 lg:-mt-80 float-right font-bold text-[1.75rem] md:text-7xl lg:text-10xl 3xl:text-16xl  "
             }
           >
-            <div className={"p-12 lg:w-11/12"}>
-              <p className={"text-base text-gray-500"}>
-                Bienvenido a Bioclimex S.A. de C.V.
-              </p>
-              <h1 className={"text-gray-700 "}>
-                <span className={"text-blue-700"}>
-                  Ventilación y Climatización
-                </span>{" "}
-                industrial / comercial en Todo México
+            <div className={"p-6 md:p-10 "}>
+              <h1 className={"text-gray-700 md:w-11/12 3xl:w-10/12 2xl:pr-8 3xl:pr-5 leading-[1.3]"}>
+                Climatización y Ventilación Industrial y Comercial en Todo
+                México
               </h1>
+              <div className="flex flex-col md:flex-row gap-5 mt-8 text-center text-xl lg:text-3xl">
+                <NextLink
+                  href="/contacto"
+                  className="py-4 bg-bioclimex-blue text-white px-8  my-auto"
+                >
+                  Cotizar ahora
+                </NextLink>
+                <Link
+                  to="vermas"
+                  smooth={true}
+                  duration={500}
+                  href="#vermas"
+                  className="py-4 bg-bioclimex-black text-white px-8 my-auto"
+                >
+                  Ver más
+                </Link>
+              </div>
             </div>
           </div>
         </div>
         <div className={"md:col-span-3 xl:pl-10 md:pr-0 md:relative"}>
           <div
             className={
-              "-mt-36 md:mt-40 lg:mt-24 xl:mt-20 2xl:mt-36 4xl:mt-48 7xl:mt-56  md:w-full"
+              "hidden md:block -mt-36 md:mt-40 lg:mt-24 xl:mt-20 2xl:mt-36 4xl:mt-48 7xl:mt-56  md:w-full"
             }
           >
             <Picture>
@@ -218,14 +231,7 @@ const Cover = () => {
             </Picture>
           </div>
         </div>
-        <NextLink
-          href={"/contacto.html"}
-          className={
-            "md:hidden text-center bg-blue-600 my-10 py-4 mx-5 rounded-md text-white tracking-widest font-regular text-lg"
-          }
-        >
-          Contactar ahora
-        </NextLink>
+        
       </div>
 
       <svg
