@@ -2,7 +2,7 @@ import "tailwindcss/tailwind.css";
 import Layout from "../components/Layout";
 import Layout2 from "../components/Layout2";
 import Head from "next/head";
-import "../styles/embla.css"
+import "../styles/embla.css";
 import Script from "next/script";
 import * as gtag from "../lib/gtag";
 
@@ -14,11 +14,12 @@ const layouts = {
 function MyApp({ Component, pageProps }) {
   let Layout = layouts["L1"];
 
-  if(Component.layout == "L2"){
+  if (Component.layout == "L2") {
     Layout = layouts["L2"];
   }
 
-  {/* Solo es necesario poner el nombre del componente, seguido de .layout = "L2" si se requiere seleccionar el segundo layout (Layout2)
+  {
+    /* Solo es necesario poner el nombre del componente, seguido de .layout = "L2" si se requiere seleccionar el segundo layout (Layout2)
     layout.js es el layout por defecto y no es necesario marcarlo explicitamente. 
     EJEMPLO: 
     
@@ -26,10 +27,11 @@ function MyApp({ Component, pageProps }) {
     Example.layout = "L2"
 
     Para seleccionar el primer layout en Example, no sé declara nada.
-*/}
+*/
+  }
   return (
-      <Layout>
-          <Script
+    <Layout>
+      <Script
         strategy="lazyOnload"
         src={`https://www.googletagmanager.com/gtag/js?id=AW-464893311`}
       />
@@ -55,7 +57,7 @@ function MyApp({ Component, pageProps }) {
         `,
         }}
       />
-      <Script 
+      <Script
         strategy="lazyOnload"
         id="conversion-tracker-google-phone"
         dangerouslySetInnerHTML={{
@@ -64,7 +66,7 @@ function MyApp({ Component, pageProps }) {
           });`,
         }}
       />
-         <Script
+      <Script
         strategy="lazyOnload"
         id="clientify-2"
         dangerouslySetInnerHTML={{
@@ -97,31 +99,55 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','AW-464893311'); `,
         }}
       />
-        <Head>
-          <link
-              rel="icon"
-              type="image/png"
-              sizes="32x32"
-              href="/favicon-32x32.png"
-          />
-          <link
-              rel="icon"
-              type="image/png"
-              sizes="16x16"
-              href="/favicon-16x16.png"
-          />
-          <link
-              rel="apple-touch-icon"
-              sizes="180x180"
-              href="/apple-touch-icon.png"
-          />
-          <link rel="manifest" href="/site.webmanifest" />
-          <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
-          <meta name="theme-color" content="#ffffff" />
-          <title>Bioclimex | Climatización y ventilación industrial</title>
-        </Head>
-        <Component {...pageProps} />
-      </Layout>
+      {" "}
+      <Script
+        strategy="lazyOnload"
+        id="clientify-3"
+        dangerouslySetInnerHTML={{
+          __html: `
+    if (typeof trackerCode ==='undefined'){
+      (function (d, w, u, o) {
+        w[o] = w[o] || function () {
+          (w[o].q = w[o].q || []).push(arguments)
+        };
+        a = d.createElement('script'),
+          m = d.getElementsByTagName('script')[0];
+        a.async = 1; a.src = u;
+        m.parentNode.insertBefore(a, m)
+      })(document, window, 'https://analytics.clientify.net/tracker.js', 'ana');
+      ana('setTrackerUrl', 'https://analytics.clientify.net');
+      ana('setTrackingCode', 'CF-28799-28799-RAVG0');
+      ana('trackPageview');
+    }
+    `,
+        }}
+      />
+         
+      <Head>
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/favicon-16x16.png"
+        />
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/apple-touch-icon.png"
+        />
+        <link rel="manifest" href="/site.webmanifest" />
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+        <meta name="theme-color" content="#ffffff" />
+        <title>Bioclimex | Climatización y ventilación industrial</title>
+      </Head>
+      <Component {...pageProps} />
+    </Layout>
   );
 }
 
