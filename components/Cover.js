@@ -155,13 +155,17 @@ const Cover = () => {
             }
           >
             <div className={"p-6 md:p-10 "}>
-              <h1 className={"text-gray-700 md:w-11/12 3xl:w-10/12 2xl:pr-8 3xl:pr-5 leading-[1.3]"}>
+              <h1
+                className={
+                  "text-gray-700 md:w-11/12 3xl:w-10/12 2xl:pr-8 3xl:pr-5 leading-[1.3]"
+                }
+              >
                 Climatización y Ventilación Industrial y Comercial en Todo
                 México
               </h1>
               <div className="flex flex-col md:flex-row gap-5 mt-8 text-center text-xl lg:text-3xl">
                 <NextLink
-                  href="/contacto"
+                  href="/contacto.html"
                   className="py-4 bg-bioclimex-blue text-white px-8  my-auto"
                 >
                   Cotizar ahora
@@ -231,7 +235,6 @@ const Cover = () => {
             </Picture>
           </div>
         </div>
-        
       </div>
 
       <svg
