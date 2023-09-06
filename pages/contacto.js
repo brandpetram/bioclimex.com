@@ -22,3 +22,5 @@ Typeform.layout = "L2";
     layout.js es el layout por defecto y no es necesario marcarlo explicitamente. 
 */
 }
+
+export default Typeform;
